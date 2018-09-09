@@ -180,3 +180,14 @@ sudo -u postgres pg_restore -d abc abc.dump;
 # 待办
 
 redis 的内容待完成。
+
+
+
+# 参考资料
+
+* [composer](https://hub.docker.com/r/_/composer/)
+* [php](https://hub.docker.com/r/_/php/)
+* [Can't install pdo_psql with docker-php-ext-install #221](https://github.com/docker-library/php/issues/221)
+* [Docker Compose - Compose 中可用的环境变量](https://blog.csdn.net/kikajack/article/details/79751026)
+* [postgres](https://hub.docker.com/r/_/postgres/)
+* [Docker Support in PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/Docker+Support+in+PhpStorm)
