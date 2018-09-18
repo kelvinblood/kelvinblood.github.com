@@ -2,7 +2,7 @@
 layout: post
 title: 明察秋毫之末，而不见舆薪 - 孟子·梁惠王上
 category: literature
-tags: literature warring_state_period confucianism mengzi
+tags: warring_state_period confucianism mengzi
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
