@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker on Windows: Operation not permitted
+title: Docker on Windows Operation not permitted
 category: tech
 tags: windows docker
 ---
