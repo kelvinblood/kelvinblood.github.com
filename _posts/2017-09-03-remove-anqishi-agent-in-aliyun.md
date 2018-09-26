@@ -28,23 +28,39 @@ v2ex 上相关的讨论：<https://www.v2ex.com/t/364911>
 
 所以接下来就删删删了。
 
-1.  执行以下命令下载安骑士 Agent 卸载脚本。
+	wget http://update.aegis.aliyun.com/download/uninstall.sh
+	chmod +x uninstall.sh
+	./uninstall.sh
+	
+	wget http://update.aegis.aliyun.com/download/quartz_uninstall.sh
+	chmod +x quartz_uninstall.sh
+	./quartz_uninstall.sh
 
-		wget http://update.aegis.aliyun.com/download/uninstall.sh
+## 删除残留
 
-2.  依次执行以下命令卸载安骑士 Agent。
+```
+pkill aliyun-service
+rm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-service
+rm -rf /usr/local/aegis*
+```
 
-		chmod +x uninstall.sh
-		./uninstall.sh
+## 屏蔽云盾 IP
 
-或者运行这个脚本：
+```
+iptables -I INPUT -s 140.205.201.0/28 -j DROP
+iptables -I INPUT -s 140.205.201.16/29 -j DROP
+iptables -I INPUT -s 140.205.201.32/28 -j DROP
+iptables -I INPUT -s 140.205.225.192/29 -j DROP
+iptables -I INPUT -s 140.205.225.200/30 -j DROP
+iptables -I INPUT -s 140.205.225.184/29 -j DROP
+iptables -I INPUT -s 140.205.225.183/32 -j DROP
+iptables -I INPUT -s 140.205.225.206/32 -j DROP
+iptables -I INPUT -s 140.205.225.205/32 -j DROP
+iptables -I INPUT -s 140.205.225.195/32 -j DROP
+iptables -I INPUT -s 140.205.225.204/32 -j DROP
+```
 
-		#!/bin/bash 
-		rm -rf /usr/local/aegis 
-		for A in $(ps aux | grep Ali | grep -v grep | awk '{print $2}') 
-		do 
-		  kill -9 $A; 
-		done
+
 
 # 参考资料
 
