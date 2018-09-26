@@ -7,7 +7,7 @@ tags: kubernetes docker
 ![](https://cdn.kelu.org/blog/tags/k8s.jpg)
 
 ```
-			"command": [
+            "command": [
               "cicd"
             ],
             "args": [
@@ -17,4 +17,4 @@ tags: kubernetes docker
 
 command 会覆盖容器的 entrypoint，args 覆盖容器的 command。
 
-![83109440](C:\Users\lenovo\Pictures\0831094407.jpg)
+![83109440](https://cdn.kelu.org/blog/2018/08/0831094407.jpg)
