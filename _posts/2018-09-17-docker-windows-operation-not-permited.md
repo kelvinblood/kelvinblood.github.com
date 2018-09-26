@@ -16,6 +16,8 @@ tags: windows docker
 
 谷歌了一番，发现 **mongo** 项目里也有很多人吐槽这个情况，看来并不是我一个人的问题。众多issue里发现了这个靠谱的中文答案：[win10下部署报错:Operation not permitted, terminating #7](https://github.com/easy-mock/easy-mock-docker/issues/7#issuecomment-399405207)
 
+
+
 ```
 windows下只能使用volume，不能直接bind磁盘。
 
