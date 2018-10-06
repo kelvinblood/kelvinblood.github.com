@@ -6,8 +6,6 @@ tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
-
 # 什么是 SSH 和 RSA密钥
 
 RSA 是一种公钥加密算法，在 1977 年由麻省理工学院的 Ron Rivest, Adi Shamir, Leonard Adleman 三人一起提出，因此该算法命名以三人姓氏首字母组合而成。
@@ -64,8 +62,6 @@ ssh-keygen -t rsa -P '' -f '/root/.ssh/id_rsa'
 ```
 
 执行后将会生成 id_rsa 的密钥和 id_rsa.pub 的公钥。
-
-
 
 # 参考资料
 
