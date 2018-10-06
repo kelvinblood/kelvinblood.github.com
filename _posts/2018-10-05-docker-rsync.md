@@ -111,7 +111,7 @@ docker-compose up -d
 
 # 参考资料
 
-* [axiom](https://hub.docker.com/u/axiom/)/[rsync-server](https://hub.docker.com/r/axiom/rsync-server/)
-* [《通过Docker中运行rsync备份服务器》](https://juejin.im/entry/5ae2a4686fb9a07aac242e5b)
-* [《搭建 rsync 服务器》](/tech/2017/10/05/rsync-server.html)
+* [axiom](https://hub.docker.com/u/axiom/)/[rsync-server - github](https://hub.docker.com/r/axiom/rsync-server/)
+* [通过Docker中运行rsync备份服务器](https://juejin.im/entry/5ae2a4686fb9a07aac242e5b)
+* [搭建 rsync 服务器](/tech/2017/10/05/rsync-server.html)
 
