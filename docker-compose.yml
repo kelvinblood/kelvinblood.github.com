@@ -1,9 +1,10 @@
 version: '2'
 services:
   site:
-    network_mode: "host"
     command: jekyll serve
     image: jekyll/jekyll:latest
     volumes:
-      - D:\GitHub\kelvinblood.github.com:/srv/jekyll
-      - D:\GitHub\kelvinblood.github.com/vendor/bundle:/usr/local/bundle
+      - ./:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle
+    ports:
+      - "4000:4000"
