@@ -25,16 +25,12 @@ tags: steins_gate anime
 # 游戏
 
 - STEINS;GATE 
-
 - STEINS;GATE 比翼雙飛的戀人
   外傳作品，以戀愛劇情為主
-
 - STEINS;GATE 變移空間的八位元組
   懷舊遊戲風格
-
 - STEINS;GATE 線形拘束的樹狀圖
   以主角外的觀點進行劇情
-
 - STEINS;GATE 0
   β世界線中主角岡部倫太郎未能在7月28日救回牧瀬紅莉栖之後的故事
 

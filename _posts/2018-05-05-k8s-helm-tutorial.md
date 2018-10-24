@@ -294,6 +294,9 @@ EOF
 
 ```
 helm repo add monocular https://kubernetes-helm.github.io/monocular
+
+# 2018年10月12日 更新，上面那个地址已经不能用了，我今天改成了下面这个：
+helm repo add monocular https://helm.github.io/monocular
 ```
 
 ## 安装pv

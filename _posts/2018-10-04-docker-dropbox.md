@@ -2,7 +2,7 @@
 layout: post
 title: 在 Docker 中运行 dropbox 客户端
 category: tech
-tags: docker linux rsync
+tags: docker linux
 ---
 ![](https://cdn.kelu.org/blog/tags/docker.jpg)
 
