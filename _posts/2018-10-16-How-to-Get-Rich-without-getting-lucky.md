@@ -57,7 +57,7 @@ Twitter英文原链接[在此](https://twitter.com/naval/status/1002103360646823
 
 10. Don’t partner with cynics and pessimists. Their beliefs are self-fulfilling.
 
-   不要和愤世嫉俗者以及悲观主义者合伙，他们的信念会自我实现的。
+    不要和愤世嫉俗者以及悲观主义者合伙，他们的信念会自我实现的。
 
 11. Learn to sell. Learn to build. If you can do both, you will be unstoppable.
 
