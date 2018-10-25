@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何（不靠运气）变得富有 | 蒸汽与魔法
+title: 如何（不靠运气）变得富有 - 蒸汽与魔法
 category: product
 tags: 
 ---
