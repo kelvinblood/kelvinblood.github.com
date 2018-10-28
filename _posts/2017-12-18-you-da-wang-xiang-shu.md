@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 又答王庠书 | 苏轼
+title: 又答王庠书 - 苏轼
 category: literature
 tags: song_dynasty sushi
 ---

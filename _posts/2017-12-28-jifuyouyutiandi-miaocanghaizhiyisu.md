@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《赤壁赋》寄蜉蝣于天地，渺沧海之一粟 苏轼
+title: 《赤壁赋》寄蜉蝣于天地，渺沧海之一粟 - 苏轼
 category: literature
 tags: song_dynasty sushi
 ---

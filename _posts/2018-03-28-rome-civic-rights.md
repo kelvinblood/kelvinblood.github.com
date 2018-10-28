@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 罗马共和国时代公民权扩展的原因 | 前线
+title: 罗马共和国时代公民权扩展的原因 - 前线
 category: literature
 tags: modern_times
 ---

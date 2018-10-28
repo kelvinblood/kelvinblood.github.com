@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  王岐山为何推荐《旧制度与大革命》？ | 人民日报海外版
+title:  王岐山为何推荐《旧制度与大革命》？ - 人民日报海外版
 category: literature
 tags: gov
 ---

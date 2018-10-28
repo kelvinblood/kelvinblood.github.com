@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 怎么看沈从文 49 后不再从事文学创作？ | 知乎
+title: 怎么看沈从文 49 后不再从事文学创作？ - 知乎
 category: literature
 tags: modern_times
 ---

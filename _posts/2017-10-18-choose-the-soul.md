@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  灵魂选择自己的伴侣 | 转自阳志平
+title:  灵魂选择自己的伴侣 - 阳志平
 category: literature
 tags: modern_times
 ---

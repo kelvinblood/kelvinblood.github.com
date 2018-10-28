@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  如何做一次访谈？ | 转
+title:  如何做一次访谈？ - 知乎专栏
 category: literature
 tags: modern_times
 ---

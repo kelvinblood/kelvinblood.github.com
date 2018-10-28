@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  简单做好中文排版 | 转
-category: literature
-tags: modern_times
+title:  简单做好中文排版 - 董福兴
+category: product
+tags:
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

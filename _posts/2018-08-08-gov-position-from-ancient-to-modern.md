@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 古今官职对照 | 天涯社区
+title: 古今官职对照 - 天涯社区
 category: literature
 tags:  modern_times
 ---

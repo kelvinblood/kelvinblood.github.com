@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5张图解开《易经》乾卦的奥秘 | 每天读一篇正能量文字
+title: 5张图解开《易经》乾卦的奥秘 - 每天读一篇正能量文字
 category: literature
 tags: shang_dynasty
 ---

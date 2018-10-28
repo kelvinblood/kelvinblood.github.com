@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 自媒体界没有良知，人性尚存 | 转
+title: 自媒体界没有良知，人性尚存 - 知乎聿纾
 category: literature
 tags: modern_times
 ---
