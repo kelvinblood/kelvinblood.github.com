@@ -4,7 +4,7 @@ title: Linux命令之awk
 category: tech
 tags: linux linux-command awk
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 本文大部分引用自[《GAWK 入门：AWK 语言基础》- IBM developerWorks](http://www.ibm.com/developerworks/cn/education/aix/au-gawk/)
 
@@ -74,8 +74,8 @@ Awk从一个文件或者标准输入中读取数据，并输出结果到标准�
     !~        不匹配
     &&        与
     ||        或
-	  ^2 			＃2次方
-	  **2			＃2次方
+      ^2 			＃2次方
+      **2			＃2次方
 
 
 函数名称|返回值
@@ -91,7 +91,7 @@ sqrt(x)|平方根
 srand(x)|x是rand()函数的种子
 
 ## BEGIN 和 END    
-        
+
     BEGIN { Actions}    
     {ACTION} # Action for everyline in a file    
     END { Actions }  
@@ -103,7 +103,7 @@ awk 非常善于处理分成多个逻辑字段的文本，而且让您可以毫�
 
 	# 使用 -F 选项来指定 ":" 作为字段分隔符。
 	$ awk -F":" '{ print "username: " $1 "/t/tuid:" $3" }' /etc/passwd 
-		
+
 ## 外部脚本
 将脚本作为命令行自变量传递给 awk 对于小的单行程序来说是非常简单的，而对于多行程序，它就比较复杂。您肯定想要在外部文件中撰写脚本。然后可以向 awk 传递 -f 选项，以向它提供此脚本文件。
 
@@ -116,7 +116,7 @@ awk 非常善于处理分成多个逻辑字段的文本，而且让您可以毫�
 		
 	#如果某一行的第五个字段包含字符序列 root，那么将只打印这一行中的第三个字段
 	$5 ~ /root/ { print $3 }
-		
+
 ## 条件语句
 
 awk 还提供了非常好的类似于 C 语言的 if 语句。如果您愿意，可以使用 if 语句重写前一个脚本：
@@ -128,11 +128,11 @@ awk 还提供了非常好的类似于 C 语言的 if 语句。如果您愿意，
 		} else {
 		}
 	}
-	
+
 awk 还允许使用布尔运算符 "||"（逻辑与）和 "&&"（逻辑或），以便创建更复杂的布尔表达式。只打印第一个字段等于 foo 且第二个字段等于 bar 的那些行。
 
 	( $1 == "foo" ) && ( $2 == "bar" ) { print }
-	
+
 ## 内置变量
 
 	ARGC        命令行参数个数
@@ -168,7 +168,7 @@ awk 还允许使用布尔运算符 "||"（逻辑与）和 "&&"（逻辑或），
 	#!/bin/bash
 	var="test"
 	awk -v nvar="$var" 'BEGIN{print nvar}'
-	
+
 ### awk传入shell
 1.让awk将变量值按一定格式输出到STDOUT上，然后由shell解析
 2.eval
@@ -176,7 +176,7 @@ awk 还允许使用布尔运算符 "||"（逻辑与）和 "&&"（逻辑或），
 	$ unset a
 	$ eval $(awk 'BEGIN{print "a=1"}')
 	$ echo $a
-
+	
 	#!/bin/bash
 	var1="test"
 	var2="along"

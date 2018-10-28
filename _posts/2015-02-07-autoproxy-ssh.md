@@ -5,6 +5,8 @@ category: tech
 tags: linux proxy
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 原来这么简单啊= =目前只在Mac下试过，真的好简单！
 
 首先本地添加自动代理地址：

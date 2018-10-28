@@ -5,11 +5,13 @@ category: tech
 tags: linux linux-command
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 在Internet RFC标准中，Netstat的定义是： Netstat是在内核中访问网络及相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。
 Netstat是是一个监控TCP/IP网络的非常有用的工具，它可以显示路由表、实际的网络连接以及每一个网络接口设备的状态信息。Netstat用于显示与IP、TCP、UDP和ICMP协议相关的统计数据，一般用于检验本机各端口的网络连接情况。
 
 ## 格式
-	
+
 	该命令的一般格式为 ：
 	netstat [-a][-e][-n][-o][-p Protocol][-r][-s][Interval]
 	命令中各选项的含义如下：
@@ -46,9 +48,9 @@ Netstat是是一个监控TCP/IP网络的非常有用的工具，它可以显示�
 		——使用 -ep 选项可以同时查看进程名和用户名。
 	netstat -ant
 		——查看已建立的tcp端口情况。
-		
+
 ## 一些其它TCP的知识		
-		
+
 
 ### TCP连接
 
@@ -95,8 +97,9 @@ Netstat是是一个监控TCP/IP网络的非常有用的工具，它可以显示�
 		等待足够的时间以确保远程TCP接收到连接中断请求的确认
 	CLOSED
 		没有任何连接状态
-		
-		
+
+
+​		
 ### 基于三次握手的SYN洪水攻击(摘自[百度百科](http://baike.baidu.com/link?url=x9wJlz06go2eX66zKmA_qsVXPMF-XFaOhyVzpq6lrKwRQsPJW0cGO6r52A9OYxP55sC98NWc_N3TW1npXV4EJ_))
 
 建设一个小型的模仿环境假设有3台接入互联网的机器。A为攻击者操纵的攻击机。B为中介跳板机器（受信任的服务器）。C为受害者使用的机器（多是服务器），这里把C机器锁定为目标机器。A机器向B机器发送SYN包，请求建立连接，这时已经响应请求的B机器会向A机器回应SYN/ACK表明同意建立连接，当A机器接受到B机器发送的SYN/ACK回应时，发送应答ACK建立A机器与B机器的网络连接。这样一个两台机器之间的TCP通话信道就建立成功了。

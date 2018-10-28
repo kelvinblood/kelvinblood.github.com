@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Linux开发模式带给创业者的启示
+title: Linux开发模式带给创业者的启示 - MacTalk 人生元编程
 category: tech
 tags: rss philosophy startup
 ---
+
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 本文来自《MacTalk 人生元编程》的作者，池建强。原文戳[这里](http://macshuo.com/?p=1279)。其实不好意思，第一次池建强讲的人生的道理就和编程一样（大概是这个意思）的时候，心里其实是有一些共鸣的，刚上大学的时候也有过类似的感觉，本来嘛，作为程序员习惯性地将事情代入编程也是常有的事。
 

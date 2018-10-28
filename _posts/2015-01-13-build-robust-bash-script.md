@@ -4,7 +4,7 @@ title: 写出健壮的 Bash 脚本
 category: tech
 tags: bash linux
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 原文来自 [开源中国社区](http://www.oschina.net/news/26744/build-robust-bash-script)。
 
@@ -109,7 +109,7 @@ Exit - 这是一个伪信号，当脚本正常退出或者set -e后因为出错�
     rm $lockfile
     else
     echo "critical-section is already running"
-
+    
     fi
 当最重要的部分(critical-section)正在运行时，如果杀死了脚本进程，会发生什么呢？锁文件会被扔在那，而且你的脚本在它被删除以前再也不会运行了。解决方法：
 

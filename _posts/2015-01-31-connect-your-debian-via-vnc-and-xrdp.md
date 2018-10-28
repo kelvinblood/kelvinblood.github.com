@@ -5,6 +5,8 @@ category: tech
 tags: linux
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 前言：vnc的配置非常简单，简单到虽然界面显示很挫，依然因为惰性而懒得换。嘛，先记录一下再换Orz
 
 ## 安装
@@ -37,7 +39,7 @@ iceweasel，你可以当成firefox浏览器。
 
 	.vnc/xstartup
 	#!/bin/sh
-
+	
 	temp=$(ps aux | grep [f]irefox-bin | awk '{print $2}')
 	[ -n "$temp" ] && kill $temp > /dev/null 2>&1
 	firefox --display=:1 > /dev/null 2>&1
@@ -100,5 +102,5 @@ iceweasel，你可以当成firefox浏览器。
     Errors were encountered while processing:
      firefox-mozilla-build
     E: Sub-process /usr/bin/dpkg returned an error code (1)
-
-apt-get install --reinstall firefox-mozilla-build
+    
+    apt-get install --reinstall firefox-mozilla-build

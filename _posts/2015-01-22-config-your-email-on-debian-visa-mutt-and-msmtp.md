@@ -5,6 +5,8 @@ category: tech
 tags: linux mail
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 服务器发送邮件主要有两种方式。一种是搭建一个MTA(邮件传输代理)，使用sendmail或POSTFIX进行发送。具体的方法可以看Linode给的Guide，非常的详细。以这种方式搭建要考虑清楚自己是否真的需要一个邮件服务器，因为搭建的过程十分繁琐枯燥。Linode的文档也是一再强调这一点。另一种方式就是本文的mutt+msmpt。特点是轻量，够用。(υ◉ω◉υ)
 
 ## 安装
@@ -41,7 +43,7 @@ tags: linux mail
 	logfile ~/.msmtp.log
 	
 	.msmtprc文件需要600权限，如果不是600权限会无法使用
-	
+
 使用以上的配置已经可以使用一些普通的国内邮箱进行信息发送了。但是如果你使用了gmail的话，需要多做出一些配置才可以。以下是我的设置，配置的方法也是参考了不少网站才找到的。例如[Virtage Devblog](http://devblog.virtage.com/2013/05/email-sending-from-ubuntu-server-via-google-apps-smtp-with-msmtp/)
 最后正确的配置方法来自[archlinux的bbs](https://bbs.archlinux.org/viewtopic.php?id=89575)
 
@@ -76,7 +78,7 @@ tags: linux mail
 发邮件给foo@google.com,并带有一个附件
 
 	mutt -s "主题" foo@google.com -a 附件.txt < 邮件内容.txt
-	
+
 ## 扩展
 
 配置好邮件之后就可以发送一些vps的状态邮件给自己啦，还有很多种可能性，比如流量突然升高啊，登陆ssh发邮件提醒啊之类的。
@@ -84,5 +86,5 @@ tags: linux mail
 比如在`/etc/ssh/sshrc`中添加以下信息：
 
 	echo "$USER@`hostname` `date +%Y-%m-%d\ %H:%M` login from ${SSH_CLIENT%% *}" | mutt -s "$USER `date +%Y-%m-%d\ %H:%M` login from ${SSH_CLIENT%% *}" XXXXXX@kelu.org &
-	
+
 当有人登陆服务器时候发邮件提醒。

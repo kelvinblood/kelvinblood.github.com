@@ -4,7 +4,7 @@ title: 备份你的Linux ——tar 打包和 rsync 同步
 category: tech
 tags: linux rsync
 ---
-![](/assets/img/linux.jpg)
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 做好系统备份对系统管理员来说是件很重要的事情。可使用两种方法进行备份系统。一种是直接打tar包备份，另一种是使用增量备份工具，下面我来记录一下。
 
@@ -20,7 +20,7 @@ tar打包备份很简单，就是一条tar命令。为了增强备份文件的�
 	}
 	
 	bksys 2>&1 | tee -a /var/log/bksys.log
-	
+
 其中tar的-p的意思在man中的解释是：
 -p 恢复字段到它们的原始方式，忽略现有的用户权限屏蔽位（umask)。 setuid、setgid 和 tacky 位许可权也恢复给拥有 kelu 用户权限的用户。这个标志恢复文件到其原始方式，但不恢复目录到其原始方式。
 
@@ -95,8 +95,9 @@ secrets是用户密码文件，password是为了方便自动化备份时的密�
 	secrets file = /etc/rsyncd/rsyncd.secrets
 	comment = YUKI.N>
 	exclude = proc/ tmp/ lost+found/ mnt/ sys/ kelu/Backup/ pub/
-	
-	
+
+
+​	
 做完这些，已经可以开始同步数据了。由于是本机备份，所以我没有看得很仔细，以后需要了再来看啦。
 
 	/usr/bin/rsync --daemon 				# 启动服务
@@ -111,7 +112,7 @@ secrets是用户密码文件，password是为了方便自动化备份时的密�
 	# 全量备份
 	# rsync -avzP --password-file=/etc/rsyncd/rsyncd.secrets kelu@kelu.org::kelu.org /kelu/Dropbox/kelu.org/$(date + '%m-%d-%y')
 	rsync -avzP --password-file=/etc/rsyncd/rsyncd.password kelu@kelu.org::kelu.org /kelu/Dropbox/kelu.org/											
-	
+
 ## 3. 自动化
 
 	crontab -e
@@ -127,9 +128,9 @@ secrets是用户密码文件，password是为了方便自动化备份时的密�
 	# For example, you can run a backup of all your user accounts
 	# at 5 a.m every week with:
 	# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-
-	40 2 * * * rsync -avzP --password-file=/etc/rsyncd/rsyncd.password kelu@kelu.org::kelu.org /kelu/Dropbox/kelu.org/
 	
+	40 2 * * * rsync -avzP --password-file=/etc/rsyncd/rsyncd.password kelu@kelu.org::kelu.org /kelu/Dropbox/kelu.org/
+
 或者你也可以按照系统的方法，新建一个自动化运行的文件夹，定时运行文件夹中的文件。
 
 	10 4 * * * /usr/bin/run-parts   /etc/cron.daily.kelu    1> /dev/null

@@ -5,13 +5,13 @@ category: tech
 tags: linux microsoft onedrive
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 最近入了台surface pro 3，微软附带送了1年的onedrive和skype的服务。skype倒还好可以无压力地用掉。onedrive就很头疼了，在本地上传传得地老天荒还没传完2%，百度云早就传完了。大概是onedrive对国内的用户还不够友好吧。
 
 早上闲来无事，不知道怎么搞的便安装起了github上的一个项目[onedrive-d](https://github.com/xybu/onedrive-d "onedrive-d")，在linux下同步onedrive用的。折腾来折腾去总算是搞好了同步。
 
 看到github上的一些issue，不少人使用onedrive-d仍然有一些问题，反应的，诸如每次开机会重新同步所有文件；并且有可能会将文件同步多次，形成多个同名文件。安装时候要做好一定的心理准备。
-
-
 
 ## pip ##
 
@@ -26,11 +26,11 @@ pip是python的软件安装工具。今天在卸载onedrive-d的时候出现了�
     $ git clone https://github.com/xybu92/onedrive-d.git
     $ cd onedrive-d
     $ ./setup.sh --help
-
+    
     Usage ./setup.sh [inst|remove]
     inst: install onedrive-d
     remove: uninstall onedrive-d from the system
-
+    
     # 安装
     ./setup.sh inst
 
@@ -41,10 +41,10 @@ pip是python的软件安装工具。今天在卸载onedrive-d的时候出现了�
 来看看代码的目录结构。
 
     default  LICENSE  LiveAPI.md  onedrive_d  README.md  setup.sh
-
+    
     ./default:
     ignore_list.txt
-
+    
     ./onedrive_d:
     config.py    live_api.py  observer_gtk.py  pref.py      setup.py
     daemon.py    logger.py    pref_cmd.py      __pycache__

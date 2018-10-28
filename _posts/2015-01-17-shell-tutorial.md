@@ -5,6 +5,8 @@ category: tech
 tags: linux shell tutorial
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 这篇文章主要是网上搜集整理的资料，在shell的在平时使用中需要的最基本的入门知识，没有涉及grep、sed、awk以及各种正则表达式。
 
 ## hello world
@@ -18,7 +20,7 @@ tags: linux shell tutorial
 
 	$ chmod u+x hello
 	$ ./hello
-	
+
 就可以看到结果了。
 
 ## 输入输出
@@ -32,9 +34,9 @@ tags: linux shell tutorial
 	$ find /home -name lost* 2> err_result 	# 重定向错误输出到文件
 	$ find /home -name lost* > all_result 2>& 1	# 标准输出连同错误输出重定向到文件
 	$ find /home -name lost* 2> /dev/null	# 不显示错误信息
-	
+
 ## 变量	
-	
+
 * 变量赋值时，'='左右两边都不能有空格；
 * BASH 中的语句结尾不需要分号（";"）；
 * 除了在变量赋值和在FOR循环语句头中，BASH 中的变量使用必须在变量前加"$"符号，可一个使用更为标准的变量引用方式${STR}
@@ -58,7 +60,7 @@ BASH 中的变量既不需要定义，也就没有类型一说，一个变量即
 |为空 | -z|
 |不为空 | -n|
 
-	
+
 比较字符串 a 和 b 是否相等就写作：if [ $a = $b ]  
 判断字符串 a 是否为空就写作： if [ -z $a ]  
 判断整数变量 a 是否大于 b 就写作：if [ $a -gt $b ]  
@@ -83,8 +85,8 @@ BASH 中的变量既不需要定义，也就没有类型一说，一个变量即
 |file1 -ot file2 | 文件 file1 比 file2 更老|
 
 if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入。
- 
- 
+
+
 ## 基本流程控制 
 
 ###  if...then...else
@@ -103,7 +105,7 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	
 	当shell提醒integer expression expected时，可使用字符串比较，使得程序得以正确地运行通过。例如
 	if [ $cpuLoad > '50' ] || [ $memUsed > '800' ] || [ $ioSumRate > '25' ];
-	
+
 ### for
 
 	for day in Sun Mon Tue Wed Thu Fri Sat 
@@ -112,7 +114,7 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	done 
 	
 	while
-	
+
 ### while & until
 
 	while [ condition ]
@@ -136,14 +138,14 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	[0-9] ) echo "Digit";; 
 	* ) echo "Punctuation, whitespace, or other";; 
 	esac 
-	
+
 ## 函数
 
 	square() { 
 		let "res = $1 * $1" 
 		return $res 
 	} 
-	
+
 ## 特殊保留字
 ### 保留变量
 
@@ -164,7 +166,7 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	$@　　　和 $* 涵义相似，但是比 $* 更安全。
 	$!　　　表示最近一个在后台运行的进程的进程号。
 	$RANDOM 一个大小在 1 到 65536 之间的随机整数
-	
+
 ### 符号
 
 	算术运算符 
@@ -178,7 +180,7 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	关系运算符 
 		< > <= >= == != 表示大于、小于、大于等于、小于等于、等于、不等于操作
 		&& || 逻辑与、逻辑或操作
-		
+
 ### 变量的特殊操作
 
 	${var-default} 表示如果变量 $var 还没有设置，则保持 $var 没有设置的状态，并返回后面的默认值 default。
@@ -194,7 +196,7 @@ if [ -x /root ] 可以用于判断 /root 目录是否可以被当前用户进入
 	${var:pos:len} 表示变量 $var 中去掉前 pos 个字符后的剩余字符串的前 len 个字符。
 	${var/pattern/replacement} 表示将变量 $var 中第一个出现的 pattern 模式替换为 replacement 字符串。
 	${var//pattern/replacement} 表示将变量 $var 中出现的所有 pattern 模式全部都替换为 replacment 字符串。
-	
+
 ## 程序界面
 
 BASH 中提供了一个小的语句格式，可以让程序快速的设计出一个字符界面的用户交互选择的菜单，该功能就是由 select 语句来实现的。
@@ -211,7 +213,7 @@ BASH 中提供了一个小的语句格式，可以让程序快速的设计出一
 	echo bad option 
 	fi 
 	done 
-	
+
 BASH 中通过 read 函数来实现读取用户输入的功能
 
 	echo Please enter your name
@@ -224,8 +226,9 @@ BASH 中通过 read 函数来实现读取用户输入的功能
 	ftp -n localhost <<(U •́ .̫ •̀ U)
 	user anonymous $passwd
 	(U •́ .̫ •̀ U)
-	
-	
+
+
+​	
 ## 一些特殊的惯用法
 
 * 在 BASH 中 () 一对括号一般被用于求取括号中表达式的值或命令的执行结果，如：(a=hello; echo $a) ，其作用相当于 `...` 
@@ -243,7 +246,7 @@ BASH 中通过 read 函数来实现读取用户输入的功能
 		echo $HOSTNAME 
 		echo $USER 
 		echo $MAIL 
-		
+	
 * 在 BASH 中 export 命令用于将系统变量输出到外层的 Shell 中。
 * bash -x bash-script 命令，可以查看一个出错的 BASH 脚本到底错在什么地方，可以帮助程序员找出脚本中的错误。
 * trap 语句可以在 BASH 脚本出错退出时打印出一些变量的值，以供程序员检查。trap 语句必须作为继 "#!/bin/bash" 后的第一句非注释代码，一般 trap 命令被写作： trap 'message $checkvar1 $checkvar2' EXIT 。

@@ -4,7 +4,7 @@ title: 在你的Debian上连接到Github
 category: tech
 tags: linux github
 ---
-![](/assets/img/github.jpg)
+![](https://cdn.kelu.org/blog/tags/github.jpg)
 
 整个过程都是参考的[github的官方文档](https://help.github.com/articles/set-up-git/#platform-linux)。在这稍微做一个记录。
 

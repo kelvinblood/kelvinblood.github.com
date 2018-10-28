@@ -3,7 +3,10 @@ layout: post
 title: 过程 - 林白
 category: literature
 tags: literature modern_times
+
 ---
+
+![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
     一月你还没有出现  
     二月你睡在隔壁  

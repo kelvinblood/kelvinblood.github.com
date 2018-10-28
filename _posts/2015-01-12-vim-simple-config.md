@@ -4,7 +4,7 @@ title: vim的简略配置
 category: tech
 tags: linux vim
 ---
-![](/assets/img/vim.jpg)
+![](https://cdn.kelu.org/blog/tags/vim.jpg)
 
 曾经用过比较长一段时间的vim，因为后来一直在windows下开发，也就没怎么用过了。现在平台移到了Linux和Mac，Mac还好各种工具，前段时间试用了Coda，觉得真的挺好用的。虽然如此，在Linux下开发就显得很捉急了，因为都是终端进去敲的。虽然也可以在本地写好了再上传，终究麻烦。而且更重要的一点是——Coda太贵，用不起Orz。
 
@@ -76,7 +76,7 @@ tags: linux vim
 	" filetype indent on 允许vim为不同类型的文件定义不同的缩进格式。可继续设置
 	"
 	set completeopt=longest,menu " 补全
-
+	
 	" 加速补全
 	" supertab
 	" 在输入变量名或路径名等符号中途按Tab键，得到以前输入过的符号列表，并通过Tab键循环选择。
@@ -89,7 +89,7 @@ tags: linux vim
 	" vim配置及自动补全插件neocomplcache
 	" 使用缓存，自动补全时效率高、生成的关键词列表准确等优点。
 	let g:neocomplcache_enable_at_startup=1
-
+	
 	" Remove trailing whitespace when writing a buffer, but not for diff files.
 	" 自动去除无效空白，包括行尾和文件尾
 	" @see http://blog.bs2.to/post/EdwardLee/17961

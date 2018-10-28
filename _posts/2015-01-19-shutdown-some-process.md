@@ -5,6 +5,8 @@ category: tech
 tags: linux
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 闲来无事`pstree -a`看了一下貌似好几个无用的进程。这几天也是装了很多软件，装一个玩一下又卸掉的节奏。小记录一下。
 
 	sendmail，卸载。

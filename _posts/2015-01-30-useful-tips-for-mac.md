@@ -5,6 +5,8 @@ category: software
 tags: mac
 ---
 
+![](https://cdn.kelu.org/blog/tags/mac.jpg)
+
 今天新发现了几个Mac的小技巧！还蛮实用的！
 
 * Cmd按下时点击侧边栏将在新标签页打开文件夹

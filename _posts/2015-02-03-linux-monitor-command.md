@@ -5,6 +5,8 @@ category: tech
 tags: linux linux-command
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 简单记录一下Linux自带的一些系统状态监控的命令。关于ps和lsof的命令太过复杂，详细用法有空再记录。
 
 ## 1. 用户
@@ -78,23 +80,23 @@ tags: linux linux-command
 		-s&lt;间隔秒数&gt; 　持续观察内存使用状况。 
 		-t 　显示内存总和列。 
 		-V 　显示版本信息。
-		
+
 <span id="_iostat"></span>
 	语　　法: iostat [-c|-d][-k|-m][-t][-V][-x][device[...]|ALL][-p[device|ALL]][interval[count]]
 	
     参　　数：
-		-c 仅显示CPU统计信息.与-d选项互斥.
-		-d 仅显示磁盘统计信息.与-c选项互斥.
-		-k 以K为单位显示每秒的磁盘请求数,默认单位块.
-		-p device | ALL
-		  与-x选项互斥,用于显示块设备及系统分区的统计信息.也可以在-p后指定一个设备名,如:
-		  # iostat -p hda
-		  或显示所有设备
-		  # iostat -p ALL
-		-t    在输出数据时,打印搜集数据的时间.
-		-V    打印版本号和帮助信息.
-		-x    输出扩展信息.
-		
+    	-c 仅显示CPU统计信息.与-d选项互斥.
+    	-d 仅显示磁盘统计信息.与-c选项互斥.
+    	-k 以K为单位显示每秒的磁盘请求数,默认单位块.
+    	-p device | ALL
+    	  与-x选项互斥,用于显示块设备及系统分区的统计信息.也可以在-p后指定一个设备名,如:
+    	  # iostat -p hda
+    	  或显示所有设备
+    	  # iostat -p ALL
+    	-t    在输出数据时,打印搜集数据的时间.
+    	-V    打印版本号和帮助信息.
+    	-x    输出扩展信息.
+
 <span id="_top"></span>
 	语　　法：top [bciqsS][d <间隔秒数>][n <执行次数>]
 	
@@ -123,7 +125,7 @@ tags: linux linux-command
 		-e 显示扩展信息，例如uid等
 		-s 按各个协议进行统计
 		-c 每隔一个固定时间，执行该netstat命令。
-
+	
 	提示：LISTEN和LISTENING的状态只有用-a或者-l才能看到
 <span id="_vmstat"></span>
 
@@ -140,7 +142,7 @@ tags: linux linux-command
 	语　　法：swatch [-A <分隔字符>][-c <设置文件>][-f <记录文件>][-I <分隔字符>][-P <分隔字符>][-r <时间>][-t <记录文件>]
 	
 	补充说明：swatchswatch所监控的事件以及对应事件的动作都存放在 swatch的配置文件中。预设的配置文件为拥护根目录下的.swatchrc。然而在Red Hat Linux的预设用户根目录下并没有.swatchrc配置文件，您可将/usr/doc/swatch- 2.2/config_files/swatchrc.personal文件复制到用户根目录下的.swatchrc，然后修改.swatchrc所要监控的事件及执行的动作。
-
+	
 	参　　数： 
 		-A<分隔字符> 　预设配置文件中，动作的分隔字符，预设为逗号。 
 		-c设置文件> 　指定配置文件，而不使用预设的配置文件。 

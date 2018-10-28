@@ -5,6 +5,8 @@ category: tech
 tags: linux linux-command
 ---
 
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
 du命令是示每个文件和目录的磁盘使用空间的，但是与df命令不同的是Linux du命令是对文件和目录磁盘使用的空间的查看，还是和df命令有一些区别的.
 
 	命令格式： du [选项][文件]
@@ -31,8 +33,9 @@ du命令是示每个文件和目录的磁盘使用空间的，但是与df命令�
 其实今天用到这个命令是因为需要查看文件夹里的文件大小。结合du命令最后得到的命令如下，获得占空间最大的十个文件或文件夹：
 
 	du --max-depth=1 -ah | sort -hr | head
-	
-	
+
+
+​	
 linux中df命令的功能是用来检查linux服务器的文件系统的磁盘空间占用情况。默认情况下，磁盘空间将以 1KB 为单位进行显示，除非环境变量 POSIXLY_CORRECT 被指定，那样将以512字节为单位进行显示
 
 	命令格式：	df [选项] [文件]

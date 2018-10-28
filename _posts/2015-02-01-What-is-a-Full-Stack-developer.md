@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 什么是全栈工程师?(中文版)
-category: tech
+title: 什么是全栈工程师?(中文版) - segmentfault
+category: product
 tags: rss full-stack
 ---
+
+![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
 这是一篇老文，来自[segmentfault](http://segmentfault.com/blog/tony/1190000000418169)。感觉写的比较全面，转在小站上留个纪念。
 
