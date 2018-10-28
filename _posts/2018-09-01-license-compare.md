@@ -59,7 +59,7 @@ MIT，源自麻省理工学院（Massachusetts Institute of Technology, MIT）�
 
 GitHub 上开源项目 SeaweedFS 的作者 Chris Lu [控诉京东 TigLab 项目涉嫌抄袭代码](https://zhuanlan.zhihu.com/p/45668894)的事情在知乎上闹得沸沸扬扬。Chris Lu 发文表示京东的项目使用了他的源码，但是没有根据  Apache-2.0 协议的许可条款添加引用说明。
 
- ![jd](https://cdn.kelu.org/blog/2018/09/v2-9f8d4da222d422c4bd0b9b8d3cb50a73_hd.png)
+ ![jd](https://cdn.kelu.org/blog/2018/09/v2-9f8d4da222d422c4bd0b9b8d3cb50a73_hd.jpg)
 
 
 
@@ -71,7 +71,7 @@ GitHub 上开源项目 SeaweedFS 的作者 Chris Lu [控诉京东 TigLab 项目�
 
 <http://choosealicense.online/>:
 
-![http://choosealicense.online/](https://cdn.kelu.org/blog/2018/09/1ceaceb1b7e128b54f437a7540881e25_hd-20181027191829898.png)
+![http://choosealicense.online/](https://cdn.kelu.org/blog/2018/09/1ceaceb1b7e128b54f437a7540881e25_hd-20181027191829898.jpg)
 
 
 

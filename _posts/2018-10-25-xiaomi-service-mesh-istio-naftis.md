@@ -63,7 +63,7 @@ kubectl -n naftis port-forward $(kubectl -n naftis get pod -l app=naftis-ui -o j
 
 ### Kubernetes集群内运行
 
-![54044573943](https://cdn.kelu.org/blog/2018/10/1540445739430.png)
+![54044573943](https://cdn.kelu.org/blog/2018/10/1540445739430.jpg)
 
 ### 本地运行
 
@@ -191,7 +191,7 @@ go get github.com/xiaomi/naftis
 
 将下述环境变量添加到 `~/.profile`。我们强烈推荐通过autoenv来配置环境变量。
 
-![54044585582](https://cdn.kelu.org/blog/2018/10/1540445855823.png)
+![54044585582](https://cdn.kelu.org/blog/2018/10/1540445855823.jpg)
 
 如果你使用autoenv，则输入 `cd.`来使环境变量生效。
 
@@ -210,7 +210,7 @@ go get github.com/xiaomi/naftis
 
 ## 其他指令
 
-![54044602757](https://cdn.kelu.org/blog/2018/10/1540446027578.png)
+![54044602757](https://cdn.kelu.org/blog/2018/10/1540446027578.jpg)
 
 
 
