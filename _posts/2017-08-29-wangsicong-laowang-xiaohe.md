@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 转载 | 王思聪的药渣之路 - 大头斯基
+title: 王思聪的药渣之路 - 大头斯基
 category: finance
-tags: finance
 ---
 ![](https://cdn.kelu.org/blog/2017/08/wsc01.jpg)
 

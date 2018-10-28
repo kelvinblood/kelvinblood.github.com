@@ -2,7 +2,7 @@
 layout: post
 title: 离骚 - 屈原
 category:  literature
-tags: literature warring_state_period
+tags: warring_state_period
 ---
 
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)

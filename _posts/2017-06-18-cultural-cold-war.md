@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  文化冷战：好的宣传就是要做得不像宣传 | 转自简书
+title:  文化冷战：好的宣传就是要做得不像宣传 - 简书
 category: literature
 tags: modern_times
 ---

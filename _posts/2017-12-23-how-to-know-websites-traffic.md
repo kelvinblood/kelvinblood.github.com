@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 如何获知别人网站的流量 | 转
+title: 如何获知别人网站的流量 - chinawebanalytics
 category: product
 tags: operations
 ---
+> 原文链接:<http://www.chinawebanalytics.cn/2017-how-to-know-websites-traffic/>
+
 在8年前写过一篇文章：《如何获知陌生网站的流量？》这篇文章是这个博客最大阅读量的文章之一。但是，8年过去了，方法虽然类似，但是工具很解决方案已经有所不同。
 
 值得对这个话题做一个更新。

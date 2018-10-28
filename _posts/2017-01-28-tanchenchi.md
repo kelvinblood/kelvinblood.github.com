@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 如何理解佛教所说的「贪嗔痴」？ |  转自知乎
+title: 如何理解佛教所说的「贪嗔痴」？- 知乎
 category: literature
-tags: literature
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

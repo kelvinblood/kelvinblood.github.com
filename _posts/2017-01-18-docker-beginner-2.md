@@ -30,7 +30,7 @@ tags: docker devops tutorial
 Dockerfile 正确的写法应该是这样：
 
     FROM xxx
-
+    
     RUN buildDeps='gcc libc6-dev make' \
         && apt-get update \
         && apt-get install -y $buildDeps \
@@ -47,7 +47,7 @@ Dockerfile 正确的写法应该是这样：
 然后在该目录执行
 
     $ docker build -t nginx:v3 .
-    
+
 使用 docker build 命令进行镜像构建。其格式为：
     
     docker build [选项] <上下文路径/URL/->
@@ -59,9 +59,10 @@ Dockerfile 正确的写法应该是这样：
           -t, --tag="" Repository name (and optionally a tag) to be applied to the resulting image in case of success
           
     docker build -t image_name Dockerfile_path
-    
-    
-    
+
+
+​    
+​    
 在这里我们指定了最终镜像的名称 -t nginx:v3。
 一般大家习惯性的会使用默认的文件名 Dockerfile，以及会将其置于镜像构建上下文目录中。
 
@@ -86,13 +87,13 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
 * 镜像操作命令
 * 容器启动命令
 
-![](https://cdn.kelu.org/blog/2017/01/Docker-commoand.png)
+![](https://cdn.kelu.org/blog/2017/01/Docker-commoand.jpg)
 
 下面是一个CentOS7的Dockerfile实例
 
     FROM       daocloud.io/centos:7
     MAINTAINER hanxt <hanxiaotongtong@163.com>
-
+    
     ENV TZ "Asia/Shanghai"
     ENV TERM xterm
 
@@ -111,12 +112,12 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
 
     RUN pip install supervisor
     ADD supervisord.conf /etc/supervisord.conf
-
+    
     RUN mkdir -p /etc/supervisor.conf.d && \
         mkdir -p /var/log/supervisor
-
+    
     EXPOSE 22
-
+    
     ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
 
 ### 详细解析
@@ -126,7 +127,7 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
     
     MAINTAINER hanxt <hanxiaotongtong@163.com>
     # Dockerfile维护者
-
+    
     ENV TZ "Asia/Shanghai"
     # ENV（environment）设置环境变量，一个Dockerfile中可以写多个。以上例子是：设置docker容器的时区为Shanghai
     
@@ -137,25 +138,26 @@ Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非
     
     COPY test /mydir
     # 拷贝本地文件到docker容器
-    
-    
+
+
+​    
     安装linux软件包
     RUN yum install -y curl wget....
-
+    
     # RUN命令，非常类似linux下的shell命令 (the command is run in a shell – /bin/sh -c – shell form)
     在Dockerfile中每执行一条指令（ENV、ADD、RUN等命令），都会生成一个docker image layer
     RUN pip install supervisor
-
+    
     # 安装supervisor进程管理系统，推荐使用
     ADD supervisord.conf /etc/supervisord.conf
-
+    
     # 添加supervisor的主配置文件，到docker容器里
     RUN mkdir -p /etc/supervisor.conf.d
-
+    
     # 创建存放启动其他服务”supervisor.conf”的目录，此目录下的所有以.conf结尾的文件，在启动docker容器的时候会被加载
     端口映射
     EXPOSE 22
-
+    
     # 端口映射 EXPOSE <host_port>:<container_port>
     # 推荐使用docker run -p <host_port>:<container_port>来固化端口
     # 容器启动时执行的命令 ENTRYPOINT [“/usr/bin/supervisord”, “-n”, “-c”, “/etc/supervisord.conf”]

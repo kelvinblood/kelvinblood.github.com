@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  2018微信全新计划（张小龙演讲全文） | 转微信公开课
+title:  2018微信全新计划（张小龙演讲全文）- 微信公开课
 category: product
 tags: wechat tencent
 ---

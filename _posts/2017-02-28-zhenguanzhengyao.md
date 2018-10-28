@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  以人为镜可以明得失 | 贞观政要
+title:  以人为镜可以明得失 - 贞观政要
 category: literature
-tags: literature tang_dynasty
+tags: tang_dynasty
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 

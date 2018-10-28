@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 攻壳机动队的中国背景 | 知乎
+title: 攻壳机动队的中国背景 - 知乎
 category: japanese
 tags: cyberpunk anime
 ---

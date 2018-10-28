@@ -2,14 +2,14 @@
 layout: post
 title: 扁鹊见蔡桓公 - 韩非子
 category: literature
-tags: literature warring_state_period hanfeizi legalism
+tags: warring_state_period hanfeizi legalism
 ---
 ![](https://cdn.kelu.org/blog/tags/literature.jpg)
 
     扁鹊见蔡桓公，立有间，扁鹊曰：“君有疾在腠理，不治将恐深。”桓候曰：“寡人无疾。”扁鹊出。桓侯曰：“医之好治不病以为功。”
-
+    
     居十日，扁鹊复见，曰：“君之病在肌肤，不治将益深。”桓侯不应。扁鹊出。桓侯又不悦。
-
+    
     居十日，扁鹊复见，曰：“君之病在肠胃，不治将益深。”桓侯又不应。扁鹊出。桓侯又不悦。
 
 ![](https://cdn.kelu.org/blog/2017/02/bianque/1.jpg)

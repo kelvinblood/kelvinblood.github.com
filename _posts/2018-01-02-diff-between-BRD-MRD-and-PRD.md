@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  BRD、MRD 和 PRD 之间的区别与联系有哪些？ | 转知乎
+title:  BRD、MRD 和 PRD 之间的区别与联系有哪些？ - 知乎
 category: product
 tags: product
 ---

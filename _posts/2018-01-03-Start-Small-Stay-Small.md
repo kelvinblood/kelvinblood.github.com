@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 着眼小众市场，让技术变现 | 知乎专栏
+title: 着眼小众市场，让技术变现 - 知乎专栏
 category: product
 tags: product market
 ---

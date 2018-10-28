@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 转载 | 王健林是怎样成为首富的 万达将往何处去？
+title: 王健林是怎样成为首富的 万达将往何处去？- 财经网
 category: finance
-tags: finance
 ---
 ![](https://cdn.kelu.org/blog/tags/investing.jpg)
 

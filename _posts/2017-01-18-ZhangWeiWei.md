@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  谁的终结？——福山与张维为对话“中国模式” | 转自观察者网
+title:  谁的终结？——福山与张维为对话“中国模式” - 观察者网
 category: literature
 tags: literature modern_times
 ---

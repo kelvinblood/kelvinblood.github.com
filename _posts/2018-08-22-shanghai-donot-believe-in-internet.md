@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  上海不相信互联网 | 朱思码记
+title:  上海不相信互联网 - 朱思码记
 category: product
 tags: internet 
 ---
-原文链接：<https://mp.weixin.qq.com/s/ekD6daXqnxF4WLcxn7F9Bg>，来自公众号：[朱思码记](http://weixin.sogou.com/weixin?query=zhusimaji88)
+> 原文链接：<https://mp.weixin.qq.com/s/ekD6daXqnxF4WLcxn7F9Bg>，来自公众号：[朱思码记](http://weixin.sogou.com/weixin?query=zhusimaji88)
 
 ![img](https://cdn.kelu.org/blog/2018/08/1.jpg)
 
