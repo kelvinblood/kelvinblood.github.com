@@ -1,10 +1,16 @@
 ---
 layout: post
-title: Linux 命令之convert
+title: 批量转换图片格式 png to jpg
 category: tech
 tags: linux linux-command
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
+
+# 背景
+
+jpg 的压缩率比 png 要高，很多情况下我们并不需要高分辨率，为了节省系统空间，我一般都是将 png 图片批量转换成 jpg 再使用。于是这一篇介绍一下如何快速实现。
+
+# 详细介绍
 
 Linux 的 convert 命令可以用来转换图像的格式，支持JPG, BMP, PCX, GIF, PNG, TIFF, XPM和XWD等类型:
 
@@ -14,7 +20,7 @@ convert  xxx.gif   xxx.bmp  将gif转换成bmp图像
 convert  xxx.tiff    xxx.pcx   将tiff转换成pcx图像 
 ```
 
-# 简单应用
+### 简单应用
 
 或者改变图像的大小: 
 
@@ -37,16 +43,12 @@ convert -rotate 270 sky.jpg sky-final.jpg
 convert -fill black -pointsize 60 -font helvetica -draw 'text 10,80 "Hello, World!" '  hello.jpg  helloworld.jpg 
 ```
 
-
-
-# 安装
+### 安装
 
 ```
 apt-get install imagemagick
 convert -version 
 ```
-
-# 应用
 
 ### 批量转换
 
