@@ -68,3 +68,5 @@ $ docker-compose up -d
 
 * [IDC网络质量分析工具之（二）如何解决smokeping中文乱码问题](https://boke.wsfnk.com/archives/271.html)
 * [Docker で Smokeping を起動する](http://sig9.hatenablog.com/entry/2016/06/17/003923)
+* [网络监控工具:SmokePing Nginx一键安装/管理脚本和Looking Glass中文汉化](https://wzfou.com/smokeping-looking-glass/)
+
