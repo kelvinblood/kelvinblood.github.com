@@ -34,8 +34,7 @@ tags: product
    * [阿里中间件团队博客](http://jm.taobao.org/)
 3. 休闲
    * <https://www.moerats.com/>
-   * <http://www.hostsoft.cn/blog/>
-   * <https://thief.one/>
-   * <http://cizixs.com/>
-   * <http://toko.moe/>
-   * <http://cizixs.com/>
+   * [風陵渡口 - 信息安全](https://thief.one/)
+   * [Cizixs Write Here - Container, Microservice](http://cizixs.com/)
+   * [toko的魔法研究所](http://toko.moe/)
+   * [SealYun - 创世容器](http://lameleg.com/)
