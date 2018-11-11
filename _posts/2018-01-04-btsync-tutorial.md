@@ -10,7 +10,7 @@ tags: p2p
 
 如下图所示，不管是论坛还是网盘，它们的性质其实是一样的，总绕不开一个“中心”服务器，用户只有从服务器端到本地这唯一的资源获取途径。一旦这个服务器出现故障，所有人都无法获取资源。
 
-![](https://cdn.kelu.org/blog/2018/01/server-share.png)
+![](https://cdn.kelu.org/blog/2018/01/server-share.jpg)
 
 # 二、什么是去中心化分享
 
@@ -18,7 +18,7 @@ tags: p2p
 
 那么何为分布式分享？类似于 BT 种子下载电影，你所下载的电影数据不是来自某一个服务器，而是来自分享这部电影的某台电脑（如下图所示）。
 
-![](https://cdn.kelu.org/blog/2018/01/bittorrent-share.png)
+![](https://cdn.kelu.org/blog/2018/01/bittorrent-share.jpg)
 
 # 三、Resilio Sync 使用场景
 

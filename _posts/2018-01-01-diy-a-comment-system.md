@@ -27,20 +27,20 @@ tags: tech
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <!--Valine 的核心代码库-->
     <script src="./dist/Valine.min.js"></script>
-	<body>
-	    <div class="comment"></div>
-	    <script>
-		 new Valine({
-			 av: AV, 
-			 el: '.comment', // 
-			 app_id: 'Your APP ID', // 这里填写上面得到的APP ID
-			 app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
-			 placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
-		});
-	  </script>
-	</body>
+    <body>
+        <div class="comment"></div>
+        <script>
+    	 new Valine({
+    		 av: AV, 
+    		 el: '.comment', // 
+    		 app_id: 'Your APP ID', // 这里填写上面得到的APP ID
+    		 app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
+    		 placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+    	});
+      </script>
+    </body>
 
-
+至此，评论系统ok了。
 至此，评论系统ok了。
 
 # 三、添加管理后台
@@ -49,19 +49,19 @@ tags: tech
 
 *   填写代码库并保存：[https://github.com/panjunwen/Valine-Admin.git](https://github.com/panjunwen/Valine-Admin.git)
 
-![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-45-11.png)
+![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-45-11.jpg)
 
 *   切换到部署标签页，分支使用master，点击部署即可：
 
-![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-43-52.png)
+![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-43-52.jpg)
 
 2.此外，你需要设置云引擎的环境变量以提供必要的信息，如下示例：
 
-![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-46-35.png)
+![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-11-12-xia-wu-2-46-35.jpg)
 
 3.设置二级域名后你可以访问评论管理后台。
 
-![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-08-15-xia-wu-6-30-12.png)
+![](https://cdn.kelu.org/blog/2018/01/ping-mu-kuai-zhao-2017-08-15-xia-wu-6-30-12.jpg)
 
 后台管理需要登录，**使用云存储 _User 表中的用户登录即可**。特别提醒，为确保数据安全，请合理设置数据库权限。此外，请务必设置 Web 安全域名。
 

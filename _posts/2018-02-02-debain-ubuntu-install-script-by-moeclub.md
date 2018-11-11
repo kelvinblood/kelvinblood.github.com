@@ -52,7 +52,7 @@ tags: network
 		                                -dd/--image
 		                                -a/-m
 
-
+# 全自动/非全自动示例
 # 全自动/非全自动示例
 
 	全自动安装:
@@ -66,32 +66,32 @@ tags: network
 # 使用示例
 
 	【默认】安装Debian 7 x32：
-
+	
 		bash DebianNET.sh  -d  wheezy  -v  i386
 		bash DebianNET.sh  -d  7  -v  32
 	
 	安装Debian 8 x64：
-
+	
 		bash DebianNET.sh  -d  jessie  -v  amd64
 		bash DebianNET.sh  -d  8  -v  64
-
+	
 	安装Debian 9 x64：
-
+	
 		bash DebianNET.sh  -d  stretch  -v  amd64
 		bash DebianNET.sh  -d  9  -v  64
-
+	
 	安装Ubuntu 14.04 x64：
-
+	
 		bash DebianNET.sh  -u  trusty  -v  64
-
+	
 	安装Ubuntu 16.04 x64：
-
+	
 		bash DebianNET.sh  -u  xenial  -v  64
-
+	
 	安装Ubuntu 18.04 x64：
-
+	
 		bash DebianNET.sh  -u  bionic  -v  64
 
 # 【默认】预览
 
-	![](https://cdn.kelu.org/blog/2018/02/InstallOS.png)
+	![](https://cdn.kelu.org/blog/2018/02/InstallOS.jpg)
