@@ -29,18 +29,18 @@ ORM一般都针对数据模型提供了一下常见的接口函数，比如：cr
 
 
 ## Row Data Gateway
-![](https://cdn.kelu.org/blog/2017/02/row-data-gateway.png)
+![](https://cdn.kelu.org/blog/2017/02/row-data-gateway.jpg)
 
 一个对象扮演的角色就像是数据库中单行记录,每个对象对应一行.
 
 ## Table Data Gateway
-![](https://cdn.kelu.org/blog/2017/02/table-data-gateway.png)
+![](https://cdn.kelu.org/blog/2017/02/table-data-gateway.jpg)
 
 Table Data Gateway中对象扮演着数据库的一张表,一个对象处理了表中所有的行记录。这种模式就是DAO。
 
 ## Active Record(活动记录)
 
-![](https://cdn.kelu.org/blog/2017/02/active-record.png)
+![](https://cdn.kelu.org/blog/2017/02/active-record.jpg)
 
 Active Record是一种和数据库结构一致的简单结构，对应每个数据库表都有一个类，每个对象负责数据库的存取过程。
 
@@ -60,9 +60,9 @@ Ruby和Laravel的ORM都采取了Active Record的模式，因此它们ORM像下�
 	| 1  | philipbrown |
 	+----+-------------+
 
-
 ## Data Mapper(数据映射)
-![](https://cdn.kelu.org/blog/2017/02/data-mapper.png)
+## Data Mapper(数据映射)
+![](https://cdn.kelu.org/blog/2017/02/data-mapper.jpg)
 
 将内存中的数据映射到数据库中，同时保持着彼此之间的解耦
 
@@ -76,7 +76,7 @@ Data Mapper 和 Active Record最基本的区别：在Active Record中，对象�
 而在Data Mapper模式中，对象不存在save()方法，持久化操作由一个中间类来实现。
 
 ## Identity Map
-![](https://cdn.kelu.org/blog/2017/02/identity-map.png)
+![](https://cdn.kelu.org/blog/2017/02/identity-map.jpg)
 
 Identity Map保证每个对象只会从数据库中加载一次，一旦加载进来，将其保存到一个map中.
 

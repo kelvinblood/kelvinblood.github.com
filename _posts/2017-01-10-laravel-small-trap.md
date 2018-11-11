@@ -11,7 +11,7 @@ Laravel 是 Taylor Otwell 开发的一款基于 PHP 语言的 Web 开源框架�
 
 通过 [Google Trends][google_trends] 提供的趋势图可以看出，Laravel 框架在过去十年，其增长速度在各类 PHP 框架中都是有史以来最快的，这也从正面直接反映出了 Laravel 的强大，以及其未来非常可观的发展前景。
 
-![图1](https://cdn.kelu.org/blog/2017/01/20170111175437.png)
+![图1](https://cdn.kelu.org/blog/2017/01/20170111175437.jpg)
 
 使用Laravel也有1年多的时间了。偶尔会出现点小问题，也总算是解决了。今后会慢慢总结一些。现在先说说昨天晚上遇到的坑。如果你看到这篇文章并且很巧的知道下文的一些坑的原理的话，欢迎留言或者邮件告诉我。
 
@@ -21,7 +21,7 @@ Laravel 是 Taylor Otwell 开发的一款基于 PHP 语言的 Web 开源框架�
 
 # 新建 model 的小坑
 
-![图2](https://cdn.kelu.org/blog/2017/01/20170111175246.png)
+![图2](https://cdn.kelu.org/blog/2017/01/20170111175246.jpg)
 
 Laravel 的 Eloquent ORM 提供了漂亮、简洁的 ActiveRecord 实现来和数据库进行交互。每个数据库表都有一个对应的「模型」可用来跟数据表进行交互。
 
@@ -45,5 +45,5 @@ Laravel 的 Eloquent ORM 提供了漂亮、简洁的 ActiveRecord 实现来和�
 古狗大法终于出来了这个原因： [Call to undefined method stdClass][std_error]，原因就是 DB::table 会返回 StdClass objects 的集合，而不是 Session 这个实例的集合。std 显然没有 getId() 这个方法。修正的办法就是将 getId() 改为 id 即可,直接获取属性值。
 
 
-[google_trends]: https://www.google.com/trends/explore?date=2006-08-16%202017-01-11&q=yii,CodeIgniter,Cakephp,Laravel,%2Fm%2F09cjcl
+[google_trends]: https://www.google.com/trends/explore?date=2006-08-16%202017-01-11&amp;q=yii,CodeIgniter,Cakephp,Laravel,%2Fm%2F09cjcl
 [std_error]: http://laravel.io/forum/09-21-2014-call-to-undefined-method-stdclass

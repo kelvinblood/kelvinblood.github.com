@@ -42,7 +42,7 @@ Docker的常用案例包括：
 * Docker Registry : 这个可认为是Docker Images的仓库，就像git的仓库一样，用来管理Docker镜像的，提供了Docker镜像的上传、下载和浏览等功能，并且提供安全的账号管理可以管理只有自己可见的私人image。就像git的仓库一样，docker也提供了官方的Registry，叫做[Dock Hub](http://hub.Docker.com)
 * Docker Container : 俗称Docker的容器，这个是最关键的东西了。Docker Container是真正跑项目程序、消耗机器资源、提供服务的地方，Docker Container通过Docker Images启动，在Docker Images的基础上运行你需要的代码。 
 
-![](https://cdn.kelu.org/blog/2017/01/5d04473994d0b4730f9d03f63f617058.png)
+![](https://cdn.kelu.org/blog/2017/01/5d04473994d0b4730f9d03f63f617058.jpg)
 
 #  Docker 的技术
 
@@ -55,7 +55,7 @@ Docker的常用案例包括：
 
 简单说来，Docker = LXC + AUFS。
 
-![](https://cdn.kelu.org/blog/2017/01/docker-filesystems-busyboxrw.png)
+![](https://cdn.kelu.org/blog/2017/01/docker-filesystems-busyboxrw.jpg)
 
 (AUFS)
 
@@ -72,7 +72,7 @@ Docker的常用案例包括：
 ### IaaS
 
     基础架构即服务：Infrastructure as a service(IaaS) 以自助服务和按使用付费的方式为用户提供基本的计算资源，这些资源包括服务器、网络、存储和数据中心空间。IaaS 通常称为云计算的基础层。在典型的 IaaS 云模型中，提供给用户的基本计算资源要么是裸机 （专用），要么是虚拟化的 （共享）。
-    
+
 ### PaaS
 
     平台即服务：Platform as a service(PaaS) 构建在 IaaS 之上，提供基础架构和平台软件的组合；这通常是指基于云的应用程序开发、中间件、数据库软件，以及相应的硬件环境。 这种服务模式专门面向应用程序的开发人员、测试人员、部署人员和管理员。谷歌应用引擎（GAE）、新浪SAE也属于PaaS范畴。最大的好处在于免运维，对开发人员是个莫大的吸引力。
@@ -115,4 +115,4 @@ Docker主要针对Paas平台，是以应用为中心。OpenStack主要针对Iaas
 * [容器不会取代OpenStack，但二者如何深度整合？](http://www.csdn.net/article/2015-05-20/2824734)
 
 [docker_getting_start]: http://tiewei.github.io/cloud/Docker-Getting-Start/
-[docker_csdn]: http://docker.csdn.net/m/zone/docker/news?&page=53
+[docker_csdn]: http://docker.csdn.net/m/zone/docker/news?&amp;page=53

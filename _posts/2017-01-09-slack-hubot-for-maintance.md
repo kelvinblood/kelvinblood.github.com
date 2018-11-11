@@ -57,20 +57,17 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 赋予配置文件权限，新建项目:
 
     chmod g+rwx /root /root/.config /root/.config/configstore /root/.npm
-
-	mkdir my-awesome-hubot
-	chmod 777 my-awesome-hubot 
-	cd my-awesome-hubot
-	yo hubot --adapter=slack
-
+    
+    mkdir my-awesome-hubot
+    chmod 777 my-awesome-hubot 
+    cd my-awesome-hubot
+    yo hubot --adapter=slack
 
 同时你还需要去hubot页面生成你的机器人[API Token][Integration_setting]。在获得api token之后，你可以运行以下命令跑起来了。
 
     HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
-
-![](http://7vigrt.com1.z0.glb.clouddn.com/blog/pic/201701/filehelper_1484244539165_20.png)
-    
+​    
 # 3. 让 hubot 执行 shell 脚本    
 
     npm install hubot-script-shellcmd
@@ -93,11 +90,11 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 接下来：
 
     cd bash/handlers
-    
+
 这里面的 helloworld 就是个例子，可以改成自己的脚本。运行的话，如果在群组内，需要@xxx（xxx为机器人的名字，例如hubot）
 
     hubot shellcmd helloworld
-    
+
 如果是私人会话，可以直接回复
 
    shellcmd helloworld
@@ -106,7 +103,7 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 
     #!/bin/bash
     top -b -n2 -p 1 | fgrep "Cpu(s)" | tail -1 | awk -F'id,' -v prefix="$prefix" '{ split($1, vs, ","); v=vs[length(vs)]; sub("%", "", v); printf "%s%.1f%%\n", prefix, 100 - v }'
-
+    
     exit 0
 
 将文件命名成cpu，只要运行`shellcmd cpu`,就可以了。
@@ -138,8 +135,8 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
                             return
                         response.send body
         )    
-    
 
+# 参考资料
 # 参考资料
 
 * [node.js](https://nodejs.org/en/download/)
@@ -160,7 +157,7 @@ Hubot是由Github开发的开源聊天机器人，基于Node.js采用CoffeeScrip
 * [使用Slack和Hubot搭建自己的机器人](https://www.liudon.org/1329.html)
 * [eaccess permission denied when trying to use yo - github issue](https://github.com/yeoman/yeoman.github.io/issues/282)
 
-    
+
 [Yeoman]: http://yeoman.io/
 [hubot]: https://hubot.github.com/
 [hubot_doc]: https://hubot.github.com/docs/patterns/
