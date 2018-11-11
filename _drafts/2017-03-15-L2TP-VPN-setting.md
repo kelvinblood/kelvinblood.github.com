@@ -19,14 +19,14 @@ p img {width: 480px}
 <span id="android"></span>
 ## 在Android下的设置
 
-![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-01.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-01.jpg)
 <br>
 
-![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-02.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-02.jpg)
 <br>
 
 
-![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-03.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-03.jpg)
 <br>
 
 
@@ -34,23 +34,23 @@ p img {width: 480px}
 <br>
 
 
-![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-05.png)
+![L2TP-Android](https://cdn.kelu.org/blog/2017/03/PPTP-Android-05.jpg)
 <br>
 
 <span id="iphone"></span>
 
 ## 在iPhone/iPad下的设置
 
-![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-01.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-01.jpg)
 <br>
 
-![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-02.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-02.jpg)
 <br>
 
-![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-03.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-03.jpg)
 <br>
 
-![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-04.png)
+![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/PPTP-iOS-04.jpg)
 <br>
 
 ![L2TP-iPhone](https://cdn.kelu.org/blog/2017/03/20170320130138.jpg)

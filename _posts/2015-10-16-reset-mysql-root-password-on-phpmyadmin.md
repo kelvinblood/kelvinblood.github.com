@@ -7,7 +7,7 @@ tags: linux mysql phpmyadmin database
 
 今天在本地装了xampp，发现默认root的密码竟然为空。进入PhpMyAdmin时也提示了尽快修改。
 
-![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-16%20下午5.34.31.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_2015-10-16-5.34.31.jpg)
 
 以前也遇到了好几次这样的问题，都是测试环境其实没什么要紧的。不过上了生产环境之后迟早要修改的，于是现在就来尝试一下了。
 
@@ -19,7 +19,7 @@ tags: linux mysql phpmyadmin database
 
 其中123456为你希望修改的密码，切记不要在数据库中直接手工修改密码。
 
-![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-16%20下午5.43.13.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_2015-10-16-5.43.13.jpg)
 
 然后点击右下角的“执行”，看到“影响了x行”，就表示修改成功。
 
@@ -29,7 +29,7 @@ tags: linux mysql phpmyadmin database
 
 	sudo find / -name 'config.default.php'
 	sudo find / -name 'config.inc.php'
-	
+
 Mac下的安装路径为`/Applications/XAMPP/xamppfiles/phpmyadmin/libraries/config.default.php`  
 `/Applications/XAMPP/xamppfiles/phpmyadmin/config.inc.php`
 	
@@ -37,10 +37,10 @@ Mac下的安装路径为`/Applications/XAMPP/xamppfiles/phpmyadmin/libraries/con
 修改为
 	
 	$cfg['Servers'][$i]['password'] = '123456'; 
-	
+
 重启mysql后新密码生效。
- 
- 
+
+
 同时还要修改www目录下你的工程的配置文件config.php，修改以下两项
 
 	'DB_USER'=>'root', 

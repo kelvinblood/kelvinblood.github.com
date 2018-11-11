@@ -11,7 +11,7 @@ tags: linux dropbox
 
 安装的方法只看dropbox的官网上就有说明了。
 
-![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-11%20下午1.26.40.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_2015-10-11-1.26.40.jpg)
 
 你可以以命令行安装无外设模式的dropbox，对于服务器来说维护起来更加方便。也可以以桌面安装的方式安装，符合习惯，并且可以选择同步位置。当然两者混合着来也ok。下面把两种方式都写下来。
 
@@ -27,12 +27,12 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 接着，从新建的 .dropbox-dist 文件夹运行 Dropbox 守护程序。
 
 	~/.dropbox-dist/dropboxd
-	
+
 如果是首次在服务器上运行 Dropbox，系统会要求您将类似于下面的链接复制并粘贴到运行的浏览器中，以便创建一个新的帐户或将服务器附加到现有帐户上。
 
 	https://www.dropbox.com/cli_link?host_id=XXXXXXXXXXXXXXXXXXX
 
-
+操作完成后，系统会在您的主目录中创建 Dropbox 文件夹。下载这个 [dropbox.py](https://gist.github.com/kelvinblood/febea84bc8a504926aba92d823a67807) 脚本，通过命令行控制 Dropbox。
 操作完成后，系统会在您的主目录中创建 Dropbox 文件夹。下载这个 [dropbox.py](https://gist.github.com/kelvinblood/febea84bc8a504926aba92d823a67807) 脚本，通过命令行控制 Dropbox。
 
 为了方便访问，我把这个脚本放入Dropbox目录下，使用下面的命令将快捷方式添加到系统中：
@@ -51,7 +51,7 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 如果你使用的桌面环境是GNOME这类的高级桌面环境的话，就可以略过下面这个步骤，直接双击安装就OK了。是jwm的话，还得用命令行安装：
 
 	dpkg -i xxx.deb
-	
+
 按照提示安装完成是在应用程序栏里会显示的。jwm并不显示。没关系，直接找到application menu文件夹查看启动命令即可。
 
 	vi /usr/share/applications/dropbox.desktop
@@ -69,11 +69,11 @@ Dropbox 守护程序可在所有 32 位与 64 位 Linux 服务器上正常运行
 
 于是使用`dropbox start -i`启动ui界面，点击下一步安装即可。安装过程中也会提醒你安装的位置。
 
-![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-13%20下午6.17.03.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_2015-10-13-6.17.03.jpg)
 
 启动完成之后，dropbox就会显示在桌面上啦。
 
-![image](https://cdn.kelu.org/blog/2015/10/blog_屏幕快照%202015-10-13%20下午6.43.46.png)
+![image](https://cdn.kelu.org/blog/2015/10/blog_2015-10-13-6.43.46.jpg)
 
 - - - -
 参考链接

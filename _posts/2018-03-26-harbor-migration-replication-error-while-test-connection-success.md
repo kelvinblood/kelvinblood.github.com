@@ -4,7 +4,7 @@ title: harbor 测试连接成功但同步失败
 category: tech
 tags: harbor
 ---
-![](https://cdn.kelu.org/blog/tags/harbor.png)
+![](https://cdn.kelu.org/blog/tags/harbor.jpg)
 
 在进行 harbor 同步时候遇到了这个问题，记录下来。
 
