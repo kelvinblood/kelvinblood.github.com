@@ -15,35 +15,35 @@ p img {width: 480px}
 
 首先 Java 女装:
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3089.JPG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3089.jpg)
 
 PHP 跟上：
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3097.JPG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3097.jpg)
 
 技术支持的也来了：
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3092.JPG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3092.jpg)
 
 各路人马也来支援~
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3091.PNG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3091.jpg)
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3102.PNG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3102.jpg)
 
 
 后辈甚至对自己的未来感到了担忧
 
-![](https://cdn.kelu.org/blog/2017/05/11.19.53.png)
+![](https://cdn.kelu.org/blog/2017/05/11.19.53.jpg)
 
 再来看看去年日本的黑客大赛中的一组女装程序员战队，奈绪是真爱啊~
- 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3095.PNG)
 
-![](https://cdn.kelu.org/blog/2017/05/IMG_3098.JPG)
+![](https://cdn.kelu.org/blog/2017/05/IMG_3095.jpg)
+
+![](https://cdn.kelu.org/blog/2017/05/IMG_3098.jpg)
 
 甚至连公司也已经鼓励女装上班  (好奇这家公司是不是米哈游
 
-![](https://cdn.kelu.org/blog/2017/05/2017-05-04%2011.14.57.png)
+![](https://cdn.kelu.org/blog/2017/05/2017-05-04-11.14.57.jpg)
 
 我在认真地考虑，是不是要转型女装直播写代码，月入两万八什么的Orz

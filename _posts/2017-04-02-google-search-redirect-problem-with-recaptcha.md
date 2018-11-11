@@ -33,15 +33,15 @@ tags: google
 
 打开设置
     
-![](https://cdn.kelu.org/blog/2017/04//20170406192140.png)
+![](https://cdn.kelu.org/blog/2017/04/20170406192140.jpg)
 
 管理搜索引擎
     
-![](https://cdn.kelu.org/blog/2017/04//20170406192152.png)
+![](https://cdn.kelu.org/blog/2017/04/20170406192152.jpg)
     
 自定义搜索引擎，并且设为默认搜索引擎
 
-![](https://cdn.kelu.org/blog/2017/04//20170406192158.png)
+![](https://cdn.kelu.org/blog/2017/04/20170406192158.jpg)
 
 将自定义搜索的地址改成各种天花乱坠的谷歌 + /search?q=%s ，比如
 
@@ -84,10 +84,10 @@ tags: google
     阿塞拜疆 google.az 阿塞拜疆语
     亚美尼亚 google.am 亚美尼亚语英语
     莱索托 google.co.ls 莱索托语
+    
+    
 
-
-
-
+欧洲：
 欧洲：
 
     冰岛 google.is英语
@@ -136,7 +136,7 @@ tags: google
     罗马尼亚 google.ro 罗马尼亚语
     摩尔多瓦 google.md 摩尔多瓦语
 
-
+非洲：
 非洲：
 
     埃及 google.com.eg 阿拉伯语

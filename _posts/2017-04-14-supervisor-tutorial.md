@@ -32,7 +32,7 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
 
     [unix_http_server]
     file=/tmp/supervisor.sock   ; (the path to the socket file)
-
+    
     [supervisord]
     logfile=/var/local/log/supervisor/supervisord.log ; (main log file;default $CWD/supervisord.log)
     logfile_maxbytes=50MB        ; (max main logfile bytes b4 rotation;default 50MB)
@@ -45,10 +45,10 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
     
     [rpcinterface:supervisor]
     supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
-
+    
     [supervisorctl]
     serverurl=unix:///tmp/supervisor.sock ; use a unix:// URL  for a unix socket
-
+    
     [include]
     files = /etc/supervisor/*.conf
 
@@ -73,13 +73,13 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
     stdout_logfile_backups = 20     ; stdout 日志文件备份数
     ; stdout 日志文件，需要注意当指定目录不存在时无法正常启动，所以需要手动创建目录（supervisord 会自动创建日志文件）
     stdout_logfile = /var/local/log/wechat/wechat.queue.log
-
+    
     ; 可以通过 environment 来添加需要的环境变量，一种常见的用法是修改 PYTHONPATH
     ; environment=PYTHONPATH=$PYTHONPATH:/path/to/somewhere
-    
+
 启动后命令行界面输入 `supervisorctl` 进入控制界面，如下则说明 supervisor 启动成功、laravel 进程配置成功
      
-![](https://cdn.kelu.org/blog/2017/04/2017-04-24-11.40.26.png)
+![](https://cdn.kelu.org/blog/2017/04/2017-04-24-11.40.26.jpg)
 
 # 启动 supervisord
 
@@ -91,7 +91,7 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
     supervisord -u user
 
 # supervisorctl 命令介绍
- 
+
     # 停止某一个进程，program_name 为 [program:x] 里的 x
     supervisorctl stop program_name
     # 启动某个进程
@@ -108,9 +108,9 @@ Supervisor是一个进程控制系统，由python编写。可以很方便的用�
     supervisorctl reload
     # 根据最新的配置文件，启动新配置或有改动的进程，配置没有改动的进程不会受影响而重启
     supervisorctl update
-    
+
 注意：显示用 stop 停止掉的进程，用 reload 或者 update 都不会自动重启。
- 
+
 # 开机自动启动 Supervisord
 
 Supervisord 默认情况下并没有被安装成服务，它本身也是一个进程。
@@ -124,9 +124,9 @@ Supervisord 默认情况下并没有被安装成服务，它本身也是一个�
     # 试一下，是否工作正常
     service supervisord stop
     service supervisord start 
-    
+
 # 参考资料
-    
+
 * [使用Supervisor来管理你的Laravel队列](http://yansu.org/2014/03/22/managing-your-larrvel-queue-by-supervisor.html)    
 * [使用 supervisor 管理进程](http://liyangliang.me/posts/2015/06/using-supervisor/)    
 * [Python 进程管理工具 Supervisor 使用教程](http://www.restran.net/2015/10/04/supervisord-tutorial/)    

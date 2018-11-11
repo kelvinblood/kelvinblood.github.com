@@ -34,30 +34,30 @@ tags: php laravel
 
 　　1.阿里 - Dubbo
 
-　![](https://cdn.kelu.org/blog/2017/11/service1.png)
+　![](https://cdn.kelu.org/blog/2017/11/service1.jpg)
 
 　　2.阿里 - HSF
 
-　![](https://cdn.kelu.org/blog/2017/11/service2.png)
+　![](https://cdn.kelu.org/blog/2017/11/service2.jpg)
 
  　　3.腾讯 - Tars
-　![](https://cdn.kelu.org/blog/2017/11/service3.png)
+　![](https://cdn.kelu.org/blog/2017/11/service3.jpg)
 
 　　4.JSF
 
-　![](https://cdn.kelu.org/blog/2017/11/service4.png)
+　![](https://cdn.kelu.org/blog/2017/11/service4.jpg)
 
 　　5.CNCF - Linkerd
 
-　![](https://cdn.kelu.org/blog/2017/11/service5.png)
+　![](https://cdn.kelu.org/blog/2017/11/service5.jpg)
 
 　　6.新浪 - Motan
 
-　![](https://cdn.kelu.org/blog/2017/11/service6.png)
+　![](https://cdn.kelu.org/blog/2017/11/service6.jpg)
 
 　　7.istio
 
-　![](https://cdn.kelu.org/blog/2017/11/service7.png)
+　![](https://cdn.kelu.org/blog/2017/11/service7.jpg)
 
  　　大家可以看到，大部分（Linkerd除外、MSEC没找到架构图）方案的设计风格非常相似，都是通过库的方式在调用客户端做的服务发现。那么除了实际的RPC调用之外，主要多了这3个动作：注册、订阅、变更下发。除了这3个核心动作之外，其它的辅助操作还有统计上报、鉴权等等，这也是我们搭建一个服务治理框架需要实现的功能。从MVP的角度来说，注册、订阅、变更下发是最基础的核心功能。
 
