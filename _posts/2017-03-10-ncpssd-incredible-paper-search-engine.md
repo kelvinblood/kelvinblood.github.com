@@ -5,7 +5,7 @@ category: life
 tags: life
 ---
 
-![](https://cdn.kelu.org/blog/2017/03/filehelper_1489153809879_43.png)
+![](https://cdn.kelu.org/blog/2017/03/filehelper_1489153809879_43.jpg)
 
 国家哲学社会科学文献中心<http://www.ncpssd.org>， 由中国社会科学院联合教育部等单位共同承建。该中心收录中外文学术期刊7000多种，还有图书、古籍，上线数据已超千万，内容丰富，最重要的是，免费！免费！免费！
 

@@ -27,7 +27,7 @@ tags: alipay
 
 最后还是放弃了，直接谷歌吧
 
-![](https://cdn.kelu.org/blog/2017/04/20170406105843.png)
+![](https://cdn.kelu.org/blog/2017/04/20170406105843.jpg)
 
 总之签约完成就ok了。
 

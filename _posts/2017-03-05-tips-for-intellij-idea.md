@@ -61,13 +61,13 @@ JetBrains 公司下的其他产品包括：
 
 选中一个表达式，然后在菜单中选择 Refactor - Extract - Variable，即可将该表达式提取为一个变量。同理也可以提取为成员、参数、常量等。
 
-![](https://cdn.kelu.org/blog/2017/03/1421151681_4076.png)
+![](https://cdn.kelu.org/blog/2017/03/1421151681_4076.jpg)
 
 ### 快速优化语句
 
 IntelliJ 能帮助你快速优化语句。虽然感觉这个功能不太稳定，也蛮好的。
 
-![](https://cdn.kelu.org/blog/2017/03/1421151682_6823.png)
+![](https://cdn.kelu.org/blog/2017/03/1421151682_6823.jpg)
 
 ### 自定义注释信息
 

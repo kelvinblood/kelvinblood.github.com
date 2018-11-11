@@ -601,7 +601,7 @@ $ jekyll unpublish
 
 [Jekyll Admin](https://github.com/jekyll/jekyll-admin) 是一个 CMS 风格的图形化后台管理插件，可以在本地给用户提供服务。
 
-![](https://github.com/jekyll/jekyll-admin/raw/master/screenshot.png)
+![](https://github.com/jekyll/jekyll-admin/raw/master/screenshot.jpg)
 
 #### Jekyll SEO Tag
 

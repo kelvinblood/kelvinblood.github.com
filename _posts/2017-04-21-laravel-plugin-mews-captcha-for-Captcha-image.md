@@ -12,7 +12,7 @@ tags: php laravel composer
 
 ## 预览
 
-![Preview](https://cdn.kelu.org/blog/2017/04/HYtr744.png)
+![Preview](https://cdn.kelu.org/blog/2017/04/HYtr744.jpg)
 
 ## 安装
 
@@ -177,7 +177,7 @@ Captcha::img('inverse');
     $this->validate($request, [
         'captcha' => 'required|captcha'
     ]);
-    
+
 ## 参考资料
 
 * [mews/captcha 图片验证码解决方案](https://laravel-china.org/topics/2895/extension-recommended-mewscaptcha-image-authentication-code-solution)

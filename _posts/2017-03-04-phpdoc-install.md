@@ -49,11 +49,11 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
 安装完成后提示注册环境变量。在安装目录下会生成 pear_env.reg 文件，双击即可。然后检查是否安装成功：
 
     pear -h
-    
+
 最后注册pear的channel(不知道怎么翻译比较好了)
     
     pear channel-discover pear.phpdoc.org
-    
+
 # 安装 PHPDoc
 
     pear install phpdoc/phpdocumentor
@@ -72,23 +72,23 @@ composer方式尝试之后发现与其它插件依赖冲突，[Can't install wit
 例如：
 
     phpdoc -f baseTags.php -t docs
-    
+
 搭起服务器就可以访问了。或者直接本地打开index.html文件也可以查看。
 
 要想获得更多参数说明， `phpdoc -h`即可。因为phpdoc可以使用模板，可以在官网上选择你中意的模板再导出。默认的样式如下图：
 
-![](https://cdn.kelu.org/blog/2017/03/clean.png)
+![](https://cdn.kelu.org/blog/2017/03/clean.jpg)
 
 tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网上看。
     
 # 小问题    
-    
+
 * GraphViz not installed
 
     在终端运行phpdoc时你可能会遇到如下问题(略过不解决也没问题的样子)：
         
         Unable to find the `dot` command of the GraphViz package. Is GraphViz correctly installed and present in your path?
-            
+    
     这是由于系统没有安装 GraphViz 的原因。官网上下载GraphViz：<http://www.graphviz.org/Download_windows.php>
     然后增加环境变量，例如我的是 `C:\my_pp\Graphviz2.38\bin`
 
@@ -109,7 +109,7 @@ tips：phpdoc的中文文档真的很少，要深入使用还是尽量在官网�
          * @version     v0.0.1 (2017-3-6)
          * @copyright   Copyright (c) 2017, kelu.org
          */
-   
+
 
 # 参考资料
 
