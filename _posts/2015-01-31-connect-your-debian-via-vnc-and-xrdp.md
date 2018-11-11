@@ -14,9 +14,9 @@ tags: linux
 安装x11窗口管理器(jwm)，该窗口下的终端(xterm)，以及vnc服务器(vnc4server)。
 
 	apt-get install jwm xterm vnc4server iceweasel
+	
 
-
-
+JWM是一个简洁实用的X11窗口管理器，Puppy发行版默认的窗口管理器就是用的jwm。使用C语言编写，最小化编译可以仅使用Xlib库，代码精炼，目标文件小巧（只有130多K），足以说明作者的功底。
 JWM是一个简洁实用的X11窗口管理器，Puppy发行版默认的窗口管理器就是用的jwm。使用C语言编写，最小化编译可以仅使用Xlib库，代码精炼，目标文件小巧（只有130多K），足以说明作者的功底。
 项目主页：http://joewing.net/programs/jwm/index.shtml
 
@@ -53,7 +53,7 @@ iceweasel，你可以当成firefox浏览器。
 
 ## 客户端连接
 
-![image](https://cdn.kelu.org/blog/2015/01/vnc-connect.png)
+![image](https://cdn.kelu.org/blog/2015/01/vnc-connect.jpg)
 
 ## 使用windows自带的远程连接
 
@@ -61,7 +61,7 @@ iceweasel，你可以当成firefox浏览器。
 
 在本地就使用Mircosoft Remote Desktop，windows自带，Mac在应用商店也可以免费下载。
 
-![xrdp.png](https://cdn.kelu.org/blog/2015/01/xrdp.png)
+![xrdp.jpg](https://cdn.kelu.org/blog/2015/01/xrdp.jpg)
 
 ## 安装firefox
 

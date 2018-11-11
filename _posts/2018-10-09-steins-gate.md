@@ -6,7 +6,7 @@ tags: steins_gate anime
 
 ---
 
-![Amadeuslogo](https://cdn.kelu.org/blog/2018/10/amadeus.png)
+![Amadeuslogo](https://cdn.kelu.org/blog/2018/10/amadeus.jpg)
 
 刚看完动画版 命运石之门0 ，再次勾起了我2011年疯狂玩 Steins;Gate 游戏+广播剧的感觉。
 
@@ -136,11 +136,11 @@ tags: steins_gate anime
 1. 01 零化域のミッシングリンク Absolute Zero 零化域的缺失之环
 1. 02 闭时曲线のエピグラフ Closed Epigraph 闭时曲线的碑文
 1. 03 双対福音のプロトコル X-day Protocol
-1.  04 亡失流転のソリチュード A Stray Sheep	亡失流转的孤独
+	.  04 亡失流転のソリチュード A Stray Sheep	亡失流转的孤独
 1. 05 非点収差のソリチュード Entangled Sheep 非点收差的孤独
-1. 06 轨道秩序のエクリプス The Orbital Eclipse	轨道秩序的消逝
-1. 07 振电迁移のエクリプス Vibronic Transition	振电跃迁的消逝
-1. 08 二律背反のデュアル Antinomic Dual	二律背反的双重
+	. 06 轨道秩序のエクリプス The Orbital Eclipse	轨道秩序的消逝
+	. 07 振电迁移のエクリプス Vibronic Transition	振电跃迁的消逝
+	. 08 二律背反のデュアル Antinomic Dual	二律背反的双重
 1. 09 永劫回帰のパンドラ Pandora's Box 永劫回归的潘多拉
 1. 10 存在证明のパンドラ Forbidden cubicle 存在证明的潘多拉
 1. 11 存在忘却のパンドラ Sealed Reliquary 存在忘却的潘多拉

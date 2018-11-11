@@ -8,7 +8,7 @@ tags: linux vim
 
 曾经用过比较长一段时间的vim，因为后来一直在windows下开发，也就没怎么用过了。现在平台移到了Linux和Mac，Mac还好各种工具，前段时间试用了Coda，觉得真的挺好用的。虽然如此，在Linux下开发就显得很捉急了，因为都是终端进去敲的。虽然也可以在本地写好了再上传，终究麻烦。而且更重要的一点是——Coda太贵，用不起Orz。
 
-![vim](https://cdn.kelu.org/blog/2015/01/vimScreenShot.png)
+![vim](https://cdn.kelu.org/blog/2015/01/vimScreenShot.jpg)
 
 于是，重操旧业，今晚把vim好好整理了一下，把以前最基本的配置拿了回来。装上了几个简单的插件，就这么先用着了。
 
@@ -66,9 +66,9 @@ tags: linux vim
 	"set autoindent
 	" set textwidth=76		  " 自动换行
 	" ==========通用设置end================
-
-
-
+	
+	
+	
 	" ==========Plugin start================
 	filetype plugin indent on   " 开启插件
 	" filetype on 命令打开文件类型检测功能
@@ -103,7 +103,7 @@ tags: linux vim
 	 endif
 	endfunction
 	autocmd BufWritePre * call RemoveTrailingWhitespace()
+	
 
-
-
+有时你需要复制粘贴，不需要自动缩进，可以使用这个命令进行临时取消自动缩进：`:set noai`
 有时你需要复制粘贴，不需要自动缩进，可以使用这个命令进行临时取消自动缩进：`:set noai`

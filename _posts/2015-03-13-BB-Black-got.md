@@ -30,7 +30,7 @@ POWERVR® SGX图形加速器子系统用于3D图形加速以支持显示和游�
 
 树莓派的推广要远远胜于BBB的感觉。在我买了BBB之后，想为BBB找一个好壳子，一番搜索下来，外设数量之多远超BBB。
 
-![PIvsBBB](https://cdn.kelu.org/blog/2015/03/PIvsBBB.png)
+![PIvsBBB](https://cdn.kelu.org/blog/2015/03/PIvsBBB.jpg)
 
 另外在我看来，BBB大概需要购买一个USB HUB才能更好地使用。目前一个USB接口已经接上了移动硬盘，再也没有额外的位置挂其它东西了。其它的详细对比信息可以参考我前一篇转载的文章。
 
@@ -41,7 +41,7 @@ BBB的盒子中附上了一张简单的使用说明书。BBB可以由5V的电源
 装好驱动后，重启BBB，就可以通过ssh连接了。可以使用以下代码连接：
 
 	ssh root@192.168.7.2
-	
+
 默认root无密码，直接就可以登录了。
 
 ## 一些注意事项
@@ -58,7 +58,7 @@ ssh连接上之后基本就没大问题了。下面记录一下遇到的几个�
 		$ df -h
 		$ umount /dev/sda2
 		$ mount -t hfsplus -o force,rw /dev/sda2 ~/sda2
-		
+	
 	关于mount的更多用法，可以参考这篇文章[Linux mount/unmount命令](http://www.cnblogs.com/xd502djj/p/3809375.html)
 	
 		格式：mount [-参数] [设备名称] [挂载点] 
@@ -97,7 +97,7 @@ ssh连接上之后基本就没大问题了。下面记录一下遇到的几个�
 
 	这已经不是第一次和tmux在一起的不和谐了。具体原因不明。总之结果就是，尽量不进入tmux中进行操作，或者进去之后马上退出来。
 	
-	![image](https://cdn.kelu.org/blog/2015/03/time_wait.png) 
+	![image](https://cdn.kelu.org/blog/2015/03/time_wait.jpg) 
 
 3. E: Sub-process /usr/bin/dpkg returned an error code (1)
 
@@ -143,7 +143,7 @@ ssh连接上之后基本就没大问题了。下面记录一下遇到的几个�
 			    network 10.0.1.0
 			    gateway 10.0.1.1
 		$ service networking restart
-		
+	
 7. 在国内的话使用国内的debian源
 
 		$ vi /etc/apt/sources.list

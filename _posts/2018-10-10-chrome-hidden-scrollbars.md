@@ -12,4 +12,4 @@ tags: chrome windows
 
 将这几项设置为 enable。
 
-![image-20181022午後110711407](https://cdn.kelu.org/blog/tags/scrollbars.png)
+![image-20181022午後110711407](https://cdn.kelu.org/blog/tags/scrollbars.jpg)
