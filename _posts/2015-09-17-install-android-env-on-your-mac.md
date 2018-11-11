@@ -11,7 +11,7 @@ tags: mac android ide
 
 虽然Mac OSX 10.9以后系统就自带了Java 6的环境，由于下面这个原因，必须再装一遍。
 
-![image](https://cdn.kelu.org/blog/2015/09/blog_20141220102933375.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_20141220102933375.jpg)
 
 安装链接  <https://support.apple.com/kb/DL1572?viewlocale=zh_CN&locale=en_US>
 
@@ -23,7 +23,7 @@ tags: mac android ide
 
 
 
-![image](https://cdn.kelu.org/blog/2015/09/blog_AndroidStudio_03.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_AndroidStudio_03.jpg)
 
 
 ## 3. 下载Android studio
@@ -32,7 +32,7 @@ tags: mac android ide
 
 安装好以后第一次的话会进入到设置向导页，直接选择“Standard”, 点击“Finish”按钮。然后会自动下载依赖组件，如下图。
 
-![image](https://cdn.kelu.org/blog/2015/09/blog_studio_wizard4.png.jpeg)
+![image](https://cdn.kelu.org/blog/2015/09/blog_studio_wizard4.jpg.jpeg)
 
 这个过程需要翻墙，而且依赖你的网速，时间有点久，大家耐心等待…
 

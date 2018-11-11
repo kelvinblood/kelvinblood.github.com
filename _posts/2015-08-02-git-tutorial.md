@@ -64,7 +64,7 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 	color.interactive=auto
 	color.diff=auto
 	...
-	
+
 有时候会看到重复的变量名，那就说明它们来自不同的配置文件（比如 /etc/gitconfig 和 ~/.gitconfig），不过最终 Git 实际采用的是最后一个。
 
 也可以直接查阅某个环境变量的设定。
@@ -116,16 +116,16 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 	$ git reset HEAD benchmarks.rb
 	$ git reset --soft xxx
 	$ git reset --hard xxx
-	
+
 ### 提交前后其他操作
 
 	$ git diff		# 看暂存前后的变化
 	$ git diff --cached # 查看已经暂存起来的变化：
 	$ git rm 记录此次移除文件
 	$ git mv file_from file_to
-	
+
 ### .gitignore
-	
+
 	# 此为注释 – 将被 Git 忽略
 	# 忽略所有 .a 结尾的文件
 	*.a
@@ -158,7 +158,7 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 		--all- 显示所有
 	$ git log -n 1 --stat 	# 查看上次提交影响的文件
 	$ git reflog 			# 本地的历史节点
-	
+
 `git reflog`列出了head曾经指向过的一系列commit。要明白它们只存在于你本机中；而不是你的版本仓库的一部分，也不包含在push和merge操作中。
 	
 	log的一些选项以及释义
@@ -175,13 +175,13 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 	--graph	显示 ASCII 图形表示的分支合并历史。
 	--pretty	使用其他格式显示历史提交信息。可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
 	--oneline	--pretty=oneline --abbrev-commit 的简化用法。
-	
+
 ### 查看修改历史
 
 当事情出错时，先去指责别人是人类的天性之一。如果你的产品服务器挂了，使用git blame命令可以很容易找出罪魁祸首。这个命令可以将文件中的每一行的作者、最新的变更提交和提交时间展示出来。
 	
 	$ git blame [file_name]
-	
+
 ## 分支
 
 ### 本地分支
@@ -193,7 +193,7 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 	$ git merge iss53		# 合并分支到当前分支
 
 ### 远程分支
-	
+
 	$ git push origin dev  # 生成远程dev分支
 	$ git push origin feature
 	$ git branch -r 		# 查看远程分支
@@ -226,7 +226,7 @@ git stash apply之后再git stash list会发现，apply后的stash还在stash列
 merge是把两个分支最新的快照和二者最新的共同祖先进行三方合并，产生一个新的提交对象。
 
 	$ git merge issueFix
-	
+
 如果没有冲突的话，merge完成。有冲突的话，git会提示那个文件中有冲突，比如有如下冲突：
 	
 	<<<<<<< HEAD:test.c	
@@ -234,7 +234,7 @@ merge是把两个分支最新的快照和二者最新的共同祖先进行三方
 	=======
 	printf (“test2″);
 	>>>>>>> issueFix:test.c
-	
+
 merge有两个参数，
 
 `git merge --no-ff`指的是强行关闭fast-forward方式。
@@ -259,14 +259,14 @@ cherry-pick其实在工作中还挺常用的，一种常见的场景就是，比
 
 比如说，我们在master分支上继续做两次提交，第一次添加一行”test 10”，`git commit -am "commit 10"`，第二次添加“test 11”，到达如下图的状态：
 
-![图25](https://cdn.kelu.org/blog/2015/08/git-notes-25.png)
+![图25](https://cdn.kelu.org/blog/2015/08/git-notes-25.jpg)
 
 这个时候我们发现，哦NO，我们不应该直接更改master分支，我们应该在自己的分支上做提交。这个时候先新建一个分支`git checkout -b branch3 1a222c3`，注意这里的最后一个参数是新分支的起点，也就是说，新的分支branch3是从“commit 8,9”开始的，现在我们需要把刚才的两次提交移动到新的分支上。运行`git cherry-pick 0bda20e 1a04d5f`，命令行会给出提示两个commit被复制到了当前分支上，此时SourceTree的状态如下图：
 
-![图26](https://cdn.kelu.org/blog/2015/08/git-notes-26.png)
+![图26](https://cdn.kelu.org/blog/2015/08/git-notes-26.jpg)
 确定这两个commit被复制到指定分支以后，在master分支上将这两个commit删除。先切回master分支：`git checkout master`，运行`git reset --hard 1a222c3`，此时SourceTree的状态图为：
 
-![图27](https://cdn.kelu.org/blog/2015/08/git-notes-27.png)
+![图27](https://cdn.kelu.org/blog/2015/08/git-notes-27.jpg)
 两个commit被成功的从master分支移动到了branch3分支。
 
 ### 分支衍合rebase
@@ -275,7 +275,7 @@ rebase是回到两个分支的共同祖先，根据要进行衍合的分支dev�
 
 	$ git checkout dev
 	$ git rebase master
-	
+
 ### 分支策略
 > 在实际开发中，我们应该按照几个基本原则进行分支管理：
 > 
@@ -292,8 +292,8 @@ Git提供了archive命令，可以导出一个干净的项目文档，不包括�
 
 	git archive --format zip -o kelu.zip HEAD
 	git archive -–format zip -o site-$(git log –pretty=format:”%h” -1).zip HEAD
-	
 
+未完待续......
 未完待续......
 
 [DO]:https://www.digitalocean.com/?refcode=f595b7f62cc7

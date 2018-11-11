@@ -20,7 +20,7 @@ BeagleBone Black吃灰已久。留着实在可惜。最近又拿出来捣弄了�
 * 第三步：打开 [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) ，选择镜像和目标SD卡，烧录到SD卡中。
 
 
- ![Win32DiskImager烧写](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-raspi-01-2.png)
+ ![Win32DiskImager烧写](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-raspi-01-2.jpg)
 
 
 烧写完成之后将SD卡插入到树莓派的卡槽中，上电启动，我们可以通过串口或者通过ip来登陆。
@@ -46,28 +46,27 @@ BeagleBone Black吃灰已久。留着实在可惜。最近又拿出来捣弄了�
 
 （1）打开网络连接，找到主机外网的网络连接（如下图中，我的就是本地连接），以及BBB的usb0在主机上的的网络连接（如下图，本地连接2）
 
-![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-164943555.png)
+![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-164943555.jpg)
 
 （2）这时需要修改上图中的本地连接2（这里依据自己机器的实际显示）TCP/IPv4属性，BBB连接主机后，它会默认手动配置ip地址和子网掩码，所以需要把这里改成“自动获取IP地址”和“自动获取DNS服务器地址”，修改后，确定保存，如下图所示：
 
-![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-165546942.png)
+![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-165546942.jpg)
 
 （3）修改本地连接的共享属性，将网络共享给本地连接2，确定保存，如下图：
 
-![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-171607394.png)
+![](https://cdn.kelu.org/blog/2016/02/blog_2016-02-28-171607394.jpg)
 
 （4）使用putty远程连接BBB上的系统，配置BB-Black的路由和DNS等，输入指令：
 
 	route add default gw 192.168.7.1：
 
-
+（5）需要配置域名解析，编辑文件  /etc/resolv.conf，使用vim打开之后，增加以下内容：
 （5）需要配置域名解析，编辑文件  /etc/resolv.conf，使用vim打开之后，增加以下内容：
 
 	nameserver 8.8.8.8
 
-
 （6）测试一下是否网络共享了，输入命令：ping www.baidu.com，就OK了
-
+（6）测试一下是否网络共享了，输入命令：ping www.baidu.com，就OK了
 
 ---
 

@@ -7,7 +7,7 @@ tags: linux locale
 
 今天新开了一个[digital ocean][ocean]的vps，发现了这个提醒：
 
-	
+
 	WARNING! Your environment specifies an invalid locale.
 	 This can affect your user experience significantly, including the
 	 ability to manage packages. You may install the locales by running:
@@ -20,7 +20,7 @@ tags: linux locale
 	   apt-cache search "^language-pack-[a-z][a-z]$"
 	To disable this message for all users, run:
 	   sudo touch /var/lib/cloud/instance/locale-check.skip
-	
+
 输入`dpkg-reconfigure`显示如下提醒
 
 	perl: warning: Setting locale failed.
@@ -41,12 +41,12 @@ tags: linux locale
 在文件/etc/environment中添加如下内容
 
 	LC_ALL="en_US.utf8"
-	
+
 输入`dpkg-reconfigure locales`按照提示选中一下内容
 
-![image](https://cdn.kelu.org/blog/2015/09/blog_屏幕快照%202015-09-20%20下午5.29.45.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_2015-09-20-5.29.45.jpg)
 
-![image](https://cdn.kelu.org/blog/2015/09/blog_屏幕快照%202015-09-20%20下午5.30.05.png)
+![image](https://cdn.kelu.org/blog/2015/09/blog_2015-09-20-5.30.05.jpg)
 
 完成以上步骤后重启系统即可。
 
@@ -71,3 +71,4 @@ digital ocean是一个新兴的vps运营商，如果你也打算使用，可以�
 
 
 [ocean]:https://www.digitalocean.com/?refcode=f595b7f62cc7
+
