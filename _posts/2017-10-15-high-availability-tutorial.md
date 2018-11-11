@@ -4,7 +4,7 @@ title: 高可用 入门
 category: tech
 tags: architecture
 ---
-![](https://cdn.kelu.org/blog/tags/software_arch.png)
+![](https://cdn.kelu.org/blog/tags/software_arch.jpg)
 
 这篇记录一些高可用的资料。
 
@@ -26,6 +26,6 @@ tags: architecture
 * [Docker 镜像优化与最佳实践](http://www.jianshu.com/p/0124da759a9c)
 * [浅谈web应用的负载均衡、集群、高可用(HA)解决方案](http://aokunsang.iteye.com/blog/2053719)
 * [从 Gitlab 事件解读 IT 审计 - 点融黑帮](https://36kr.com/p/5062982.html)
-* [金山云容器解决方案](https://fe.ksyun.com/web/pdf/docker.pdf)		
+	 [金山云容器解决方案](https://fe.ksyun.com/web/pdf/docker.pdf)		
 * [基于Docker容器的，Jenkins、GitLab构建持续集成CI](https://yq.aliyun.com/articles/91433)
 * [GitLab High Availability](https://about.gitlab.com/high-availability/)

@@ -48,10 +48,10 @@ Usage: tcpping [-d] [-c] [-C] [-w sec] [-q num] [-x count] ipaddress [port]
 例如：
 
 	tcpping xxx.com
-
+	
 	tcpping xxx.com 12345
 
-![](https://cdn.kelu.org/blog/2017/11/tcpping.png)
+![](https://cdn.kelu.org/blog/2017/11/tcpping.jpg)
 
 # 参考资料
 

@@ -40,11 +40,11 @@ tags: operations
 
 顺便说一句，Alexa是Amazon的资产了。
 
-![](https://cdn.kelu.org/blog/2017/12/alexa.png)
+![](https://cdn.kelu.org/blog/2017/12/alexa.jpg)
 
 上图：我的博客的Alexa排名，这几个月过山车一般的情况，不知道是什么鬼，不过对比下图（我的GA数据）总体趋势似乎还行。流量没有太大变化其实。
 
-![](https://cdn.kelu.org/blog/2017/12/CWA-traffic-1year.png)
+![](https://cdn.kelu.org/blog/2017/12/CWA-traffic-1year.jpg)
 
 上图，与Alexa数据相对应的时间的我的GA的数据
 
@@ -54,21 +54,21 @@ Alexa不会告诉你某个网站的具体流量，不过，有别的工具可以
 
 这个工具是wolframalpha.com，实际上它是一个简明百科知识的搜索引擎。在这个引擎中，当你填入一个域名的时候，它会展示Alexa认为这个网站的流量的数量的多少。在下面的例子中，看起来我的网站流量统计的偏多了。
 
-![](https://cdn.kelu.org/blog/2017/12/wolframalpha.png)
+![](https://cdn.kelu.org/blog/2017/12/wolframalpha.jpg)
 
 **Similarweb**
 
 Similarweb是一家以色列的公司。他们是目前全球为数不多的专门提供全站流量竞争数据的提供商。这个工具是付费的。免费版本也可以凑合用，但数据无法细分，只能看概貌，而且流量较少的网站的具体流量数据没有（实际上是有的，只是在付费版本中才出现，免费版被隐去了）。付费版本的数据则非常精细，几乎囊括所有网站，且有总数，也有不同来源的细分，准确度也不错。
 
-![](https://cdn.kelu.org/blog/2017/12/similarweb-overall.png)
+![](https://cdn.kelu.org/blog/2017/12/similarweb-overall.jpg)
 
 上图：流量数量大小说得过去。UV这块似乎略微偏小一点。（Similarweb的付费版）
 
-![](https://cdn.kelu.org/blog/2017/12/similarweb-trendsl.png)
+![](https://cdn.kelu.org/blog/2017/12/similarweb-trendsl.jpg)
 
 上图：趋势与我的GA数据刚好反过来。另外，国家数据美国偏多，中国偏少。可能跟数据来自于美国合作方或者自己的panel更多用户在美国有关（纯属猜测）。（付费版）
 
-![](https://cdn.kelu.org/blog/2017/12/similarweb-sources.png)
+![](https://cdn.kelu.org/blog/2017/12/similarweb-sources.jpg)
 
 上图：流量细分数据比较准确。（付费版）
 
@@ -76,7 +76,7 @@ Similarweb是一家以色列的公司。他们是目前全球为数不多的专�
 
 可用性不高。只有大站的排名，没有中小网站。查询网站，不能输入网址，得输入网站的名字。在查询较大网站的流量时，数据可供参考。
 
-![](https://cdn.kelu.org/blog/2017/12/iresearch.png)
+![](https://cdn.kelu.org/blog/2017/12/iresearch.jpg)
 
 上图：艾瑞的网站排名，注意查询框中只能填入网站的名字。
 
@@ -90,7 +90,7 @@ Similarweb是一家以色列的公司。他们是目前全球为数不多的专�
 
 09年成立的站长工具站。跟ChinaZ站长之家的定位比较类似，SEO部分的数据感觉还比较准。
 
-![](https://cdn.kelu.org/blog/2017/12/aizhan.png)
+![](https://cdn.kelu.org/blog/2017/12/aizhan.jpg)
 
 上图：爱站的流量工具。SEO的数据准确性似乎相当不俗。
 
@@ -100,11 +100,11 @@ Similarweb是一家以色列的公司。他们是目前全球为数不多的专�
 
 具体查询的地址在：http://rank.chinaz.com/和http://rank.chinaz.com/baidumobile。
 
-![](https://cdn.kelu.org/blog/2017/12/chinaz-pc.png)
+![](https://cdn.kelu.org/blog/2017/12/chinaz-pc.jpg)
 
 上图：站长之家的搜索引擎自然排名的流量估计工具（PC流量）
 
-![](https://cdn.kelu.org/blog/2017/12/chinaz-mobile.png)
+![](https://cdn.kelu.org/blog/2017/12/chinaz-mobile.jpg)
 
 上图：站长之家的搜索引擎自然排名的流量估计工具（移动端流量）
 
@@ -116,13 +116,13 @@ SEMRush是我自己比较喜欢的一个工具，也是付费的，不过就算�
 
 另外，用于查看中国网站的流量，不可用。
 
-![](https://cdn.kelu.org/blog/2017/12/semrush.png)
+![](https://cdn.kelu.org/blog/2017/12/semrush.jpg)
 
 上图：注意SEMRush没有中国流量数据。
 
 不过，如果网站流量主要是国外这几个发达国家，数据还是相当有参考价值的。而且不仅仅只有SEO流量数据，也有PPC（付费搜索排名）的流量数据。
 
-![](https://cdn.kelu.org/blog/2017/12/semrush-basic-data.png)
+![](https://cdn.kelu.org/blog/2017/12/semrush-basic-data.jpg)
 
 SEMRush这个工具比较推荐。
 
@@ -132,7 +132,7 @@ SEMRush这个工具比较推荐。
 
 同样，关于中国的数据完全不靠谱。海外网站的流量则较为可靠。
 
-![](https://cdn.kelu.org/blog/2017/12/ahrefs.png)
+![](https://cdn.kelu.org/blog/2017/12/ahrefs.jpg)
 
 事实上，用SEMRush和Ahrefs来查询流量都不是最主要的。他们的主要功能是提供SEO和SEM相关竞争情报。若单独只是为了查询流量，可以不购买，用免费版也可以达到目的。
 
@@ -148,7 +148,7 @@ SEMRush这个工具比较推荐。
 
 本来对这类工具不是抱很大希望，但是没想到，siteprice提供的网站流量跟我的网站的实际流量很接近！
 
-![](https://cdn.kelu.org/blog/2017/12/siteprice.png)
+![](https://cdn.kelu.org/blog/2017/12/siteprice.jpg)
 
 ### 第四种方法：综合使用上面的方法
 
@@ -172,4 +172,4 @@ Avinash的网站呢？——Kaushik.net，一天的流量应该在3000-6000之�
 
 ### 最后一个快速的总结
 
-![](https://cdn.kelu.org/blog/2017/12/summary.png)
+![](https://cdn.kelu.org/blog/2017/12/summary.jpg)

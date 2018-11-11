@@ -34,7 +34,7 @@ tags:
 
 最后，如果没有特别的原因 [4](http://binb.tw/ebookmag/00/00.html#fn:4 "see footnote")，中文原则上都使用全形标点。
 
-![](https://cdn.kelu.org/blog/2017/10/001.png)
+![](https://cdn.kelu.org/blog/2017/10/001.jpg)
 
 繁体与简体标点的位置不同
 
@@ -48,13 +48,13 @@ tags:
 *   前面所提缺字会让内文遇到一些字时显得坑坑疤疤，就像剪贴的黑函一样。
 *   台湾、日本、香港、中国使用的字形不同，而最好都能用该区域的标准字。
 
-![](https://cdn.kelu.org/blog/2017/10/002.png)
+![](https://cdn.kelu.org/blog/2017/10/002.jpg)
 
 “角”字简繁之间有字形差
 
 下面是 OS X / iOS / Windows 与 Android 中的中文系统字型，让你能够确实选对。有一些只预装在新版系统 [6](http://binb.tw/ebookmag/00/00.html#fn:6 "see footnote") 上，而在 iOS App 上，可能要做些[额外的工夫](https://developer.apple.com/Library/ios/samplecode/DownloadFont/Listings/DownloadFont_ViewController_m.html#//apple_ref/doc/uid/DTS40013404-DownloadFont_ViewController_m-DontLinkElementID_6)才能从 Apple 下载这些字型使用。
 
-![](https://cdn.kelu.org/blog/2017/10/003.png)
+![](https://cdn.kelu.org/blog/2017/10/003.jpg)
 
 各作业系统中文系统字型列表
 
@@ -143,7 +143,7 @@ p { margin-after: 0.5em;}
 
 一般中文内文常用 serif 字体，像是明 / 宋体。虽然 sans-serif 字体更_现代_，但在印刷书的世界里，却鲜少看到。[11](http://binb.tw/ebookmag/00/00.html#fn:11 "see footnote")
 
-![](https://cdn.kelu.org/blog/2017/10/006.png)
+![](https://cdn.kelu.org/blog/2017/10/006.jpg)
 
 传统印刷书使用楷体的状况
 出处：大块文化《叶嘉莹作品集》
@@ -156,11 +156,11 @@ p { margin-after: 0.5em;}
 
 对齐（Justification）是让文章符合中文排版原则的数位解决之道，但这方法不是时时完美。有一个简单能够重现的问题：
 
-![](https://cdn.kelu.org/blog/2017/10/007.png)
+![](https://cdn.kelu.org/blog/2017/10/007.jpg)
 
 对齐拉宽字距
 
-![](https://cdn.kelu.org/blog/2017/10/008.png)
+![](https://cdn.kelu.org/blog/2017/10/008.jpg)
 
 Break-all 强制对齐
 
@@ -187,7 +187,7 @@ p { word-break: break-all; }
 
 对于中文文章的内文而言，你不需要调整字距。有些香港的网站会为文章加上字距，但绝对不是好的做法。
 
-![](https://cdn.kelu.org/blog/2017/10/009.png)
+![](https://cdn.kelu.org/blog/2017/10/009.jpg)
 
 增加字距会让读者无法确认行文方向
 
@@ -197,7 +197,7 @@ p { word-break: break-all; }
 
 ## 十、繁转简没问题，简转繁不 ok
 
-![](https://cdn.kelu.org/blog/2017/10/010.png)
+![](https://cdn.kelu.org/blog/2017/10/010.jpg)
 
 简繁常用字的对应表
 
