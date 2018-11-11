@@ -23,24 +23,24 @@ PAC自动代理属于智能判断模式，它的优点有：
 
 软件所在的同级目录下有 pac.txt 和 user-rule.txt 的文件。
 
-![](https://cdn.kelu.org/blog/2017/09/proxy1.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy1.jpg)
 
 
-![](https://cdn.kelu.org/blog/2017/09/proxy2.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy2.jpg)
 
 依葫芦画瓢，把你想要自定义的网址填进去，可以在 pac.txt 上改，也可以在 user-rule.txt上改：
 
-![](https://cdn.kelu.org/blog/2017/09/proxy3.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy3.jpg)
 
-![](https://cdn.kelu.org/blog/2017/09/proxy4.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy4.jpg)
 
 # Mac
 
 Mac 下直接如下图在『编辑用户自定义规则』里进行修改，
 
-![](https://cdn.kelu.org/blog/2017/09/proxy5.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy5.jpg)
 
-![](https://cdn.kelu.org/blog/2017/09/proxy6.png)
+![](https://cdn.kelu.org/blog/2017/09/proxy6.jpg)
 
 比如我想把 bt.byr.cn python.org 这两个网站收录进自定义规则里，那么我应该填入
 

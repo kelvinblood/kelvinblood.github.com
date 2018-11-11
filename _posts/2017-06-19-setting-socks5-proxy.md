@@ -11,19 +11,19 @@ tags: proxy
 
 Windows 如下：
 
-![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222642.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222642.jpg)
 
-![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222614.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222614.jpg)
 
-![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222749.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222749.jpg)
 
 Mac 如下:
 
-![](https://cdn.kelu.org/blog/2017/06/22.28.09.png)
+![](https://cdn.kelu.org/blog/2017/06/22.28.09.jpg)
 
-![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222859.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222859.jpg)
 
-![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222930.png)
+![](https://cdn.kelu.org/blog/2017/06/QQ20170703-222930.jpg)
 
 
 # git
@@ -33,20 +33,20 @@ Mac 如下:
     设置
     
      如果你的代理是 socks5
-     
+    
         git config --global http.proxy 'socks5://127.0.0.1:1080' 
         git config --global https.proxy 'socks5://127.0.0.1:1080'
-     
+    
      如果是 http
-     
+    
         git config --global http.proxy "http://127.0.0.1:6667"
         git config --global https.proxy "http://127.0.0.1:6667"
-        
+    
      取消设置  
         
         git config --global --unset http.proxy
         git config --global --unset https.proxy
-        
+    
 * 设置SSH协议
 
     新建/编辑 `~/.ssh/config` 文件
@@ -56,10 +56,10 @@ Mac 如下:
         Host github.com
         HostName github.com
         User git
-
+    
         # 如果是 HTTP 代理，使用下面这行，并把 proxyport 改成自己的 http 代理的端口
         ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=6667
-
+    
         # 如果是 socks5 代理，则把下面这行取消注释，并把 6666 改成自己 socks5 代理的端口
         ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
 
@@ -80,7 +80,7 @@ Mac 如下:
 
 重启 terminal 生效。可以通过curl -i http://ip.cn查看IP改变来测试是否生效
 
-![](https://cdn.kelu.org/blog/2017/06/8.01.53.png)
+![](https://cdn.kelu.org/blog/2017/06/8.01.53.jpg)
 
 # 参考资料
 

@@ -18,7 +18,7 @@ laravel 5.5也发布了一段时间了。 这是 laravel 第二个 LTS 版本，
 
 当前本文的修改时间是2017-10-03 15:27:29
 
-![](https://cdn.kelu.org/blog/2017/10/larvave_category.png)
+![](https://cdn.kelu.org/blog/2017/10/larvave_category.jpg)
 
 相同的部分我就不多赘述了，大部分只点出目前看到的不同的地方。
 

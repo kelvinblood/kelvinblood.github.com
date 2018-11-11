@@ -14,7 +14,7 @@ tags: php
 
 如图：
 
-![](https://cdn.kelu.org/blog/2017/07/20.24.20.png)
+![](https://cdn.kelu.org/blog/2017/07/20.24.20.jpg)
 
 或者是查看 php 版本时，`php -v` 也会出现这样的错误。
 
@@ -27,7 +27,7 @@ PHP有两种方式添加扩展模块， 一种是直接编译进了PHP，另外�
         --with-bz2 \
         --with-curl \
         --with-xsl
-        
+
 以下是共享模式添加的示例：
 
     ./configure --prefix /usr/share/php7  \
@@ -45,8 +45,8 @@ PHP有两种方式添加扩展模块， 一种是直接编译进了PHP，另外�
     ;extension=simplexml.so
     ;extension=session.so
     ;extension=exif.so
-    
-    
+
 # 参考资料 
-    
+# 参考资料 
+
 * [PHP Warning: Module 'modulename' already loaded in Unknown on line 0](http://www.somacon.com/p520.php)

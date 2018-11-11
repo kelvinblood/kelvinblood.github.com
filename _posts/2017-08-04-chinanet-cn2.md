@@ -12,7 +12,7 @@ tags:  vps
 
 中国电信在全球部署超过40个POP节点(关键的交换中心)，节点如图：
 
-![](https://cdn.kelu.org/blog/2017/08/1400483105827.png)
+![](https://cdn.kelu.org/blog/2017/08/1400483105827.jpg)
 
 > 资料来源：[中国电信集团公司](http://www.chinatelecomglobal.com/product/detail.html?cate_id=900003&lang=zh)
 
@@ -50,13 +50,13 @@ CN2在香港、东京、新加坡、伦敦、法兰克福、纽约、华盛顿�
 
 1. 可以上 <http://www.ipip.net/traceroute.php> 进行查询，例如：
 
-	![](https://cdn.kelu.org/blog/2017/08/QQ20170805-024741.png)
+	![](https://cdn.kelu.org/blog/2017/08/QQ20170805-024741.jpg)
 
 	注意起始节点不要选 BGP 的节点。要不然可能会跑其他运营商那而不是电信的节点，测不出来就没意义了。
 
 1. 也可以使用 mtr 命令进行查询，从本地测试服务器ip是去程，在服务器上测试本地 ip是回程，可以都测一下。不知道为什么我的本地测试显示的不对，可能是本地用的代理的原因？（摊手
 
-	![](https://cdn.kelu.org/blog/2017/08/2017-08-05-3.02.33.png)
+	![](https://cdn.kelu.org/blog/2017/08/2017-08-05-3.02.33.jpg)
 
 结论：
 
@@ -68,17 +68,17 @@ CN2北京出口到伦敦，上海出口到圣何塞、洛杉矶、法兰克福�
 
 # 理论知识
 
-![](https://cdn.kelu.org/blog/2017/08/1.png)
+![](https://cdn.kelu.org/blog/2017/08/1.jpg)
 
 ![](https://cdn.kelu.org/blog/2017/08/2.jpg)
 
-![](https://cdn.kelu.org/blog/2017/08/3.png)
+![](https://cdn.kelu.org/blog/2017/08/3.jpg)
 
-![](https://cdn.kelu.org/blog/2017/08/4.png)
+![](https://cdn.kelu.org/blog/2017/08/4.jpg)
 
-![](https://cdn.kelu.org/blog/2017/08/5.png)
+![](https://cdn.kelu.org/blog/2017/08/5.jpg)
 
-![](https://cdn.kelu.org/blog/2017/08/6.png)
+![](https://cdn.kelu.org/blog/2017/08/6.jpg)
 
 # 参考资料
 
