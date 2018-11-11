@@ -12,28 +12,27 @@ tags: mac ftp
 默认的本地目录是home。 输入help即可获得所有命令的帮助。
 
 1. 连接ftp服务器
-	
-	man ftp 可以看到有这些信息。
-	
-		NAME
-		     ftp -- Internet file transfer program
-		
-		SYNOPSIS
-		     ftp [-46AadefginpRtvV] [-N netrc] [-o output] [-P port] [-q quittime]
-		         [-s srcaddr] [-r retry] [-T dir,max[,inc]] [[user@]host [port]]
-		         [[user@]host:[path][/]] [file:///path]
-		         [ftp://[user[:password]@]host[:port]/path[/][;type=X]]
-		         [http://[user[:password]@]host[:port]/path] [...]
-		     ftp -u URL file [...]
-		     
-	连接服务器的话基本上就用到上面的讯息了。原本没有看man手册，一直使用
-	
-		ftp user@xxx.com port
-	
-	每次都要输入密码。后来还是用了下面这个更加简单的
-	
-		ftp ftp://user:passwd@xxx.com:port
-	
+
+  man ftp 可以看到有这些信息。
+
+  	NAME
+  	     ftp -- Internet file transfer program
+  	
+  	SYNOPSIS
+  	     ftp [-46AadefginpRtvV] [-N netrc] [-o output] [-P port] [-q quittime]
+  	         [-s srcaddr] [-r retry] [-T dir,max[,inc]] [[user@]host [port]]
+  	         [[user@]host:[path][/]] [file:///path]
+  	         [ftp://[user[:password]@]host[:port]/path[/][;type=X]]
+  	         [http://[user[:password]@]host[:port]/path] [...]
+  	     ftp -u URL file [...]
+
+  连接服务器的话基本上就用到上面的讯息了。原本没有看man手册，一直使用
+
+  	ftp user@xxx.com port
+
+  每次都要输入密码。后来还是用了下面这个更加简单的
+
+  	ftp ftp://user:passwd@xxx.com:port
 
 2. 浏览文件
 	
@@ -59,7 +58,6 @@ tags: mac ftp
 	
 		ftp> bye
 
-	
 
 5. 大部分的命令如下，可敲入`man ftp`获得
 	
@@ -97,7 +95,7 @@ tags: mac ftp
 		put “*.png”
 		quit
 		ftpEnd
-
+	
 		#!/bin/bash
 		ftp -d krypted.com << ftpEnd
 		prompt
@@ -112,7 +110,7 @@ tags: mac ftp
 	%M – the hostname of the FTP server
 	%m – the hostname only up to the .
 	%n – the username used for the FTP server
-	
+
 最后有一个问题，为什么老是有不明的人/机器想登陆我的FTP？= =不过自己也是只有使用的时候才会开。
 
-![ftp-log](https://cdn.kelu.org/blog/2015/02/FTP-Log.png)
+![ftp-log](https://cdn.kelu.org/blog/2015/02/FTP-Log.jpg)

@@ -9,7 +9,7 @@ tags: git oschina
 
 然而，在服务器上每一次拉取代码都要输入密码，比较烦人。
 
-![](https://cdn.kelu.org/blog/2016/06/QQ截图20160621231034.png)
+![](https://cdn.kelu.org/blog/2016/06/QQ截图20160621231034.jpg)
 
 不过为了方便部署，我还是把记住密码的功能打开了。下面是解决办法。
 
@@ -24,7 +24,6 @@ tags: git oschina
         git config --global credential.helper store # 长期存储密码
         git config --global credential.helper cache # 设置记住密码（默认15分钟）
         git config credential.helper 'cache --timeout=3600' # 自己设置时间
-
 
 
 ---
