@@ -9,7 +9,7 @@ style: summer
 
 今天用 postgresql 的默认账号 postgres，想新建一个角色然后新建数据库，竟然报错：
 
-![](https://cdn.kelu.org/blog/2017/09/pg1.png)
+![](https://cdn.kelu.org/blog/2017/09/pg1.jpg)
 
 	ERROR:  must be member of role "ttfix"
 
@@ -17,7 +17,7 @@ style: summer
 
 比较简单的解决办法是在新建用户后，将新用户的权限赋予当前用户，再进行其他操作。具体如下：
 
-![](https://cdn.kelu.org/blog/2017/09/pg2.png)
+![](https://cdn.kelu.org/blog/2017/09/pg2.jpg)
 
 	GRANT "ttfix" to postgres;
 	CREATE DATABASE "ttfix" owner "ttfix";

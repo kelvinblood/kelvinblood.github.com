@@ -84,7 +84,7 @@ BIND VIEW*ZONE模型，也就是线路*域名的意思，线路多了，数据�
 
 其解析一个域名的原理思维图如下：
 
-![dnspod-sr](https://cdn.kelu.org/blog/2017/09/dnspod-sr.png)
+![dnspod-sr](https://cdn.kelu.org/blog/2017/09/dnspod-sr.jpg)
 
 从DNSPOD官方博客来看其引入本地内存hash表缓存，可以加快本地解析速度 。其中几个支撑模块的做用分别如下：
 

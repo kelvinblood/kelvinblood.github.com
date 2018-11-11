@@ -10,7 +10,7 @@ tags: linux aliyun
 
 阿里云盾从诞生之初就陆续出现了一些问题，有两次闹的比较大，一次是误删文件：
 
-![](https://cdn.kelu.org/blog/2017/09/18171441129022.png)
+![](https://cdn.kelu.org/blog/2017/09/18171441129022.jpg)
 
 知乎上也有相关的讨论：[如何评论阿里云云盾负责人的这篇《危机时刻，我只心疼我们的客户》？](https://www.zhihu.com/question/35329012)
 
