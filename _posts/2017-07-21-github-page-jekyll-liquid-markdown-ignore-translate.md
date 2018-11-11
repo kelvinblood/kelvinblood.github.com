@@ -8,6 +8,6 @@ tags:  github markdown jekyll
 
 用下面的包裹不需要解释的代码即可。
 
-![](https://cdn.kelu.org/blog/2017/07/2017-07-30-8.18.10.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-30-8.18.10.jpg)
 
 参考 [如何让 MarkDown 不解析某些内容？](https://www.v2ex.com/t/323402)

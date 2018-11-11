@@ -51,13 +51,13 @@ tags: politics zhihu
 
 ![](https://cdn.kelu.org/blog/2017/07/v2-200b1f55e969684f177999fbad791a13.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-38c91a298da164c07e5b2e41a93c1412.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-38c91a298da164c07e5b2e41a93c1412.jpg)
 
 ![](https://cdn.kelu.org/blog/2017/07/v2-fcde9d61dbd3afed0d3b98b19d01999d.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-2349d4a7900b47a38dfe5b3edf9973bd.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-2349d4a7900b47a38dfe5b3edf9973bd.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-4c13e7135b16c01098d42f55da6978dc.png)  
+![](https://cdn.kelu.org/blog/2017/07/v2-4c13e7135b16c01098d42f55da6978dc.jpg)  
 
 那么香港究竟是什么？
 
@@ -91,17 +91,17 @@ Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《G
 
 然而电影的主角，草薙素子少校是一个几乎完完全全的生化人，对于ta（1995年的电影中草雉素子角色的设定是“女性化而非女性”，和漫画中不同）而言，这些问题就很现实了。请看下面一段发生在城市外围运河中的对话：
 
-![](https://cdn.kelu.org/blog/2017/07/v2-8ad8d5782a47bfb575557513dc15f4f5.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-7c86c3d05307672f8824e0cd5768d554.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-a5107095a38a0940b8dacab2ce65a292.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-1f1e53b1b2ca3ea23aed2877f8e42cad.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-cc748944f10eb0ab5ac1d15786af344a.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-710da1d93d0f1666b60a7c9c9986133b.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-459354beafb7e1e5df8a9cb2b2a8b06c.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-929e0c9f0f538e36a745d4a5622051a4.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-818dce2620f6db8b6bf9ecb9d5a1c6fa.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-358feb04679c27c1730199995ad2389a.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-8ad8d5782a47bfb575557513dc15f4f5.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-7c86c3d05307672f8824e0cd5768d554.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-a5107095a38a0940b8dacab2ce65a292.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-1f1e53b1b2ca3ea23aed2877f8e42cad.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-cc748944f10eb0ab5ac1d15786af344a.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-710da1d93d0f1666b60a7c9c9986133b.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-459354beafb7e1e5df8a9cb2b2a8b06c.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-929e0c9f0f538e36a745d4a5622051a4.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-818dce2620f6db8b6bf9ecb9d5a1c6fa.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-b3d0850f74de3a99fe9ffc1e7e8bd14f.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-358feb04679c27c1730199995ad2389a.jpg)
 
 > **同事：我们又没有签卖身契！**
 > 
@@ -113,43 +113,43 @@ Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《G
 
 随后，突然出现了一个用着素子嗓音，但又完全不同的声音同时回响在素子和同事的脑海中：
 
-![](https://cdn.kelu.org/blog/2017/07/v2-d81623643c57588600d4aa4b22dee0e2.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-c36eacf07d1d574f782236b02c03e55b.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-d81623643c57588600d4aa4b22dee0e2.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-c36eacf07d1d574f782236b02c03e55b.jpg)
 
 > **就像我们互相透过镜子对视，而我们看到的，只是一个模糊的影像。  
 > **
 
 素子很错愕，回头，将目光投向了城市
 
-![](https://cdn.kelu.org/blog/2017/07/v2-adf8ad31e40d7762c688cadbc95d3d6e.png)诡异空灵的音乐响起，随后，便是整个影片最为标志性的一个序列：城市序列。整个三分钟，没有任何对白，没有任何剧情，只是从不同的视角，以近乎疯狂的细节，给我们展现了这座未来城市----新港。
+![](https://cdn.kelu.org/blog/2017/07/v2-adf8ad31e40d7762c688cadbc95d3d6e.jpg)诡异空灵的音乐响起，随后，便是整个影片最为标志性的一个序列：城市序列。整个三分钟，没有任何对白，没有任何剧情，只是从不同的视角，以近乎疯狂的细节，给我们展现了这座未来城市----新港。
 
 说起伴随着序列的主旋律，你说它诡异也好、空灵也好，如果你像我一样，在香港生活过一段时间，你会产生巨大的共鸣：没错，这就是香港的气质---你不敢完全断定它的美，也不敢说它是丑陋的----一种难以名状的摄魂般的吸引力。
 
 另外，你知道么？这段音乐的旋律改编自保加利亚民谣，而歌词是古代大和民族的婚礼祈祷词。**婚礼-----**这很重要，剧情往后发展，你会明白它的寓意。
 
-![](https://cdn.kelu.org/blog/2017/07/v2-98dabe51460c6096cce2dbf74a436dc1.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-98dabe51460c6096cce2dbf74a436dc1.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-b584620c3417418261a3e568fb74e2cb.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-b584620c3417418261a3e568fb74e2cb.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-2053e4f8e1f2afb92fcfde30fce7b98f.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-2053e4f8e1f2afb92fcfde30fce7b98f.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-66ab86451197b1d009526c91e4647e11.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-66ab86451197b1d009526c91e4647e11.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-7e4098040654c3f71d449900df2f0b61.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-7e4098040654c3f71d449900df2f0b61.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-28514c100856947026af4ef7bc6152fe.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-28514c100856947026af4ef7bc6152fe.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-5d584fdedd76b21f3214f998c3fadfcc.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-5d584fdedd76b21f3214f998c3fadfcc.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-92bca22ed863dc4cb5c1bb4079f1401d.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-92bca22ed863dc4cb5c1bb4079f1401d.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-d60c54d798e5959709d705bc1d2f8e64.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-d60c54d798e5959709d705bc1d2f8e64.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-c7c743ea150ea6a50790a8478e536656.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-c7c743ea150ea6a50790a8478e536656.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-6a76de5fcb603a87f7ed1aa95e3df3a1.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-6a76de5fcb603a87f7ed1aa95e3df3a1.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-5325f782e6cf52b8a0191bad8f4cab95.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-5325f782e6cf52b8a0191bad8f4cab95.jpg)
 
 初次看这部电影的观众，很容易被这段序列搞得摸不着脑袋：当然，这确实是视觉的享受；但是根本找不到这一段序列和剧情前后的任何联系啊！而且序列的基调和整部电影也显得格格不入。
 
@@ -159,14 +159,14 @@ Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《G
 
 电影的发展中，我们发现傀儡大师其实是巨型网络中一段突然产生了自我意识的程序。而ta的目的，就是故意引诱素子追击ta，从而寻求机会和素子融合，而进化为一种更加高级的存在。看下面一段对话：(翻译有误，第四张图中的People change应为：All things change in a dynamic way)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-02a329175e5fe8f3a3a6aea734990d66.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-47a391d28101ba72345970e7bef3fa33.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-1cdc1c787048c0c0f7743d0146b444aa.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-300773f85f37b0a0049747908faae618.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-711cdc66ff6c884b221b31e5eaae07e0.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-c08f4f1fd24eba61da808f6597aa1d7e.png)
-![](https://cdn.kelu.org/blog/2017/07/v2-35c5efef3268c5f37a1667a71c204044.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-02a329175e5fe8f3a3a6aea734990d66.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-47a391d28101ba72345970e7bef3fa33.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-1cdc1c787048c0c0f7743d0146b444aa.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-300773f85f37b0a0049747908faae618.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-8e7c136f5650f76cf2da8b3c5d8ac5b8.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-711cdc66ff6c884b221b31e5eaae07e0.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-c08f4f1fd24eba61da808f6597aa1d7e.jpg)
+![](https://cdn.kelu.org/blog/2017/07/v2-35c5efef3268c5f37a1667a71c204044.jpg)
 
 
 > **素子：还有一件事，你能保证，我们融合之后，“我”还是“我”么？**
@@ -183,9 +183,9 @@ Arthur 在这本书中详细的描述了经典的笛卡尔心物二元论。《G
 
 对了，你们知道么？香港老机场----启德机场离九龙寨城非常近，寨城的居民每天都能看到巨大的飞机掠过天井
 
-![](https://cdn.kelu.org/blog/2017/07/v2-87ede70db186754a023adab44e1b5618.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-87ede70db186754a023adab44e1b5618.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/v2-a1f07b880a3427433fa39727d8f3ce69.png)
+![](https://cdn.kelu.org/blog/2017/07/v2-a1f07b880a3427433fa39727d8f3ce69.jpg)
 
 没有什么比香港这座城市更加能反应这部电影的主旨：
 

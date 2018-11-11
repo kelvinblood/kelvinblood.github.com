@@ -10,7 +10,7 @@ tags:  python
 
 先说结论，**Python中的一切都是对象，它们要么是类的实例，要么是元类的实例** .
 
-![](https://cdn.kelu.org/blog/2017/07/types_map.png)
+![](https://cdn.kelu.org/blog/2017/07/types_map.jpg)
 
 在图中可以看出对象分两种:
 

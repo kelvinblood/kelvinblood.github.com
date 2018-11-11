@@ -18,6 +18,6 @@ tags: vps linux aliyun
 
 于是问题解决，修改安全组里的规则即可。入口和出口都要设置：
 
-![](https://cdn.kelu.org/blog/2017/06/6.20.28.png)
+![](https://cdn.kelu.org/blog/2017/06/6.20.28.jpg)
 
-![](https://cdn.kelu.org/blog/2017/06/6.20.40.png)
+![](https://cdn.kelu.org/blog/2017/06/6.20.40.jpg)

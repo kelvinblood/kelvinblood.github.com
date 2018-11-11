@@ -21,9 +21,9 @@ tags: mac postgres
 
 安装办法很简单，下载 [GUI](https://github.com/mckenfra/postgresql-mac-preferences/releases) 后点击安装，会在系统偏好设置里生成管理图标，就可以在里边进行开启、停止的操作啦！
 
-![](https://cdn.kelu.org/blog/2017/07/2017-07-18-3.14.18.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-18-3.14.18.jpg)
 
-![](https://cdn.kelu.org/blog/2017/07/2017-07-18-3.12.01.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-18-3.12.01.jpg)
 
 # 参考资料
 

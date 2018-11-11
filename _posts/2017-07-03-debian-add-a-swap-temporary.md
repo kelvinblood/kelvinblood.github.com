@@ -10,11 +10,11 @@ tags: linux
 
 <https://twitter.com/kelvinbloodzz/status/881719864989065217>
 
-![](https://cdn.kelu.org/blog/2017/07/20.49.33.png)
+![](https://cdn.kelu.org/blog/2017/07/20.49.33.jpg)
 
 嘛，事情是这样的。 我在阿里云的机器上编译 PHP，编译到中途就报了错误——内存不足。于是就纳闷了，这问题咋解决啊，难道要我换台机器？虚拟内存在哪呢？然后就是这样了：
 
-![](https://cdn.kelu.org/blog/2017/07/11.42.08.png)
+![](https://cdn.kelu.org/blog/2017/07/11.42.08.jpg)
 
 才知道原来阿里云没有为我们默认创建交换分区。这个，算是个坑吧。
 
@@ -55,7 +55,7 @@ tags: linux
 
     /sbin/swapoff   /swapfile 
 
-
+# 增加 swap 分区
 # 增加 swap 分区
 
 * 设置分区
@@ -70,7 +70,7 @@ tags: linux
 * 交换分区永久生效
 
         echo /dev/sdc swap swap defaults 0 0  >> /etc/fstab //将/dev/sdc自动挂载成Swap写入fstab文件里
-        
+    
 # 常见错误
 
 1. 在 openvz 的机器中，你可能会遇到这样一个错误：

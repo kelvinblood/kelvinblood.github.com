@@ -24,7 +24,7 @@ cd letsencrypt
 
 运行后得到这样的提示：
 
-![](https://cdn.kelu.org/blog/2017/07/2017-07-18-1.26.00.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-18-1.26.00.jpg)
 
 提示无法自动配置 apache，因为我根本就没装2333333 不用在意，按照它的提示运行命令
 
@@ -32,7 +32,7 @@ cd letsencrypt
 
 按照提示输入一些基本信息，就生成 ssl 文件啦！
 
-![](https://cdn.kelu.org/blog/2017/07/2017-07-18-1.45.28.png)
+![](https://cdn.kelu.org/blog/2017/07/2017-07-18-1.45.28.jpg)
 
 可以看到生成的文件在：`/etc/letsencrypt/live/` 这样的文件夹下。fullchain.pem就是公钥，privkey.pem就是私钥。有了这两个文件我们就可以在Ngnix上配置SSL证书了。
 
