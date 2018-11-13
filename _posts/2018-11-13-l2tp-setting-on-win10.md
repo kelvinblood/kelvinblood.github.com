@@ -24,15 +24,15 @@ tags: windows
 10. 单击 **安全** 选项卡，从 **VPN 类型** 下拉菜单中选择 "使用 IPsec 的第 2 层隧道协议 (L2TP/IPSec)"。
 11. 单击 **允许使用这些协议**。确保选中 "质询握手身份验证协议 (CHAP)" 复选框。
 
-![54210938867](D:\GitHub\kelvinblood.github.com\_posts\1542109388672.png)
+![54210938867](https://cdn.kelu.org/blog/2018/11/1542109388672.jpg)
 
-![54210948167](D:\GitHub\kelvinblood.github.com\_posts\1542109481677.png)
+![54210948167](https://cdn.kelu.org/blog/2018/11/1542109481677.jpg)
 
 # 二、检查IPsec Policy Agent服务
 
 Windows + R -> 运行 ，输入 services.msc，打开“服务”窗口。确认 IPsec Policy Agent 服务开启。
 
-![54210928568](D:\GitHub\kelvinblood.github.com\_posts\1542109285685.png)
+![54210928568](https://cdn.kelu.org/blog/2018/11/1542109285685.jpg)
 
 # 三、修改注册表
 
@@ -50,7 +50,7 @@ Windows + R -> 运行 ，输入 services.msc，打开“服务”窗口。确认
 2. `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent`
    * 新建一个DWORD类型，名为AssumeUDPEncapsulationContextOnSendRule的键，将值修改为2 。
 
-![54210897098](D:\GitHub\kelvinblood.github.com\_posts/1542108970985.png)
+![54210897098](https://cdn.kelu.org/blog/2018/11/1542108970985.jpg)
 
 
 
