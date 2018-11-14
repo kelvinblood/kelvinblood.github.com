@@ -35,7 +35,7 @@ tags: docker kubernetes ml
 
   ​
 
-  ![img](D:\GitHub\kelvinblood.github.com\_posts\2017080731.png)
+  ![img](https://cdn.kelu.org/blog/2018/10/2017080731.jpg)
 
   登月平台架构
 
@@ -100,7 +100,7 @@ Kubernetes调度Spark
 
 为了解决上述问题，Kubernetes需要原生支持调度Spark，架构图如下：
 
-![img](D:\GitHub\kelvinblood.github.com\_posts\2017080732.png)
+![img](https://cdn.kelu.org/blog/2018/10/2017080732.jpg)
 
 Native Spark on Kubernetes架构
 
