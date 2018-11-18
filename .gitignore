@@ -35,3 +35,6 @@ Gemfile.lock
 
 local/
 docker-compose.yml
+
+*.jpg
+*.png
