@@ -2,7 +2,7 @@
 layout: post
 title: linux 判断图片格式
 category: tech
-tags: linux bash
+tags: linux shell
 ---
 
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)

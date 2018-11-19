@@ -2,7 +2,7 @@
 layout: post
 title: Windows 局域网互传 - 知乎
 category: software
-tags: mac
+tags: windows
 ---
 
 ![](https://cdn.kelu.org/blog/tags/windows.jpg)

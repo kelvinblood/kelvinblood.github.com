@@ -1,1 +1,5 @@
 *.png
+*.jpg
+*.webp
+*.gif
+/kelu
