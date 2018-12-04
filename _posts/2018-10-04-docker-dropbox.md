@@ -24,7 +24,7 @@ Dropbox命令行脚本可参考原先我记录的文章——[《在Linux上使�
    docker run --name=dropbox -d \
      -v /root/Dropbox:/root/Dropbox \
      -v /root/.dropbox:/root/.dropbox \
-     kelvinblood/dropbox:v0.2
+     kelvinblood/dropbox
    ```
 
 2. 关联账号
