@@ -16,7 +16,7 @@ tags: windows
 
 	![](https://cdn.kelu.org/blog/2018/02/win_20180206202511.jpg)
 
-1. 双击左侧的目录，依次打开**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft**目录。
+1. 双击左侧的目录，依次打开**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations**目录。
 
 	![](https://cdn.kelu.org/blog/2018/02/win_20180205130047.jpg)
 
