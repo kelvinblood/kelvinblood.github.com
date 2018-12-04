@@ -11,6 +11,8 @@ tags: linux shell
 
 自己的blog有一些图片是转载的其他的blog的，有些blog的文章比较奇怪，没有后缀名！通过上一篇的方式，我找出了这种图格式是 webp。这一篇在之前的基础上，我完成了一个脚本将webp批量转换为 jpg 图片格式。
 
+脚本下载地址：<https://gist.github.com/kelvinblood/0350f50be92ccbd5036ded07980653ea>
+
 # WebP是什么
 
 目前对于JPEG、PNG、GIF等常用图片格式的优化已几乎达到极致，因此Google于2010年提出了一种新的图片压缩格式 — WebP，给图片的优化提供了新的可能。
