@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 深度解密京东登月平台基础架构 - 京东
-category: tech
+category: product
 tags: docker kubernetes ml
 ---
 

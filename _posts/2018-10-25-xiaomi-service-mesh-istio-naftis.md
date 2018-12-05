@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 小米正式开源Istio管理面板Naftis
-category: tech
+category: product
 tags: docker kubernetes
 ---
 

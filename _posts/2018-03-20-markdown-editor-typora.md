@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一款好用的 markdown 编辑器 —— Typora | 少数派
-category: tech
+category: software
 tags: markdown
 ---
 ![](https://cdn.kelu.org/blog/tags/markdown.jpg)
