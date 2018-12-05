@@ -3,7 +3,7 @@ layout: two-column-sidebar
 ---
 {% for post in paginator.posts %}
 
-{% if post.category != "japanese" and post.category != "news" and post.category != "literature"  and post.category != "finance" %}
+{% if post.category == "tech" %}
 <article style="margin-bottom: 25px">
     <div class="article_header">
         <h1 class="article_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
