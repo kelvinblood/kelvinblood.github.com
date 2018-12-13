@@ -5,5 +5,9 @@ services:
     command: jekyll serve
     image: jekyll/jekyll:latest
     volumes:
-      - d:/GitHub/blog.kelu.org:/srv/jekyll
-      - d:/GitHub/blog.kelu.org/vendor/bundle:/usr/local/bundle
+      - ./:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle
+    ports:
+      - '34000:4000'
+      - '34001:35729'
+      - '34002:3000'
