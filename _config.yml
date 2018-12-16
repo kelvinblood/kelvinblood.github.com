@@ -34,7 +34,8 @@ timezone: Asia/Shanghai
 # port:    4000
 # host:    127.0.0.1
 baseurl: /
-url: http://blog.kelu.org
+url: https://blog.kelu.org
+cdn: https://cdn.kelu.org/blog
 port: 4000
 lsi: false
 highlighter: rouge
