@@ -49,7 +49,19 @@ composer require docker-php/docker-php
 
 按常规的方式，如果不做docker配置，则会将其`unix:///var/run/docker.sock`用作默认配置连接docker。
 
-由于本地的程序是运行在容器里的，所以当然没有这个文件，只能通过tcp方式连接，在服务器上可以通过把宿主机的docker.sock文件映射到容器里进行读取，故而实现代码如下：
+由于本地的程序是运行在容器里的，所以当然没有这个文件，只能通过tcp方式连接，在服务器上可以通过把宿主机的docker.sock文件映射到容器里进行读取.
+
+值得注意的是，代码中我使用了`10.0.75.1:2376`这样的地址。IP地址是Windows中源主机的ip，Windows中记得打开docker的访问地址：
+
+![54495809413](https://cdn.kelu.org/blog/2018/12/1544958094135.jpg)
+
+你应该也注意到了我使用的不是2375端口，因为这个端口只能是127.0.0.1地址才能访问，所以我做了一个转发，你在Windows下开发的时候也要这么做：
+
+```
+netsh interface portproxy add v4tov4 listenport=2376 connectaddress=127.0.0.1 connectport=2375
+```
+
+实现代码如下：
 
 ```
 
