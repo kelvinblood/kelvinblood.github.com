@@ -39,6 +39,7 @@ tags: product
    * [toko的魔法研究所](http://toko.moe/)
    * [SealYun - 创世容器](http://lameleg.com/)
    * [everettjf](https://everettjf.github.io)
+   * [胡伟煌](https://www.huweihuang.com/)
 4. 安全
    * [ESE's Note](https://esebanana.github.io/)
    * [安全内参](https://www.secrss.com/)

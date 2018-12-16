@@ -2,7 +2,7 @@
 layout: post
 title: yum 查询包版本与rpm包下载
 category: tech
-tags: centos linux
+tags: centos linux kubernetes
 ---
 ![](https://cdn.kelu.org/blog/tags/centos.jpg)
 
@@ -34,10 +34,25 @@ yum install --downloadonly --downloaddir=/tmp/ [package-name]-[version].[archite
 yum install --downloadonly --downloaddir=/tmp/ cri-tools-1.0.0_beta.1-0
 ```
 
+# 对于kubernetes的rpm
 
+说来也是气人，kubernetes的repo文件比较奇葩：<https://kubernetes.io/docs/setup/independent/install-kubeadm/#k8s-install-1>
+
+对于上边的命令行，都要附上这样一个特殊的命令：
+
+```
+--disableexcludes=kubernetes
+```
+
+例如：
+
+```
+yum install --downloadonly --downloaddir=/tmp/ xxx --disableexcludes=kubernetes
+```
 
 # 参考资料
 
 * [yum search - package version](https://serverfault.com/questions/385226/yum-search-package-version)
 * [如何使用yum来下载RPM包而不进行安装](https://linux.cn/article-5100-1.html)
 * [How can I instruct yum to install a specific version of package X?](https://unix.stackexchange.com/questions/151689/how-can-i-instruct-yum-to-install-a-specific-version-of-package-x)
+* <https://kubernetes.io/docs/setup/independent/install-kubeadm/#k8s-install-1>
