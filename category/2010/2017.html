@@ -13,7 +13,7 @@ year: 2017
   <ul>
     {% for post in site.posts %}
 
-      {% if post.category == "tech" %}
+      {% if post.category == "tech" or post.category == "software" or post.category == "product" %}
     
         {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% if post_year == page_year_str %}
