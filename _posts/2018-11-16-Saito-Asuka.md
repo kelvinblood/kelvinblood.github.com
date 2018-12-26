@@ -7,7 +7,7 @@ tags: ent
 
 ![Amadeuslogo](https://cdn.kelu.org/blog/tags/japanese.jpg)
 
-
+转自[她堪称神颜 内心竟是毒舌大魔王… - 新浪娱乐](http://ent.sina.com.cn/s/j/2018-06-05/doc-ihcmurvi1795229.shtml)
 
 　　前几天，日版《那些年，我们一起追的女孩》预告片首度公开，片中一幕幕熟悉的场景，勾起了大家当年看原版时的许多回忆。
 
