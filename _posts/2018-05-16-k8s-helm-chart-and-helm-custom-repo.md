@@ -183,3 +183,7 @@ db.repos.remove(xxx)
 ```
 
 ![](https://cdn.kelu.org/blog/2018/05/20180525092317.jpg)
+
+# 参考资料
+
+* [Helm User Guide - Helm 用户指南](https://whmzsu.github.io/helm-doc-zh-cn/)
