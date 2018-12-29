@@ -351,6 +351,7 @@ monocular-monocular   monocular.local            80        9s
 # 参考资料
 
 * [Helm User Guide - Helm 用户指南](https://whmzsu.github.io/helm-doc-zh-cn/)
+* [Helm demo - github](https://github.com/helm/charts/blob/master/incubator/elasticsearch/templates/configmap.yaml)
 * [Error: no available release name found #3055](https://github.com/kubernetes/helm/issues/3055)
 * [利用 Helm 简化 Kubernetes 应用部署](https://www.alibabacloud.com/help/zh/doc-detail/58587.htm)
 * https://docs.helm.sh/
