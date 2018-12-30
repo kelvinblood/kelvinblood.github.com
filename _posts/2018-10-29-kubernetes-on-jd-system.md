@@ -2,7 +2,7 @@
 layout: post
 title: 深度解密京东登月平台基础架构 - 京东
 category: product
-tags: docker kubernetes ml
+tags: docker kubernetes 
 ---
 
 近日，京东发布登月机器学习平台，并在京东云上线，正式对外提供人工智能服务。登月机器学习平台的上线代表着京东人工智能技术从应用级服务到基础算法的全面对外开放，实践着京东RaaS（零售即服务）的发展策略。今天我们邀请了AI与大数据部的工程师为大家深度解密京东登月平台基础架构。
