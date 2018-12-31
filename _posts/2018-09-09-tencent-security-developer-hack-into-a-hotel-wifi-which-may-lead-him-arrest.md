@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 腾讯 23 岁安全工程师因黑入新加坡一酒店 Wi-Fi，或判狱三年 | 转
+title: 腾讯 23 岁安全工程师因黑入新加坡一酒店 Wi-Fi，或判狱三年
 category: software
 tags: security tencent hack
 ---

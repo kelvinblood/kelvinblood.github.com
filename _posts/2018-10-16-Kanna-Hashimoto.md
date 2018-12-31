@@ -2,7 +2,7 @@
 layout: post
 title: 桥本环奈 - 黛少
 category: japanese
-tags: 
+tags: ent
 ---
 
 ![Amadeuslogo](https://cdn.kelu.org/blog/tags/japanese.jpg)

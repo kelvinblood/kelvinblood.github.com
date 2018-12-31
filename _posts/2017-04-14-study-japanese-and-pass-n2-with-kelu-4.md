@@ -2,7 +2,7 @@
 layout: post
 title: 【和血衫一起考二级】 第四天
 category: japanese
-tags: japanese
+tags: study
 ---
 
 ![](https://cdn.kelu.org/blog/tags/japanese.jpg)
@@ -37,7 +37,7 @@ tags: japanese
 * [小句]が [小句]　也可用へ
 * [名]目的地 に[动]　也可用へ
 * [名]目的地 に[动]　也可用へ
-    
+  
 ### 表达
 
 * 数词+量词・週に二回・生ビールみっつ

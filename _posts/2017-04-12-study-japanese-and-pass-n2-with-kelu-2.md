@@ -2,7 +2,7 @@
 layout: post
 title: 【和血衫一起考二级】 第二天
 category: japanese
-tags: japanese
+tags: study
 ---
 
 ![](https://cdn.kelu.org/blog/tags/japanese.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title: 【和血衫一起考二级】 第三天
 category: japanese
-tags: japanese
+tags: study
 ---
 
 ![](https://cdn.kelu.org/blog/tags/japanese.jpg)
@@ -36,7 +36,7 @@ tags: japanese
 * [名]の中で　[名]が　一番　[一二类形]です
 * [名]と　[名]と　どちらが　[一二类形]ですか
 * どの　[名]/いつ/どれ/誰/何が　一番　[一二类形]ですか
-    
+  
 ### 表达
 
 *　あら

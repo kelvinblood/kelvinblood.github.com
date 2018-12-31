@@ -2,7 +2,7 @@
 layout: post
 title: 【和血衫一起考二级】 第五天
 category: japanese
-tags: japanese
+tags: study
 ---
 
 ![](https://cdn.kelu.org/blog/tags/japanese.jpg)
@@ -38,7 +38,7 @@ tags: japanese
 * [动]基本形 前に〜
 * 疑问词 + か
 * 〜よね　没有足够把握
-    
+  
 ### 表达
 
 * 今年中に

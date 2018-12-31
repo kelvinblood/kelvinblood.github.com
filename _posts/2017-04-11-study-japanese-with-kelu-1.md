@@ -2,7 +2,7 @@
 layout: post
 title: 【和血衫一起考二级】 第一天
 category: japanese
-tags: japanese
+tags: study
 ---
 
 ![](https://cdn.kelu.org/blog/tags/japanese.jpg)
@@ -28,7 +28,7 @@ tags: japanese
     や　　　ゆ　　　よ
     ら　り　る　れ　ろ
     h
-    
+
 片假名
     
     ア　イ　ウ　エ　オ
@@ -41,7 +41,7 @@ tags: japanese
     ヤ　　　ユ　　　ヨ
     ラ　リ　ル　レ　ロ
     ン
-    
+
 # 初级 上  第一单元
 
 这个单元主要讲陈述句和疑问句。非常简单。
@@ -57,7 +57,7 @@ tags: japanese
 * いくらですか
 * あります・います
 * うえ　した　まえ　うしろ　となり　なか　そと
-    
+  
 ### 表达
 
 * さん
