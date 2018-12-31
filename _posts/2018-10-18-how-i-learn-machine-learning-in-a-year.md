@@ -202,7 +202,7 @@ via [medium](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cd
 
 **3.1.1. 吴恩达Cousera机器学习课程**
 
-Andrew Ng的机器学习课程（[Machine Learning | Coursera](http://link.zhihu.com/?target=https%3A//www.coursera.org/learn/machine-learning)）是很多人的启蒙课程，难度适中且完全免费。Coursera上总共有49285个人给出了评分，平均得分4.9分，满分5分。据我个人观察，大部分Coursera上的课程评分处于4-4.5分之间，能做到4.9分的课程寥寥无几。另一个值得关注的是，这门课有接近五万人给出评分，统计学知识告诉我们这个样本较大所以评分应该趋近于其真实值，比较可信。根据Freecodecamp的[统计](http://link.zhihu.com/?target=https%3A//medium.freecodecamp.org/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0)，这门课是所有在线Machine Learning课程中最受到大家好评的课程。另一个比较直接的观察是如果大家在知乎上搜索“机器学习如何入门？”，大部分答案都提到了Andrew的这门入门课程，所以这是一门绝对的口碑课程，详细讨论可以参考：[微调：为何国人迷恋吴恩达的机器学习课？](https://www.zhihu.com/question/65780182/answer/234983030)。
+Andrew Ng的机器学习课程（[Machine Learning - Coursera](http://link.zhihu.com/?target=https%3A//www.coursera.org/learn/machine-learning)）是很多人的启蒙课程，难度适中且完全免费。Coursera上总共有49285个人给出了评分，平均得分4.9分，满分5分。据我个人观察，大部分Coursera上的课程评分处于4-4.5分之间，能做到4.9分的课程寥寥无几。另一个值得关注的是，这门课有接近五万人给出评分，统计学知识告诉我们这个样本较大所以评分应该趋近于其真实值，比较可信。根据Freecodecamp的[统计](http://link.zhihu.com/?target=https%3A//medium.freecodecamp.org/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0)，这门课是所有在线Machine Learning课程中最受到大家好评的课程。另一个比较直接的观察是如果大家在知乎上搜索“机器学习如何入门？”，大部分答案都提到了Andrew的这门入门课程，所以这是一门绝对的口碑课程，详细讨论可以参考：[微调：为何国人迷恋吴恩达的机器学习课？](https://www.zhihu.com/question/65780182/answer/234983030)。
 
 **3.1.2. Python机器学习 & Introduction to Statistical Learning with R**
 
