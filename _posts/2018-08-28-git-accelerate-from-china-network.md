@@ -42,6 +42,8 @@ tags: git
    ```
    git config --global core.gitproxy "git-proxy"
    git config --global socks.proxy "localhost:1080"
+
+   git config --global --unset core.gitproxy
    ```
 
 
