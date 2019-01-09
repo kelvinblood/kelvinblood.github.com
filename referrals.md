@@ -32,10 +32,17 @@ tags: product
 2. 运维
 
    * [阿里中间件团队博客](http://jm.taobao.org/)
+   
+2. cloud native
+
+   * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/)
+     * [kubernetes 资源管理概述](https://cizixs.com/2018/06/25/kubernetes-resource-management/)
+   * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/)
+   * [面向信仰编程 - Draveness's Blog](https://draveness.me/)
+
 3. 休闲
    * <https://www.moerats.com/>
    * [風陵渡口 - 信息安全](https://thief.one/)
-   * [Cizixs Write Here - Container, Microservice](http://cizixs.com/)
    * [toko的魔法研究所](http://toko.moe/)
    * [SealYun - 创世容器](http://lameleg.com/)
    * [everettjf](https://everettjf.github.io)
