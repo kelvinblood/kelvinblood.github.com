@@ -33,10 +33,11 @@ tags: product
 
    * [阿里中间件团队博客](http://jm.taobao.org/)
    
-2. cloud native
+3. cloud native
 
    * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/)
      * [kubernetes 资源管理概述](https://cizixs.com/2018/06/25/kubernetes-resource-management/)
+     * [使用 pprof 和火焰图调试 golang 应用](http://cizixs.com/2017/09/11/profiling-golang-program/)
    * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/)
    * [面向信仰编程 - Draveness's Blog](https://draveness.me/)
 
