@@ -78,8 +78,8 @@ server {
     listen       443;
     server_name  test.kelu.org;
 
-    access_log /log/yukari.nginx.maintain.access.log;
-    error_log  /log/yukari.nginx.maintain.error.log;
+    access_log /log/test.access.log;
+    error_log  /log/test.error.log;
 
     ssl on;
     ssl_certificate /etc/letsencrypt/live/test.kelu.org/fullchain.pem;

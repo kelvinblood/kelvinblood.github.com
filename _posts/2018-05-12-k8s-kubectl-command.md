@@ -41,6 +41,10 @@ $ source <(kubectl completion zsh)  # setup autocomplete in zsh
 或者永久性设置（bash）：
 kubectl completion bash >> ~/.bashrc
 source ~/.bashrc
+
+(zsh):
+plugins=(kubectl)
+source <(kubectl completion zsh)
 ```
 
 # 帮助命令
