@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 搭建自己的 git 服务器，创建属于自己的私人仓库
+title: 搭建精简的git服务器，创建属于自己的私人仓库
 category: tech
 tags: git
 ---
