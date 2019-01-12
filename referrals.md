@@ -40,6 +40,10 @@ tags: product
      * [使用 pprof 和火焰图调试 golang 应用](http://cizixs.com/2017/09/11/profiling-golang-program/)
    * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/)
    * [面向信仰编程 - Draveness's Blog](https://draveness.me/)
+     * [详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)
+     * [谈 Kubernetes 的架构设计与实现原理](https://draveness.me/understanding-kubernetes)
+   * [晒太阳的猫](https://zhengyinyong.com/)
+     * [CoreDNS 使用与架构分析](https://zhengyinyong.com/coredns-basis.html)
 
 3. 休闲
    * <https://www.moerats.com/>
