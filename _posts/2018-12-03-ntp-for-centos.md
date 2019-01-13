@@ -24,7 +24,7 @@ tags: linux
 
 NTP 时钟以层次模型组织。层级中的每层被称为一个 *stratum（阶层）*。stratum 的概念说明了一台机器到授权的时间源有多少 NTP 跳。
 
-![img](https://dn-linuxcn.qbox.me/data/attachment/album/201506/06/214034n7w7j89jy87hiz9j.jpg)
+![img](https://cdn.kelu.org/blog/2018/12/214034n7w7j89jy87hiz9j.jpg)
 
 Stratum 0 由没有时间漂移的时钟组成，例如原子时钟。这种时钟不能在网络上直接使用。Stratum N (N > 1) 层服务器从 Stratum N-1 层服务器同步时间。Stratum N 时钟能通过网络和彼此互联。
 

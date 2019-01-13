@@ -25,27 +25,26 @@ tags: product
 
 # 博客
 
-1. kubernetes
-
-   * <https://jishu.io/>
-   * <https://blog.fleeto.us/>
 2. 运维
 
    * [阿里中间件团队博客](http://jm.taobao.org/)
    
-3. cloud native
+2. cloud native
 
-   * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/)
+   * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/) #深度 #丰富 
      * [kubernetes 资源管理概述](https://cizixs.com/2018/06/25/kubernetes-resource-management/)
      * [使用 pprof 和火焰图调试 golang 应用](http://cizixs.com/2017/09/11/profiling-golang-program/)
-   * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/)
+   * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/) #入门 #高产 #布道
    * [面向信仰编程 - Draveness's Blog](https://draveness.me/)
      * [详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)
      * [谈 Kubernetes 的架构设计与实现原理](https://draveness.me/understanding-kubernetes)
    * [晒太阳的猫](https://zhengyinyong.com/)
      * [CoreDNS 使用与架构分析](https://zhengyinyong.com/coredns-basis.html)
+   * [极术](https://jishu.io/) k8s
+   * [伪架构师](https://blog.fleeto.us/) istio
 
 3. 休闲
+   * <https://diygod.me/> #RSSHUB #宅 #动漫 #高产 #开发者
    * <https://www.moerats.com/>
    * [風陵渡口 - 信息安全](https://thief.one/)
    * [toko的魔法研究所](http://toko.moe/)
