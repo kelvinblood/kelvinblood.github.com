@@ -17,10 +17,11 @@ chrome 在点击rss源时，会自动弹出一个订阅工具。 我常用的工
 
 添加这个网址即可：
 
+```html
+https://feedly.com/i/subscription/feed/%s
 ```
-https://feedly.com/i/subscription/feed/％s
-```
-
-
 
 ![54738309508](https://cdn.kelu.org/blog/2019/01/1547383095083.jpg)
+
+另外，记录一个 feedly 的导出链接: <http://feedly.com/i/opml> 
+
