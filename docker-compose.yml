@@ -1,13 +1,21 @@
-version: '2'
+version: '3.2'
+
+networks:
+  default:
+    external:
+      name: kelu
+
 services:
-  site:
-    network_mode: "host"
+  blog:
     command: jekyll serve
     image: jekyll/jekyll:latest
+    container_name: blog
     volumes:
       - ./:/srv/jekyll
       - ./vendor/bundle:/usr/local/bundle
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     ports:
-      - '34000:4000'
-      - '34001:35729'
-      - '34002:3000'
+      - '39988:4000'
+#      - '34001:35729'
+#      - '34002:3000'
