@@ -7,6 +7,7 @@ networks:
 
 services:
   blog:
+#    command: jekyll serve --incremental
     command: jekyll serve
     image: jekyll/jekyll:latest
     container_name: blog
