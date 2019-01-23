@@ -21,7 +21,7 @@ Java有Maven, Node.js有npm, ROR有gem,PHP有composer. 他们都是各个语言�
         "license":          "MIT",
         "authors": [{
             "name":         "Kelvin Blood",
-            "email":        "admin@kelu.org",
+            "email":        "xxx@xxx.org",
             "homepage":     "http://www.kelu.org",
             "role":         "CEO"
         }],
@@ -102,7 +102,7 @@ Java有Maven, Node.js有npm, ROR有gem,PHP有composer. 他们都是各个语言�
         }
     }
 
-
+# 参考资料
 # 参考资料
 
 * [深入 Composer autoload](http://blog.hans-lizihan.com/php/2015/06/25/php-composer-autoload.html)

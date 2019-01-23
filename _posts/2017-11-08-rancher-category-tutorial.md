@@ -44,7 +44,7 @@ Rancher提供了一个应用商店，通过商店中的应用程序模版的可�
 	description: kelu's ping pong hello world
 	version: v0.01
 	category: Entertainment
-	maintainer: kelvin blood <admin@kelu.org>
+	maintainer: kelvin blood <xxx@xxx.org>
 
 将这个项目部署到 Rancher 可以访问的 git 服务器上，在 Rancher 设置中添加好就可以使用了。可以查看我的：
 <https://github.com/kelvinblood/community-catalog/tree/init>
