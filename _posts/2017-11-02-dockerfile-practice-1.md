@@ -50,7 +50,7 @@ tags: docker
 
 ```
 FROM nginx
-MAINTAINER kelvinblood <admin@kelu.org>
+MAINTAINER kelvinblood <xxx@xxx.org>
 RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 ```
@@ -153,7 +153,7 @@ Sending build context to Docker daemon  6.51 MB
 	用于在`Dockerfile`中转义字符的字符。如果未指定，则缺省转义字符为`\`。 
 		
 		# escape=\ (backslash)
-			
+	
 	或
 		
 		# escape=` (backtick)
@@ -618,7 +618,7 @@ RUN pwd
 		            ';
 		        }
 		    }
-		
+	
 *  最后两行 ENTRYPOINT 和 CMD 的作用是一样的。我多写了一个看看效果。
 
 # 参考资料

@@ -34,7 +34,7 @@ docker run -it --rm --name certbot \
   -v "$(pwd)/datalib:/var/lib/letsencrypt" \
   certbot/certbot certonly \
   --standalone \
-  --email admin@kelu.org --agree-tos \
+  --email xxx@xxx.org --agree-tos \
   -d test.kelu.org
 ```
 

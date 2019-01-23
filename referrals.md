@@ -25,9 +25,12 @@ tags: product
 
 # 博客
 
-2. 运维
+2. R&D Offcial blog 
 
    * [阿里中间件团队博客](http://jm.taobao.org/)
+   * [loomsystems](https://www.loomsystems.com/blog)
+     * [Fluentd vs. LogStash: A Feature Comparison](https://www.loomsystems.com/blog/single-post/2017/01/30/a-comparison-of-fluentd-vs-logstash-log-collector)
+   * [github](https://github.blog/)
    
 2. cloud native
 
