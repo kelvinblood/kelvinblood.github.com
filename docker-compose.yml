@@ -10,12 +10,17 @@ services:
     command: jekyll serve
     image: jekyll/jekyll:latest
     container_name: blog
+    restart: always
     volumes:
       - ./:/srv/jekyll
+      - ./_site:/srv/jekyll/_site
       - ./vendor/bundle:/usr/local/bundle
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
-    ports:
-      - '39988:4000'
+    environment:
+      JEKYLL_UID: 0
+      JEKYLL_GID: 0
+#    ports:
+#      - '39988:4000'
 #      - '34001:35729'
 #      - '34002:3000'
