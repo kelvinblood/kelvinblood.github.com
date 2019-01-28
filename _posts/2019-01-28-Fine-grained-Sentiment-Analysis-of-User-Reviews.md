@@ -4,7 +4,7 @@ title: AI Challenger 2018：细粒度用户评论情感分类冠军 - 程惠阁
 category: tech
 tags: ai
 ---
-![](https://cdn.kelu.org/blog/tags/docker.jpg)
+![](https://cdn.kelu.org/blog/tags/ai.jpg)
 
 > 关注了一些 ai 相关的。原文查看机器之心:<https://www.jiqizhixin.com/articles/2019-01-28-16>
 
