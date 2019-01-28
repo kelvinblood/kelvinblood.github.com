@@ -41,11 +41,9 @@ tags: product
    * [松果笔记](https://sycki.com/) #底层 #代码级别 #深度 #丰富
      * [k8s CRI](https://sycki.com/articles/kubernetes/k8s-cri)
    * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/) #深度 #丰富
-     * [kubernetes 资源管理概述](https://cizixs.com/2018/06/25/kubernetes-resource-management/)
      * [使用 pprof 和火焰图调试 golang 应用](http://cizixs.com/2017/09/11/profiling-golang-program/)
    * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/) #入门 #布道 #实用 #操作
    * [面向信仰编程 - Draveness's Blog](https://draveness.me/) #详细 #图好
-     * [详解 DNS 与 CoreDNS 的实现原理](https://draveness.me/dns-coredns)
      * [谈 Kubernetes 的架构设计与实现原理](https://draveness.me/understanding-kubernetes)
    * [晒太阳的猫](https://zhengyinyong.com/)
      * [CoreDNS 使用与架构分析](https://zhengyinyong.com/coredns-basis.html)
