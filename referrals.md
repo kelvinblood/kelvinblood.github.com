@@ -35,8 +35,7 @@ tags: product
    * [阿里中间件团队博客](http://jm.taobao.org/)
    * [loomsystems](https://www.loomsystems.com/blog)
      * [Fluentd vs. LogStash: A Feature Comparison](https://www.loomsystems.com/blog/single-post/2017/01/30/a-comparison-of-fluentd-vs-logstash-log-collector)
-   
-2. cloud native
+3. cloud native
 
    * [松果笔记](https://sycki.com/) #底层 #代码级别 #深度 #丰富
      * [k8s CRI](https://sycki.com/articles/kubernetes/k8s-cri)
@@ -49,7 +48,6 @@ tags: product
      * [CoreDNS 使用与架构分析](https://zhengyinyong.com/coredns-basis.html)
    * [极术](https://jishu.io/) k8s
    * [伪架构师](https://blog.fleeto.us/) istio
-
 3. 休闲
    * <https://diygod.me/> #RSSHUB #宅 #动漫 #高产 #开发者
    * <https://www.moerats.com/>
@@ -58,6 +56,8 @@ tags: product
    * [SealYun - 创世容器](http://lameleg.com/)
    * [everettjf](https://everettjf.github.io)
    * [胡伟煌](https://www.huweihuang.com/)
-4. 安全
+5. 安全
    * [ESE's Note](https://esebanana.github.io/)
    * [安全内参](https://www.secrss.com/)
+6. 其它
+   * [阳志平的网志](https://www.yangzhiping.com/) #读书笔记 #认知科学
