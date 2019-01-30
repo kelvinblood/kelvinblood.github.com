@@ -2,7 +2,7 @@
 layout: post
 title: 使用容器编译 golang 项目
 category: tech
-tags: golang
+tags: go
 ---
 ![](https://cdn.kelu.org/blog/tags/go.jpg)
 
@@ -76,4 +76,3 @@ http://{ip}:8000/
 可以看到浏览器中显示 `hello world` 字样。
 
 另外，很多go项目对go的版本是有要求的，所以需要注意下运行的golang的版本号。
-
