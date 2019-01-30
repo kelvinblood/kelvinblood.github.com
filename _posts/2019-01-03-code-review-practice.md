@@ -7,8 +7,6 @@ tags: github
 
 ![](https://cdn.kelu.org/blog/tags/github.jpg)
 
-
-
 > 最近在阅读 kubernetes 的代码，顺着看了部分 code review 的文章，蛮有意义的，转载过来留个记录。原文来自：[如何有效地做 Code Review - Leancloud](https://zhuanlan.zhihu.com/p/19967954)，[从CODE REVIEW 谈如何做技术 - coolshell](https://coolshell.cn/articles/11432.html)
 
 # 意义
