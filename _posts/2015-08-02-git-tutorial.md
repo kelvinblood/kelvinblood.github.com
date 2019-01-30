@@ -95,6 +95,7 @@ Git 提供了 git config 工具，专门用来配置或读取相应的工作环�
 ### 下载提交
 
 	$ git clone git://github.com/schacon/ticgit.git
+	$ git clone -b my-branch git://github.com/schacon/ticgit.git testfolder
 	$ git remote -v
 	$ git remote add pb git://github.com/paulboone/ticgit.git
 	$ git fetch pb			# 抓取所有
