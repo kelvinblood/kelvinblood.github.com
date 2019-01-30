@@ -16,8 +16,8 @@ Sub 批量设置图片大小()
 ' Macro 宏
 '
 '
-Myheigth = 12
-Mywidth = 8
+Myheigth = 9
+Mywidth = 12
 On Error Resume Next '忽略错误
 For Each iShape In ActiveDocument.InlineShapes
 iShape.Height = 28.345 * Myheigth '设置图片高度为任意cm
