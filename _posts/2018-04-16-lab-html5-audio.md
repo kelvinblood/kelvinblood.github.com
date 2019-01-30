@@ -2,7 +2,7 @@
 layout: post
 title: HTML5 audio 实验 - tommy351
 category: tech
-tags: frontend
+tags: front-end
 ---
 ![](https://cdn.kelu.org/blog/tags/frontend.jpg)
 
