@@ -1,42 +1,22 @@
 <article>
 
         <div class="article_header">
-            <h1 class="article_title">{{ page.title }}</h1>
-          <h5 class="article_meta">{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="/category/{{ page.category }}.html" class="article-fa"><i
-                        class="fa fa-folder-o"></i> {{ page.category }}</a>
-
-
-                {% for tag in page.tags %}
-                <a href="/category/tags/{{tag}}.html"><i class="fa fa-tag"></i> {{tag}}</a>
-                {% endfor %}
-                </h5>
-
+            <p class="title1">{{ page.title }}</p>
         </div>
         <div class="article_index_contents">
             <div class="article_content"> 
-{% if page.category == "japanese" or page.category == "literature"  or page.category == "finance" %}
-<style type="text/css">
-
-.article_content p {font-size: medium;}
-.article_content > p {
-    line-height: 1.8em;
-    margin-bottom: 1em;
-}
-</style>
-{% endif %}
-		    
 		    {{ content }} 
 	    </div>
         </div>
     </article>
-   <hr class="article_horizontal_rule green">
    <article class="support-author">
-       <p>如果本文对你有帮助，欢迎投食</p>
-       <div class="support-qr">
+     <br>
+     <p>如果本文对你有帮助，欢迎投食</p>
+     <div class="support-qr">
        <img src="https://cdn.kelu.org/blog/static/alipay.gif">
        <img src="https://cdn.kelu.org/blog/static/qpay.gif">
-           </div>
+     </div>
+     <div class="clear"></div>
    </article>
 
     <div class="post-nav">
@@ -45,7 +25,9 @@
         <div class="clear"></div>
     </div>
 
-<div class="comment" style='margin-top: 10px'></div>
+    <br>
+
+<div class="comment" style='margin-top: 50px'></div>
     <script>
         new Valine({
             av: AV, 

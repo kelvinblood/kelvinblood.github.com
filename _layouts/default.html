@@ -68,16 +68,19 @@
 
   </head>
   <body>
-    <header>
-      <div id="logo" class="left">
-        <div class="verticle_center">
-          <a href="/" >
-            <img alt="{{page.top-title}}" src="/assets/resource/logo.png">
-          </a>
-        </div>
-      </div>
-      <div id="search-bar" class="right">
-      </div>
+    <header> 
+    <a href="/" style="margin-right:10px"> 血衫非弧の一存 </a>    
+    {% if page.category != null %}
+       /
+      <a style="margin: 0 10px" href="/category/{{ page.category }}.html" class="article-fa"><i class="fa fa-folder-o"></i> {{ page.category }} </a>
+      /
+      {% for tag in page.tags %}
+        <a href="/category/tags/{{tag}}.html" style="margin: 0 7px"><i class="fa fa-tag"></i> {{tag}}</a>
+      {% endfor %}
+    {% endif %}
+      <a href="/me" style="float: right;margin-right:15px;" > 关于我 </a>
+      <a href="/category/2010/2019" style="float: right;margin-right:50px;" > 文章列表 </a>
+      <hr color="#808080" size="1">
     </header>
 
 
@@ -90,7 +93,6 @@
       <p class="right"><a href="https://blog.kelu.org" title="{{ top-title }}"> 血衫非弧</a> &copy; 2015-{{site.time| date: "%Y" }} All Rights Reserved. Power By <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>.</p>
     </footer>
 
-    
     <!-- google-analytics -->
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
