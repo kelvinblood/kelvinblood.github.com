@@ -1,5 +1,5 @@
 ---
-layout: two-column-sidebar
+layout: single-column-sidebar
 title: 友情链接
 ---
 

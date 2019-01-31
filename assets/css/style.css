@@ -71,11 +71,10 @@ td           { line-height: 180%; margin-left: 3px; margin-right: 3px }
 
 header { }
 .verticle_center { display: table-cell; vertical-align: middle; }
-.article_title {font-weight: bold; text-align:center; }
-.article_content img { display: block; border: 1px none; margin: 0 auto; max-width: 700px;}
+.article_title {font-weight: bold; text-align:center; text-shadow: 0 1px 2px #888888;}
+.article_content img { display: block; border: 1px none; margin: 0 auto; max-width: 700px;max-height: 420px;}
 
-pre { font-family: "Times New Roman"; font-size: 10.5pt; line-height: 200%; border-left-width: 1px; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-top: 10px; background-color: #EBEBEB; padding-left: 18px; padding-right: 18px; padding-top: 3px; padding-bottom: 3px; }
-
+pre { font-family: "Times New Roman"; font-size: 10.5pt; line-height: 200%; border-left-width: 1px; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-top: 10px; background-color: #EBEBEB; padding-left: 18px; padding-right: 18px; padding-top: 3px; padding-bottom: 3px; overflow: auto; white-space: pre-wrap; word-wrap: break-word;}
 
 article.support-author > p { line-height: 2; font-size: 20px; text-align: center; }
 article.support-author .support-qr{ text-align: center; }
@@ -88,8 +87,11 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 .post-nav .post-nav-next { background-image: url("/assets/resource/next-g.png"); background-position: right 3px; padding: 1px 23px 1px 0; float: right; }
 .post-nav a { color:#000; background-repeat: no-repeat; }
 
-#sidebar A { COLOR: #414341; TEXT-DECORATION: none;    -webkit-transition: color .3s linear; -o-transition: color .3s linear; -moz-transition: color .3s linear;}
+#sidebar A { COLOR: #888888; TEXT-DECORATION: none;    -webkit-transition: color .3s linear; -o-transition: color .3s linear; -moz-transition: color .3s linear;}
 #sidebar A:hover { COLOR: #000000; TEXT-DECORATION: none;}
+
+.left { float: left; }
+.right { float: right; }
 
 
 .grid {
@@ -252,15 +254,16 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
     width: 200px;
     margin-left: 145px;
     margin-top: 5px;
-    text-shadow: 0 1px 2px #000;
+/*    text-shadow: 0 1px 2px #000; */
     line-height: 16px;
 }
 
 .single-column-sidebar #player .ctrl {
     margin-top: 20px;
-    margin-left: 0;
+    margin: 0 auto;
     text-align: center;
-    width: 180px;
+    width: 60%;
+    min-width: 130px;
 }
 
 .single-column-sidebar .ctrl {
@@ -271,20 +274,20 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
     font-size: 14px;
     display: block;
     text-overflow: ellipsis;
-    color: #FFFFFF;
+    color: #414341;
 }
 
 #player .ctrl .tag span {
     font-size: 12px;
     margin-top: 5px;
-    color: #DDDDDD;
+    color: #414341;
 }
 
 #player .ctrl .icon {
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    opacity: 0.6;
+    opacity: 0.3;
     cursor: pointer;
     width: 24px;
     height: 24px;
@@ -352,7 +355,7 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 
 #player .ctrl .progress .timer {
     font-size: 12px;
-    color: #ccc;
+    color: #414341;
     margin-top: 8px;
 }
 
@@ -464,14 +467,14 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 }
 
 .single-column-sidebar #playlist {
-    margin: 0;
-    margin-left: 6px;
+    margin: 0 auto;
     padding-top: 20px;
-    width: 150px;
+    width: 60%;
+    min-width: 130px;
 }
 
 #playlist li {
-    color: #aaa;
+    color: #414341;
     font-size: 12px;
     line-height: 2;
     padding-left: 25px;
@@ -490,18 +493,23 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 }
 
 #playlist li:hover {
-    color: #fff;
+    color: #000;
+    text-shadow: 0 1px 1px #000;
 }
 
 #playlist li.playing {
     /*background: url(/assets/resource/sidebar/music/images/playing.png) no-repeat 0 center;*/
-    color: #fff;
+    color: #000;
     font-weight: bold;
+    text-shadow: 0 1px 2px #000;
 }
 
 .sidebar_categories {
-    margin: 20px 0 0 5px;
+    margin: 0 auto;
+    width: 75%;
 }
+
+#sidebar li { list-style: none; text-align: left; }
 
 .sidebar_categories .title {
     padding: 10px 15px;
@@ -551,7 +559,7 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 }
 
 .sidebar_categories li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #EBEBEB;
 }
 
 #myCanvasContainer {
@@ -602,3 +610,116 @@ article.support-author .support-qr img{ margin: 0 30px; width: 300px; }
 .comment .vwrap :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #aaa;
 }
+/* Always remember to compress your live stylesheet and keep an uncompressed backup */
+
+/* 768 ~ 1200
+4:3 	1280×1024
+		1024×768	17.5%
+16:10	1680×1050
+		1440×900	20%		Macbook Air
+		1280×800
+16:9	1920×1080	14%		我的大显示器
+		1366×768	25%
+		1280×720
+*/
+/*	Default 8-column layout
+	60 px columns, 24 px gutters, 60 px margins, 768 px total
+	---------------------------------------------------------
+	1     2      3      4      5      6      7      8
+	60px  144px  228px  312px  396px  480px  564px  648px	*/
+@media only screen and (max-width: 1211px) and (min-width: 768px) {
+#content {}
+#sidebar {}
+}
+
+/* 1200+
+4:3 	1600×1200
+16:10	2560×1600
+		1920×1200
+16:9	1920×1200
+*/
+/*	13-column layout
+	60 px columns, 24 px gutters, 72 px margins, 1212 px total (extra space for scrollbars)
+	---------------------------------------------------------------------------------------
+	1     2      3      4      5      6      7      8      9      10     11     12     13
+	60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px	*/
+
+@media only screen and (min-width: 1212px) {
+#content {width: 80%; float: left;}
+#sidebar {width: 20%; float: right; text-align: center;}
+}
+
+/*	5-column layout
+	60 px columns, 24 px gutters, 42 px margins, 480 px total
+	---------------------------------------------------------
+	1     2      3      4      5
+	60px  144px  228px  312px  396px	*/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+#content {}
+#sidebar {}
+}
+
+/*	3-column layout
+	60 px columns, 24 px gutters, 46 px margins, 320 px total
+	---------------------------------------------------------
+	1     2      3
+	60px  144px  228px	*/
+
+@media only screen and (max-width: 479px) {
+#content {}
+#sidebar {}
+}
+
+.article_meta {
+    color: #888888;
+    margin-top: 15px;
+}
+
+.article_meta a {
+    color: #888888;
+    margin-right: 5px;
+}
+
+.article_meta a.article-fa {
+    margin-right: 12px;
+}
+
+.article_meta a i.icon-folder-close-alt {
+    margin-right: 3px;
+
+}
+
+.article_more {
+    height: 35px;
+}
+
+.article_more a.article_link {
+    background-image: url(/assets/resource/link.png);
+    display: block;
+    overflow: hidden;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin-right: -40px;
+    line-height: 35px;
+    text-indent: 100px;
+    transition-property: none;
+}
+
+.article_more a.article_link:hover {
+    background-position: 0 -40px;
+}
+
+.article_more a.article_link + a {
+    margin-right: 0;
+    background-image: url(/assets/resource/talk.png);
+}
+
+.article_content img {
+    display: block;
+    border: 1px none;
+    margin: 0 auto;
+    max-width: 100%;
+}
+

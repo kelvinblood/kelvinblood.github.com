@@ -1,0 +1,103 @@
+
+.article_meta {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+}
+
+.article_meta a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 5px;
+}
+
+.article_meta a.article-fa {
+    margin-right: 12px;
+}
+
+.article_meta a i.icon-folder-close-alt {
+    margin-right: 3px;
+
+}
+
+.article_index_contents h1, .article_index_contents h2, .article_index_contents h3, .article_index_contents h4, .article_index_contents h5, .article_index_contents h6 {
+    margin: 40px 0 20px;
+}
+
+.article_index_contents {
+    padding: 10px 0;
+}
+
+.article_index_contents a:hover {
+    color: #EEEEEE;
+}
+
+.article_index_contents a {
+    color: #afffff;
+}
+
+.article_single_contents {
+    padding: 30px;
+}
+
+.article_index_thumbnail {
+    height: 200px;
+    width: 200px;
+    margin: 20px 12px 0px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article_single_thumbnail {
+    text-align: center;
+}
+
+.article_content {
+    display: inline-block;
+    width: 100%;
+}
+
+.article_single_content {
+    padding: 30px;
+}
+
+.article_horizontal_rule {
+    clear: both;
+    margin: 0;
+    margin-left: -40px;
+    border: 0;
+    height: 1px;
+    width: 670px;
+}
+
+.article_more {
+    height: 35px;
+}
+
+.article_more a.article_link {
+    background-image: url(/assets/resource/link.png);
+    display: block;
+    overflow: hidden;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin-right: -40px;
+    line-height: 35px;
+    text-indent: 100px;
+    transition-property: none;
+}
+
+.article_more a.article_link:hover {
+    background-position: 0 -40px;
+}
+
+.article_more a.article_link + a {
+    margin-right: 0;
+    background-image: url(/assets/resource/talk.png);
+}
+
+.article_content img {
+    display: block;
+    border: 1px none;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
