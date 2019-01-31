@@ -6,15 +6,16 @@ networks:
       name: kelu
 
 services:
-  blog:
+  dev-blog:
 #    command: jekyll serve --incremental
     command: jekyll serve
     image: jekyll/jekyll:latest
-    container_name: blog
+    container_name: dev-blog
     restart: always
     volumes:
       - ./:/srv/jekyll
       - ./_site:/srv/jekyll/_site
+      - ./passwd.db:/auth/passwd.db
       - ./vendor/bundle:/usr/local/bundle
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
