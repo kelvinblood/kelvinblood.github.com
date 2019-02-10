@@ -6,7 +6,7 @@ tags: modern_times
 ---
 ![](https://cdn.kelu.org/blog/2017/11/selfmedia.jpg)
 
-这一篇作者对现在红红火火自媒体的一些思考，蛮值得学习的。转载过来学习下。版权归原作者：[聿纾](https://www.zhihu.com/people/deepdarkfantastic)
+> 这一篇作者对现在红红火火自媒体的一些思考，蛮值得学习的。转载过来学习下。版权归原作者：[聿纾](https://www.zhihu.com/people/deepdarkfantastic)
 
 由「算法」驱动下的个性化阅读时代，「追逐热点」的动机，就是在于可以瓜分由当前这个热门话题带来的连锁传播效应。
 

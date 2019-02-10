@@ -15,6 +15,19 @@ Sendcloud价格也不贵（至少比起短信来说，便宜太多了）。很�
 
 ![sendcloud](https://cdn.kelu.org/blog/2016/09/sendcloud.jpg)
 
+
+
+更新2019年2月10日：
+
+sendcoud 免费额度还是比较低的，关于邮件发送的还有下面几个产品，我会在接下来试用下：
+
+* G suite
+* [MailChimp](https://wzfou.com/mailchimp/)
+* [zoho mail](https://wzfou.com/zoho-mail/)
+* ​
+
+
+
 参考资料：
 
 * [sendcloud官网](http://sendcloud.sohu.com/)
