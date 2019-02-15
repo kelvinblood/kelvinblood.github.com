@@ -1,6 +1,6 @@
 <div class="grid grid_square green_light">
 
-	    <a href="/category/2010/2018.html" class="sidebar_logo">
+	    <a href="/category/2010/2019" class="sidebar_logo">
         <i class="fa fa-keyboard-o sidebar-fa-logo" aria-hidden="true"></i>
 
         <p>文章列表</p>
@@ -75,7 +75,7 @@
         {% for category in site.categories %}
 
         {% assign str = category | first | slugize | remove: '' %}
-        <li><a href="/category/{{ category | first | slugize }}.html">
+        <li><a href="/category/{{ category | first | slugize }}">
             {% case str %}
             {% when 'life' %}
             <i class="fa fa-coffee"></i>

@@ -1,0 +1,51 @@
+/* Always remember to compress your live stylesheet and keep an uncompressed backup */
+
+/* 768 ~ 1200
+4:3 	1280×1024
+		1024×768	17.5%
+16:10	1680×1050
+		1440×900	20%		Macbook Air
+		1280×800
+16:9	1920×1080	14%		我的大显示器
+		1366×768	25%
+		1280×720
+*/
+/*	Default 8-column layout
+	60 px columns, 24 px gutters, 60 px margins, 768 px total
+	---------------------------------------------------------
+	1     2      3      4      5      6      7      8
+	60px  144px  228px  312px  396px  480px  564px  648px	*/
+
+/* 1200+
+4:3 	1600×1200
+16:10	2560×1600
+		1920×1200
+16:9	1920×1200
+*/
+/*	13-column layout
+	60 px columns, 24 px gutters, 72 px margins, 1212 px total (extra space for scrollbars)
+	---------------------------------------------------------------------------------------
+	1     2      3      4      5      6      7      8      9      10     11     12     13
+	60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px	*/
+
+@media only screen and (min-width: 1212px) {
+
+}
+
+/*	5-column layout
+	60 px columns, 24 px gutters, 42 px margins, 480 px total
+	---------------------------------------------------------
+	1     2      3      4      5
+	60px  144px  228px  312px  396px	*/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+}
+
+/*	3-column layout
+	60 px columns, 24 px gutters, 46 px margins, 320 px total
+	---------------------------------------------------------
+	1     2      3
+	60px  144px  228px	*/
+
+@media only screen and (max-width: 479px) {
+}
