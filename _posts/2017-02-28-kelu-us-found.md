@@ -2,7 +2,6 @@
 layout: post
 title: 终于找到曾经的blog样式了！
 category: life
-tags: life
 ---
 
 ![](https://cdn.kelu.org/blog/2017/02/kelu-us-1.jpg)

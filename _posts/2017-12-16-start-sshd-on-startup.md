@@ -2,7 +2,7 @@
 layout: post
 title: CentOS 7 开机自启动ssh服务
 category: tech
-tags: tech
+tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
@@ -22,12 +22,12 @@ tags: tech
 	Dec 27 17:38:43 adsl-172-10-1-100.dsl.sndg02.sbcglobal.net systemd[1]: Unit sshd.service entered failed state.
 	Dec 27 17:38:43 adsl-172-10-1-100.dsl.sndg02.sbcglobal.net systemd[1]: sshd.service failed.
 
-	
+使用 journalctl -xe 得到了有用的信息：
 使用 journalctl -xe 得到了有用的信息：
 
 	/var/empty/sshd must be owned by root and not group or world-writable.
 
-
+发现 /var/empty/sshd 文件的属性为777.改为755即可：
 发现 /var/empty/sshd 文件的属性为777.改为755即可：
 
 	chmod 755 /var/empty/sshd

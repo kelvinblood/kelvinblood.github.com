@@ -2,7 +2,7 @@
 layout: post
 title: 如何在 Slack 上查找已归档的频道信息
 category: tech
-tags: tech
+tags: slack
 ---
 ![](https://cdn.kelu.org/blog/tags/slack.jpg)
 
@@ -17,7 +17,7 @@ tags: tech
 
 	![](https://cdn.kelu.org/blog/2017/12/20171228091516.jpg)
 
-
+# 参考资料
 # 参考资料
 
 * [Channels & Direct Messages](https://get.slack.help/hc/en-us/articles/201563847-Archive-a-channel)

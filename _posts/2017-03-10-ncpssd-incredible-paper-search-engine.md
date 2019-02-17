@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 在ncpssd.org下载论文不要钱啊！
-category: life
-tags: life
+category: product
 ---
 
 ![](https://cdn.kelu.org/blog/2017/03/filehelper_1489153809879_43.jpg)

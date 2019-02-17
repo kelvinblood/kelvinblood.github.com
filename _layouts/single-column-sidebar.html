@@ -17,7 +17,7 @@ layout: default
         {% for tag in site.tags %}
                 {% assign str = tag | first | slugize | remove: '' %}
                 {% assign font_size = site.tags[str] | size | times:0.8 |plus:12 %}
-                <li> <a href="/category/tags/{{ tag | first | slugize }}" style="font-size:{{ font_size }}px"> {{ str }}</a></li>
+                <li> <a href="/category/tags/{{ tag | first | slugize }}.html" style="font-size:{{ font_size }}px"> {{ str }}</a></li>
                 {% endfor %}
       </ul>
     </div>
