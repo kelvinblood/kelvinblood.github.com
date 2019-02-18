@@ -37,8 +37,10 @@ tags: product
      * [Fluentd vs. LogStash: A Feature Comparison](https://www.loomsystems.com/blog/single-post/2017/01/30/a-comparison-of-fluentd-vs-logstash-log-collector)
 3. cloud native
 
-   * [松果笔记](https://sycki.com/) #底层 #代码级别 #深度 #丰富
+   * [松果笔记](https://sycki.com/) #代码级别 #深度 #丰富
      * [k8s CRI](https://sycki.com/articles/kubernetes/k8s-cri)
+   * [浙大SEL实验室](http://www.sel.zju.edu.cn/) #代码级别 #深度
+     * [Google Kubernetes设计文档之网络篇](http://www.sel.zju.edu.cn/?p=353)
    * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/) #深度 #丰富
      * [使用 pprof 和火焰图调试 golang 应用](http://cizixs.com/2017/09/11/profiling-golang-program/)
    * [Jimmy Song(宋净超) - 蚂蚁金服布道师](https://jimmysong.io/) #入门 #布道 #实用 #操作
@@ -48,6 +50,7 @@ tags: product
      * [CoreDNS 使用与架构分析](https://zhengyinyong.com/coredns-basis.html)
    * [极术](https://jishu.io/) k8s
    * [伪架构师](https://blog.fleeto.us/) istio
+   
 3. 休闲
    * <https://diygod.me/> #RSSHUB #宅 #动漫 #高产 #开发者
    * <https://www.moerats.com/>
