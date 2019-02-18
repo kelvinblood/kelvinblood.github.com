@@ -2,7 +2,7 @@
 layout: post
 title: Mac 下安装 php 包管理器 composer
 category: tech
-tags: php mac brew
+tags: php mac
 ---
 ![](https://cdn.kelu.org/blog/tags/composer.jpg)
 

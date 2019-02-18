@@ -2,7 +2,7 @@
 layout: post
 title: Resilio Sync 介绍
 category: software
-tags: p2p
+tags: 
 ---
 ![](https://cdn.kelu.org/blog/tags/btsync.jpg)
 
