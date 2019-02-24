@@ -62,5 +62,8 @@ tags: product
 5. 安全
    * [ESE's Note](https://esebanana.github.io/)
    * [安全内参](https://www.secrss.com/)
+   * [freebuf](https://www.freebuf.com/news/others/864.html)
 6. 其它
    * [阳志平的网志](https://www.yangzhiping.com/) #读书笔记 #认知科学
+   * [卢瑟经济学](https://zhuanlan.zhihu.com/MRneoanderson) #经济
+   * [阮一峰的网络日志](http://www.ruanyifeng.com) #技术
