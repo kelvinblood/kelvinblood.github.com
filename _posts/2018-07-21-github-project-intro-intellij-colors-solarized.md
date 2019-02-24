@@ -1,6 +1,6 @@
 ---
 layout: post
-title: github项目介绍 —— intellij-colors-solarized
+title: intellij-colors-solarized - Github项目
 category: tech
 tags: intellij github
 ---
