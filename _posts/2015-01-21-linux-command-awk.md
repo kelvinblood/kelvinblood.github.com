@@ -197,7 +197,9 @@ awk 还允许使用布尔运算符 "||"（逻辑与）和 "&&"（逻辑或），
 	awk -F:  '$1~/root/   {print  $3}'   /etc/passwd     备注：打印root的ID号
 	awk -F:  '$3>500  {print  $1}'      /etc/passwd     备注：列出计算机中ID号大于500的用户名
 	awk 'BEGIN { x="123"; print x-2 }' ＃将字符串转换为数值来运算
-	awk 'BEGIN {sum=0} {sum+=$0} END{print sum/FNR}' file.txt # 求平均数：
+	awk 'BEGIN {sum=0} {sum+=$0} END{print sum/FNR}' file.txt # 求平均数
+	
+	docker images -a | awk '{ print $1":"$2 }'  # 打印所有镜像名
 	
 	分组求平均：
 	awk -F" " '{sum2[$1] += $2; sum3[$1] += $3; cnt[$1] += 1} END{for (i in sum2) print i, sum2[i]/cnt[i], sum3[i]/cnt[i]}' gav.txt
