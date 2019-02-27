@@ -29,6 +29,7 @@ echo '' > .gitignore
 
 ```
 touch readme
+git add .
 git commit -m "init"
 ```
 

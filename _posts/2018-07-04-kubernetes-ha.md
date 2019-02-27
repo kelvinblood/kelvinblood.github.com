@@ -242,3 +242,4 @@ kubeadm token create --print-join-command
 * [一步步打造基于Kubeadm的高可用Kubernetes集群](https://tonybai.com/2017/05/15/setup-a-ha-kubernetes-cluster-based-on-kubeadm-part1/)
 * [关于Kubernetes Master高可用的一些策略](https://jishu.io/kubernetes/kubernetes-master-ha/)
 * [使用Kubeadm搭建Kubernetes HA（1.10.1）](https://blog.csdn.net/chenleiking/article/details/80136449)
+* [kubernetes高可用相关配置](https://sealyun.com/post/k8s-ha-conf/)
