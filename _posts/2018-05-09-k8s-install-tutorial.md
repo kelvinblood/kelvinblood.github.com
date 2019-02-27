@@ -214,12 +214,19 @@ tags: kubernetes docker
 
    kubeadm join 10.19.0.55:6443 --token yvcyj2.8sx9plzgg0x2pyui --discovery-token-ca-cert-hash sha256:39a0baf9d08046eecbd593049b4d71e47d47478c01b6761c911da9589aed1f73 --ignore-preflight-errors Swap
    ```
+   > 更新 2019年2月26日：
+   >
+   > 对于添加节点，如果出现这样的错误提示：` [ERROR CRI]: unable to check if the container runtime at "/var/run/dockershim.sock" is running: exit status 1`
+   >
+   > 有可能是crictl的原因，在节点上并不需要这个东西，删除即可：
+   >
+   > `rm /usr/bin/crictl`
 
 10. 将 master 设置为node（可选)
 
-    ```
-    kubectl taint nodes --all node-role.kubernetes.io/master-
-    ```
+   ```
+   kubectl taint nodes --all node-role.kubernetes.io/master-
+   ```
 
 11. 验证
 
