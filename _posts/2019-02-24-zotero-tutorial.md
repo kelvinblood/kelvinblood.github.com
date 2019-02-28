@@ -18,7 +18,7 @@ Zotero是一款免费、开源的“知识”管理软件。它的管理能力�
 * 老师
 * 协作社区人群
 
-![Zotero桌面应用程序的屏幕截图](D:\Github\blog.kelu.org\_posts\5\screenshot-1.4.png)
+![Zotero桌面应用程序的屏幕截图](https://cdn.kelu.org/blog/2019/02/screenshot-1.4.jpg)
 
 
 
@@ -52,9 +52,9 @@ Zotero是一款免费、开源的“知识”管理软件。它的管理能力�
 
 Paper Machines 插件：<http://www.papermachines.org>
 
-![32](D:\Github\blog.kelu.org\_posts\5\32.jpg)
+![32](https://cdn.kelu.org/blog/2019/02/32.jpg)
 
-![33](D:\Github\blog.kelu.org\_posts\5\33.jpg)
+![33](https://cdn.kelu.org/blog/2019/02/33.jpg)
 
 # 安装
 
