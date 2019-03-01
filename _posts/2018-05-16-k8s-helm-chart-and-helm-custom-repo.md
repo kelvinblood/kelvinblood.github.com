@@ -2,13 +2,11 @@
 layout: post
 title: kubernetes helm chart
 category: tech
-tags: kubernetes docker
+tags: kubernetes docker helm
 ---
-![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/helm.jpg)
 
 这篇文章记录如何自建 helm chart 和 helm repo。一些前置的背景知识可以在这里了解：[kubernetes helm 入门](/tech/2018/05/05/k8s-helm-tutorial.html)
-
-
 
 ## 1. chart
 

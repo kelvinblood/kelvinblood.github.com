@@ -2,9 +2,9 @@
 layout: post
 title: kubernetes helm 入门
 category: tech
-tags: kubernetes docker
+tags: kubernetes docker helm
 ---
-![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/helm.jpg)
 
 这篇文章记录如何安装和使用helm。
 

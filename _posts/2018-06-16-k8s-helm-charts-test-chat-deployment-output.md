@@ -2,9 +2,9 @@
 layout: post
 title: kubernetes 使用 dry-run或get manifest 查看 helm chart 的 template
 category: tech
-tags: docker kubernetes
+tags: docker kubernetes helm
 ---
-![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/helm.jpg)
 
 今天打算在 kubernetes dashboard 中直接创建项目。想用某个chart内容来查看template信息。
 

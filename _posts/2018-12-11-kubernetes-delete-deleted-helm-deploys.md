@@ -2,9 +2,9 @@
 layout: post
 title: kubernetes 批量删除 helm chart 应用
 category: tech
-tags: docker kubernetes
+tags: docker kubernetes helm
 ---
-![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/helm.jpg)
 
 在开发环境常常批量安装 helm chart 应用，如果普通删除，会留下很多应用的信息，而且无法安装同名应用。
 

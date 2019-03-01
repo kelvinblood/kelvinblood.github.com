@@ -4,7 +4,7 @@ title: 使用 helm 安装 Redis (包括持久化存储)
 category: tech
 tags: docker kubernetes helm redis
 ---
-![](https://cdn.kelu.org/blog/tags/k8s.jpg)
+![](https://cdn.kelu.org/blog/tags/helm.jpg)
 
 # 背景
 
