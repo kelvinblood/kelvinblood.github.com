@@ -63,11 +63,11 @@ spec:
 
 搜索 persistence ，填充 storage class的内容。
 
-![55135198291](C:\Users\kelu\AppData\Local\Temp\1551351982911.png)
+![55135198291](https://cdn.kelu.org/blog/2019/02/1551351982911.jpg)
 
 # 4. 安装
 
-![55135211037](C:\Users\kelu\AppData\Local\Temp\1551352110376.png)
+![55135211037](https://cdn.kelu.org/blog/2019/02/1551352110376.jpg)
 
 ```
 helm search mysql

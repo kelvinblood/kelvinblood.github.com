@@ -63,7 +63,7 @@ spec:
 
 搜索 persistence ，填充 storage class的内容。
 
-![55135270788](C:\Users\kelu\AppData\Local\Temp\1551352707888.png)
+![55135270788](https://cdn.kelu.org/blog/2019/02/1551352707888.jpg)
 
 # 4. 安装
 
