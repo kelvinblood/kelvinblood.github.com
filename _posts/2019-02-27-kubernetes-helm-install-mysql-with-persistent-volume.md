@@ -57,9 +57,12 @@ spec:
 
 在这里我们必须定义 nodeAffinity，Kubernetes Scheduler 需要使用 PV 的 nodeAffinity 描述信息来保证 Pod 能够调度到有对应 local volume 的机器上。
 
+如果出现了这个错误 `Node didn't find available persistent volumes to bind` ，大多原因是因为你没有写对 hsotname，
+注意在 k8s 中hostname都是小写显示的，具体参考命令行 `kubectl get node -owide`
+
 # 3. 修改 values.yaml
 
-去到官网维护的MySQL目录： <https://github.com/helm/charts/tree/master/stable/mysql> ，下载 [values.yaml](https://github.com/helm/charts/raw/master/stable/mysql/values.yaml) 文件。
+去到 helm 维护的MySQL目录： <https://github.com/helm/charts/tree/master/stable/mysql> ，下载 [values.yaml](https://github.com/helm/charts/raw/master/stable/mysql/values.yaml) 文件。
 
 搜索 persistence ，填充 storage class的内容。
 

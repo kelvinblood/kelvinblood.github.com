@@ -57,6 +57,10 @@ spec:
 
 在这里我们必须定义 nodeAffinity，Kubernetes Scheduler 需要使用 PV 的 nodeAffinity 描述信息来保证 Pod 能够调度到有对应 local volume 的机器上。
 
+如果出现了这个错误 `Node didn't find available persistent volumes to bind` ，大多原因是因为你没有写对 hsotname，
+注意在 k8s 中hostname都是小写显示的，具体参考命令行 `kubectl get node -owide`
+
+
 # 3. 修改 values.yaml
 
 去到helm维护的 Redis 目录： <https://github.com/helm/charts/tree/master/stable/redis> ，下载 [values.yaml](https://github.com/helm/charts/raw/master/stable/redis/values.yaml) 文件。也可以看下他们的 readme，看看还有哪些推荐配置项。
