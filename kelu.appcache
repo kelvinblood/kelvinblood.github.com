@@ -2,16 +2,30 @@ CACHE MANIFEST
 #version 1.2.2
 
 CACHE:
-index
+/
+2019.html
+2018.html
+2017.html
+2016.html
+2015.html
 assets/resource/sidebar/music/images/pause.png
+assets/resource/sidebar/music/images/play.png
+assets/resource/sidebar/music/images/repeat.png
+assets/resource/sidebar/music/images/volume.png
+assets/resource/sidebar/music/images/fastforward.png
+assets/resource/sidebar/music/images/shuffle.png
+assets/resource/logo.png
+assets/resource/prev-g.png
 assets/css/style.css
 assets/css/font-awesome.min.css
+assets/fonts/fontawesome-webfont.woff2
 assets/js/jquery.min.js
 assets/js/jquery.tagcanvas.min.js
 assets/js/av-min.js
 assets/js/Valine.min.js
 assets/js/jquery-ui.min.js
 assets/js/music.js
+analytics.js
 https://cdn.slaask.com/chat.js
 https://cdn.kelu.org/blog/static/music_kyande.jpg
 https://cdn.kelu.org/blog/static/music_kyande.mp3
