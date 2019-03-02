@@ -7,6 +7,8 @@ typora-copy-images-to: 21
 
 来自：<http://sciencefictioninterfaces.tumblr.com/>
 
+<https://www.artstation.com/artwork/JqzE0>
+
 ![Lone Echo Ui的界面设计艺术负责人：Davison Carvalho，艺术指导：Nathan Phail-Liff，Ui概念艺术：Ash Thorp，Mike Sekowski，Bruno William，UI / UX设计：Shaheed Khan](https://cdn.kelu.org/blog/2019/02/tumblr_ozjqlgSYXL1u2y46bo1_1280.jpg)
 
 ![Lone Echo Ui的界面设计艺术负责人：Davison Carvalho，艺术指导：Nathan Phail-Liff，Ui概念艺术：Ash Thorp，Mike Sekowski，Bruno William，UI / UX设计：Shaheed Khan](https://cdn.kelu.org/blog/2019/02/tumblr_ozjqlgSYXL1u2y46bo2_1280.jpg)
