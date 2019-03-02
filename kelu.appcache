@@ -3,11 +3,13 @@ CACHE MANIFEST
 
 CACHE:
 /
-2019.html
-2018.html
-2017.html
-2016.html
-2015.html
+404.html
+me.html
+category/2010/2019.html
+category/2010/2018.html
+category/2010/2017.html
+category/2010/2016.html
+category/2010/2015.html
 assets/resource/sidebar/music/images/pause.png
 assets/resource/sidebar/music/images/play.png
 assets/resource/sidebar/music/images/repeat.png
@@ -62,4 +64,4 @@ NETWORK:
 *
 
 FALLBACK:   
-/404.html
+/ 404.html
