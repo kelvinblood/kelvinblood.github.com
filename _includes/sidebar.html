@@ -75,7 +75,7 @@
         {% for category in site.categories %}
 
         {% assign str = category | first | slugize | remove: '' %}
-        <li><a href="/category/{{ category | first | slugize }}">
+        <li><a href="/category/{{ category | first | slugize }}.html">
             {% case str %}
             {% when 'life' %}
             <i class="fa fa-coffee"></i>
