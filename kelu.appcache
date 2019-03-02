@@ -12,7 +12,6 @@ assets/js/Valine.min.js
 assets/js/jquery-ui.min.js
 assets/js/music.js
 https://cdn.slaask.com/chat.js
-
 https://cdn.kelu.org/blog/static/music_kyande.jpg
 https://cdn.kelu.org/blog/static/music_kyande.mp3
 https://cdn.kelu.org/blog/static/music_kyande.ogg
@@ -43,3 +42,9 @@ https://cdn.kelu.org/blog/static/music_¥¨¥ë¤Î½}±¾(Ä§Å®¤È¥é¥Õ¥ì¥ó¥Ä¥§).ogg
 https://cdn.kelu.org/blog/static/music_M16.jpg
 https://cdn.kelu.org/blog/static/music_M16.mp3
 https://cdn.kelu.org/blog/static/music_M16.ogg
+
+NETWORK:    
+*
+
+FALLBACK:   
+/404.html
