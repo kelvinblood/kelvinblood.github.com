@@ -29,7 +29,7 @@ typora-copy-images-to: 21
 
 ![Alan Torres / TART在“愤怒的命运”中对CIPHER的概念](https://cdn.kelu.org/blog/2019/02/tumblr_oun56jf9mK1u2y46bo2_1280.jpg)
 
-![Alan Torres / TART在“愤怒的命运”中对CIPHER的概念](https://66.media.tumblr.com/7120fa20e02b464433805704825fc488/tumblr_oun56jf9mK1u2y46bo3_1280.jpg)
+![Alan Torres / TART在“愤怒的命运”中对CIPHER的概念](https://cdn.kelu.org/blog/2019/02/tumblr_oun56jf9mK1u2y46bo3_1280-1551527956692.jpg)
 
 ![Alan Torres / TART在“愤怒的命运”中对CIPHER的概念](https://cdn.kelu.org/blog/2019/02/tumblr_oun56jf9mK1u2y46bo4_1280.jpg)
 
