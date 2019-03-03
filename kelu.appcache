@@ -31,7 +31,8 @@ assets/resource/talk.png
 assets/resource/prev-g.png
 assets/css/style.css
 assets/css/font-awesome.min.css
-assets/fonts/fontawesome-webfont.woff2
+assets/fonts/fontawesome-webfont.woff2?v-4.7.0
+assets/fonts/fontawesome-webfont.ttf?v-4.7.0
 assets/js/jquery.min.js
 assets/js/jquery.tagcanvas.min.js
 assets/js/av-min.js
