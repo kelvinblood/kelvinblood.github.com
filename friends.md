@@ -11,7 +11,7 @@ title: 友情链接
         vertical-align: top;
         width: 90%;
     }
-
+    
     #content ul li span{
         font-size: 12px;
         color: rgba(255, 255, 255, 0.55);
@@ -38,7 +38,15 @@ title: 友情链接
             <p class="sitename">大调小夜猫</p>
         </a>
     </li>
-    <li class="link-item" style="width: 64px">
+
+   <li class="link-item" style="width: 64px">
+        <a href="https://tqwboy.github.io" title="Hohenheim" class="link-item-inner effect-apollo" target="_blank">
+            <img src="https://i.imgur.com/EJAE8pu.png">
+            <p class="sitename">Hohenheim</p>
+        </a>
+    </li>
+
+​    <li class="link-item" style="width: 64px">
         <a href="http://chuangzaoshi.com" title="为创意工作者而设计" class="link-item-inner effect-apollo" target="_blank">
             <img src="/assets/img/friends/chuangzaoshi.jpg">
             <p class="sitename">像素创造狮</p>
