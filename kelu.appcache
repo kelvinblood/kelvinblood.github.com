@@ -2,22 +2,10 @@ CACHE MANIFEST
 #version 1.2.2
 
 CACHE:
-/
 404.html
-me.html
-category/2010/2019.html
-category/2010/2018.html
 category/2010/2017.html
 category/2010/2016.html
 category/2010/2015.html
-category/life.html
-category/tech.html
-category/software.html
-category/literature.html
-category/product.html
-category/japanese.html
-category/design.html
-category/finance.html
 assets/resource/sidebar/music/images/pause.png
 assets/resource/sidebar/music/images/play.png
 assets/resource/sidebar/music/images/repeat.png

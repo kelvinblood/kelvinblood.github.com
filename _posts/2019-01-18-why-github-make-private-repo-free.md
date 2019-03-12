@@ -3,7 +3,6 @@ layout: post
 title: GitHub 为什么免费了 - Coding.net
 category: product
 tags: github
-typora-copy-images-to: 17
 ---
 ![](https://cdn.kelu.org/blog/tags/product-market-fit.jpg)
 
