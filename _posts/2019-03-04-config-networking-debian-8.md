@@ -58,6 +58,3 @@ service networking restart
 
 执行完该命令后，查看/etc/resovle.conf文件，会发现其DNS信息，就是我们刚刚在方法一或方法二中写的DNS信息。
 
-# 参考资料
-
-* [docker容器网络方案：calico网络模型](http://cizixs.com/2017/10/19/docker-calico-network/)
