@@ -46,8 +46,6 @@ Zotero是一款免费、开源的“知识”管理软件。它的管理能力�
 - 文献的引用次数：比如【Google学术引用次数】
 - 文献的学术社交媒体影响力，比如【altmetric分数】
 
-
-
 ## 可视化
 
 Paper Machines 插件：<http://www.papermachines.org>
