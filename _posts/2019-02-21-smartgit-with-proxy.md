@@ -3,7 +3,6 @@ layout: post
 title: SmartGit 使用代理
 category: tech
 tags: git
-typora-copy-images-to: 4
 ---
 ![](https://cdn.kelu.org/blog/tags/git.jpg)
 

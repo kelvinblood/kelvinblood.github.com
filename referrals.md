@@ -59,6 +59,8 @@ tags: product
 
    * [松果笔记](https://sycki.com/) #代码级别 #深度 #丰富
      * [k8s CRI](https://sycki.com/articles/kubernetes/k8s-cri)
+   * [koala bear](http://wsfdl.com/) #深入浅出
+     * [理解 K8S 的设计精髓之 list-watch](http://wsfdl.com/kubernetes/2019/01/10/list_watch_in_k8s.html)
    * [浙大SEL实验室](http://www.sel.zju.edu.cn/) #代码级别 #深度
      * [Google Kubernetes设计文档之网络篇](http://www.sel.zju.edu.cn/?p=353)
    * [Cizixs Write Here - 蚂蚁金服后端](http://cizixs.com/) #深度 #丰富
