@@ -11,7 +11,7 @@ typora-copy-images-to: 22
 
 ifconfig 是 net-tools 中已被废弃使用的一个命令，许多年前就已经没有维护了。iproute2 套件里提供了许多增强功能的命令，ip 命令是其中之一。
 
-![Net tools vs Iproute2](D:\GitHub\kelvinblood.github.com\_posts\22\003404uy9l1t5zayzllylm.png)
+![Net tools vs Iproute2](https://cdn.kelu.org/blog/2019/03/003404uy9l1t5zayzllylm.jpg)
 
 假设我们服务器的网卡名为 enp0s3。
 
