@@ -8,7 +8,11 @@ tags: kubernetes
 
 > 博主是蘑菇街的员工，写了不少kubernetes的文章。这篇的原文链接：<http://wsfdl.com/kubernetes/2019/01/10/list_watch_in_k8s.html>
 
-散，进而为 K8S 的设计理念所折服。List-watch 是 K8S 统一的异步消息处理机制，保证了消息的实时性，可靠性，顺序性，性能等等，为声明式风格的 API 奠定了良好的基础，它是优雅的通信方式，是 K8S 架构的精髓。
+至今清楚的记得，当了解到 K8S 组件之间仅采用 HTTP 协议通信，没有依赖中间件时，我非常好奇它是如何做到的。
+
+在 K8S 内部通信中，肯定要保证消息的实时性。之前以为方式有两种：客户端(kubelet, scheduler, controller-manager 等)轮询 apiserver，或者 apiserver 通知客户端。如果采用轮询，势必会大大增加 apiserver 的压力，同时实时性很低。如果 apiserver 主动发 HTTP 请求，又如何保证消息的可靠性，以及大量端口占用问题？
+
+当阅读完 list-watch 源码后，先是所有的疑惑云开雾散，进而为 K8S 的设计理念所折服。List-watch 是 K8S 统一的异步消息处理机制，保证了消息的实时性，可靠性，顺序性，性能等等，为声明式风格的 API 奠定了良好的基础，它是优雅的通信方式，是 K8S 架构的精髓。
 
 ## List-Watch 是什么
 
