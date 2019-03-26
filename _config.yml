@@ -13,7 +13,7 @@ plugins-dir:
 # 阅读处理
 safe:         false
 include:      [".htaccess"]
-exclude:      []
+exclude:      [".docker-compose.yml"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
