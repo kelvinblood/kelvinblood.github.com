@@ -105,7 +105,7 @@ tags:
 
 ## 电面结果记录表
 
-![img](https://pic3.zhimg.com/80/06eff6a45f0e1f945ba5345c05f0d2da_hd.png)
+![img](https://cdn.kelu.org/blog/2018/12/06eff6a45f0e1f945ba5345c05f0d2da_hd.jpg)
 
 将结果在表格中汇总，列出每个候选人的分项评级和综合评级，每项评级下要有描述与注释。
 
