@@ -57,4 +57,3 @@ service networking restart
 ```
 
 执行完该命令后，查看/etc/resovle.conf文件，会发现其DNS信息，就是我们刚刚在方法一或方法二中写的DNS信息。
-

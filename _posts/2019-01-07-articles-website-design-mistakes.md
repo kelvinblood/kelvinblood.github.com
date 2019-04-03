@@ -7,7 +7,7 @@ typora-copy-images-to: 20
 
 ![55128104528](https://cdn.kelu.org/blog/2019/01/1551281045288.jpg)
 
-> 转载自:<http://blog-en.tilda.cc/articles-website-design-mistakes>，内容是机器翻译过来的，界面看着也不是很舒服，看原文吧。
+> 转载自:<http://blog-en.tilda.cc/articles-website-design-mistakes>，内容是机器翻译过来的，界面看着也不是很舒服的话，看原文吧。
 
 全世界有成千上万的人在[Tilda](https://tilda.cc/)上创建网站。本文基于我和我的同事最近的研究。我们分析了人们在使用我们的平台创建网站时常犯的错误。以下适用于您网页设计时的一些注意事项。
 
