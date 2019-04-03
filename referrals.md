@@ -26,6 +26,7 @@ tags: product
 
 * slack
 * instapaper
+* onenote
 
 * windows
     * [typora - markdown工具](https://typora.io/)
@@ -42,6 +43,15 @@ tags: product
     * [Reeder - RSS客户端](http://reederapp.com/)
     * [PaperShip - 文献管理](https://www.papershipapp.com/)
     * [Lighten - 思维导图](https://lighten.xmind.net/)
+    * 极简汇率
+    
+* Android
+    * Outlook - 邮件客户端
+    * [NEWSFOLD - RSS客户端](https://play.google.com/store/apps/details?id=it.mvilla.android.quote)
+    * [JuiceSSH - ssh客户端](https://sonelli.com)
+    * [文件大师](https://play.google.com/store/apps/details?id=xcxin.filexpert)
+    * 极简汇率
+    * 平行空间 - 双开
 
 # 网站
 
