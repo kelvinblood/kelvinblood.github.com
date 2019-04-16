@@ -38,3 +38,4 @@ docker-compose.yml
 
 *.jpg
 *.png
+/docker-compose.yml
