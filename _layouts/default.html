@@ -95,6 +95,11 @@
   ga('create', 'UA-67750873-1', 'auto');
   ga('send', 'pageview');
 
+window.applicationCache.addEventListener('updateready', function(){
+  console.log('updateready!');
+  window.applicationCache.swapCache();
+});
+
 </script>
 
   </body>

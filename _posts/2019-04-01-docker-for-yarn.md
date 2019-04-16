@@ -58,8 +58,6 @@ version:  '3.2'
 
 中间那个entrypoint是为了测试用的，下面是生产用的。
 
-
-
 # 常用操作
 
 ```bash
@@ -70,3 +68,6 @@ yarn add sweetalert
 npm run watch-poll
 ```
 
+# 参考资料
+
+* [yarn install](https://yarnpkg.com/lang/zh-hans/docs/cli/install/)

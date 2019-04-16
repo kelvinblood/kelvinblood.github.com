@@ -3,6 +3,7 @@ CACHE MANIFEST
 
 CACHE:
 404.html
+category/2010/2018.html
 category/2010/2017.html
 category/2010/2016.html
 category/2010/2015.html
@@ -64,4 +65,3 @@ NETWORK:
 *
 
 FALLBACK:   
-/ 404.html

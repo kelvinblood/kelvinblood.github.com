@@ -8,7 +8,7 @@ tags: chrome
 
 推荐几个常用的chrome扩展：
 
-![1555382806007](C:\Users\keluwei\AppData\Roaming\Typora\typora-user-images\1555382806007.png)
+![1555382806007](https://cdn.kelu.org/blog/2019/04/1555382806007.jpg)
 
 # 日常类
 
