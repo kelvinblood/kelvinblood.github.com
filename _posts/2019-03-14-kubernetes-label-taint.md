@@ -154,7 +154,7 @@ spec:
 - `max`：即该命名空间下创建容器的资源最大值
 - `min`：即该命名空间下创建容器的资源最小值
 
-###在 deployment 中对 pod 限制
+### 在 deployment 中对 pod 限制
 
 ```
 apiVersion: extensions/v1beta1
