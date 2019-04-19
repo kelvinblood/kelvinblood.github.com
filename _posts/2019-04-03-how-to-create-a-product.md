@@ -3,7 +3,6 @@ layout: post
 title: 产品生产过程与产品经理文档 - 简书
 category: product
 tags: product
-typora-copy-images-to: 23
 ---
 ![](https://cdn.kelu.org/blog/tags/product-market-fit.jpg)
 
