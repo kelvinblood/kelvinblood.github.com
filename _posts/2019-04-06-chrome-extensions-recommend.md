@@ -18,12 +18,12 @@ tags: chrome
 * Rss —— Rss嗅探
 * Zotero —— 文献管理。
 * Vimium —— vim 快捷方式
-* QR Code —— 网页
+* QR Code —— 网页二维码
 
 # 开发类
 
-* Host Switch Plus —— 快速切换 Host，前端开发利器
-* Proxy SwitchySharp —— 快速切换不同内网
+* Host Switch Plus —— 快速切换 Host，前端开发
+* SwitchyOmega —— 快速切换不同内网
 * Octotree —— GitHub重排页面
 * Sourcegraph —— 在线查看GitHub代码
 * Wappalyzer —— 嗅探网站架构信息
