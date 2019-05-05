@@ -9,11 +9,11 @@ typora-copy-images-to: 5
 
 可以看到这个namespace下面存在很多个 `terminating` 的容器。
 
-![1556609128712](D:\Github\blog.kelu.org\_posts\5\1556609128712.png)
+![1556609128712](https://cdn.kelu.org/blog/2019/05/1556609128712.jpg)
 
 我以第一个 6876d46bcshq6w 容器为例，直接在节点上使用 docker ps | grep 6876d46bcshq6w ，也能看到这个容器已经正常运行了9天：
 
-![1556610392653](D:\Github\blog.kelu.org\_posts\5\1556610392653.png)
+![1556610392653](https://cdn.kelu.org/blog/2019/05/1556610392653.jpg)
 
 查看系统日志中，也可看到kubelet的报错日志：
 
@@ -28,8 +28,6 @@ kubectl delete pod <PODNAME> --grace-period=0 --force --namespace <NAMESPACE>
 ```
 
 此时在kubernetes 管理界面已经找不到这个容器了。
-
-
 
 但，我在节点上仍然能看到这个容器，stop和rm都是不起作用的：
 
