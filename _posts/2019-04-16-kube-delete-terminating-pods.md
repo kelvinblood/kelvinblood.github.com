@@ -11,6 +11,8 @@ typora-copy-images-to: 5
 
 ![1556609128712](https://cdn.kelu.org/blog/2019/05/1556609128712.jpg)
 
+
+
 我以第一个 6876d46bcshq6w 容器为例，直接在节点上使用 docker ps | grep 6876d46bcshq6w ，也能看到这个容器已经正常运行了9天：
 
 ![1556610392653](https://cdn.kelu.org/blog/2019/05/1556610392653.jpg)
