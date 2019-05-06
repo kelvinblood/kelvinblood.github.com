@@ -8,8 +8,8 @@ tags: front-end
 
 # 配置
 
-File | Settings | Languages and Frameworks |  JavaScript 
+File | Settings | Languages and Frameworks | JavaScript->language version
 
-在 language version 下拉框里选 React JSX
+下拉框里选 React JSX
 
 ![1557119971973](https://cdn.kelu.org/blog/2019/05/1557119971973.jpg)
