@@ -2,7 +2,7 @@
 layout: post
 title: 禁止Chrome浏览器缓存
 category: tech
-tags: chrome
+tags: chrome front-end
 ---
 ![](https://cdn.kelu.org/blog/tags/chrome.jpg)
 
