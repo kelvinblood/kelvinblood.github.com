@@ -44,7 +44,7 @@ GitHub地址：<https://github.com/bovine/datapipe>
 
 #  源码
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
