@@ -223,7 +223,14 @@ LimitNOFILE=65536
 WantedBy=multi-user.target
 ```
 
-上边是10.10.10.1上的例子。对于另外两台机器，将 initial-advertise-peer-urls 和 listen-client-urls 改为机器IP即可。同时可以针对性地修改 heartbeat-interval 和 election-timeout 的配置，修改心跳监测时间和超时重新选举时间。
+上边是10.10.10.1上的例子。
+
+对于另外两台机器，需要修改下面几个地方：
+
+* 修改name为node2/node3等。
+* 将 initial-advertise-peer-urls 和advertise-client-urls改为机器IP。
+* 
+* 同时可以针对性地修改 heartbeat-interval 和 election-timeout 的配置，修改心跳监测时间和超时重新选举时间。
 
 # 5. etcd 安装
 
@@ -237,6 +244,7 @@ set -e
 rm -rf /app/kelu/etcd /app/kelu/etcddata
 mkdir -p /app/kelu/etcddata /app/kelu/etcd 
 
+##### 将第3步的etcd.conf 拷贝到目的目录
 cp etcd.conf /app/kelu/etcd 
 cp -R /etc/etcd/ssl /app/kelu/etcd
 
@@ -252,6 +260,7 @@ rm -rf /usr/bin/etcd /usr/bin/etcdctl /etc/systemd/system/etcd.service
 ln -s /app/kelu/etcd/etcd-v3.1.18-linux-amd64/etcd /usr/bin/etcd
 ln -s /app/kelu/etcd/etcd-v3.1.18-linux-amd64/etcdctl /usr/bin/etcdctl
 
+##### 将第4步的 etcd.service 拷贝到系统目录
 cp -f cfg/etcd.service.$1 /etc/systemd/system/etcd.service
 
 systemctl daemon-reload
