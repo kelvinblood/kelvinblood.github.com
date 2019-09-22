@@ -6,8 +6,6 @@ tags: etcd
 ---
 ![](https://cdn.kelu.org/blog/tags/etcd.jpg)
 
-
-
 这篇文章记录下我安装etcd集群的步骤。
 
 假设我们要在一下三台机器安装etcd集群：

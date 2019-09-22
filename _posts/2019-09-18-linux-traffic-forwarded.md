@@ -6,8 +6,6 @@ tags: linux
 ---
 ![](https://cdn.kelu.org/blog/tags/linux.jpg)
 
-
-
 tcp 流量转发有很多方式可以达成，比如系统默认iptables就可以做到，又比如可以用haproxy完成。这篇文章记录的都不是这两个。
 
 这里我介绍一个简单的200行左右的c代码，完成的端口转发这样的功能。
