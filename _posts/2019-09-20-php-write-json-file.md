@@ -20,6 +20,8 @@ tags: laravel
 
 * file_put_contents
 
+
+
 ```php
     // 读文件
 
