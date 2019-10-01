@@ -28,6 +28,12 @@ $server = [
 {"stats":[],"api":{"tag":"api","services":["StatsService"]}}
 ```
 
+而我们期望的json为：
+
+```
+{"stats":{},"api":{"tag":"api","services":["StatsService"]}}
+```
+
 使用 ArrayObject 可以解决这个问题。按如下方式定义数组：
 
 ```

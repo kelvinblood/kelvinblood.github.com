@@ -6,11 +6,13 @@ tags: laravel
 ---
 ![](https://cdn.kelu.org/blog/tags/laravel.jpg)
 
-写json主要使用如下方法:
+写json要注意使用如下方法:
 
-* $content = stripslashes(json_encode($array));
+```
+$content = stripslashes(json_encode($array));
+```
 
-用于删除反斜杠。
+stripslashes用于删除反斜杠。
 
 写文件使用laravel方法
 
