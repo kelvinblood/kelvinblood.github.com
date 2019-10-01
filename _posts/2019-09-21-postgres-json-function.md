@@ -1,6 +1,6 @@
 ---
 layout: post
-title: laravel 根据 jsonb 数组筛选数据行
+title: laravel 根据 postgresql jsonb 字段数组筛选数据行
 category: tech
 tags: laravel php postgresql 
 ---
@@ -50,7 +50,7 @@ if (XxxClass::where("data->id", $id)->where("data->name", $name)->count() == 0) 
 
 而laravel我也没有查到相关的办法解决。所以比较好的办法是自己写SQL语句查询。参考 postgresql 官方的文档:<https://www.postgresql.org/docs/9.4/functions-json.html>
 
-很自然的我选择了 `?&` 操作符进行筛选，并且成功了！
+很自然的我选择了 `?|` 操作符进行筛选，并且成功了！
 
 ![p1](https://cdn.kelu.org/blog/2019/09/p1.jpg)
 
