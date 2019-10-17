@@ -60,6 +60,13 @@
 | <https://jimmysong.io/docker-handbook/> |
 | <https://jimmysong.io/istio-handbook/>  |
 
+# freelance
+
+| 名称                          | 时间 | 内容     | 关键字         |
+| ----------------------------- | ---- | -------- | -------------- |
+| [dailyio](<https://iois.me/>) | 2016 | 科技观察 | AI 云计算 iPad |
+|                               |      |          |                |
+
 
 
 # 媒体
