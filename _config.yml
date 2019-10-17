@@ -13,10 +13,10 @@ plugins-dir:
 # 阅读处理
 safe:         false
 include:      [".htaccess"]
-exclude:      [".docker-compose.yml"]
+exclude:      ["docker-compose.*","CNAME","_posts_vin","_draft"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "md"
 
 # 输出
 permalink:     date

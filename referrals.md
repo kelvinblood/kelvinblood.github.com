@@ -7,13 +7,6 @@ tags: product
 
 ![](https://cdn.kelu.org/blog/tags/tools.jpg)
 
-# 友情推广
-
-以下岗位正在火热招聘中，点击下面的链接了解详情，可以 [联系我](/me) 内推
-
-* [容器云研发工程师 - 南宁](http://recruit.caih.com/positionDetail?id=241)
-* [容器云高级研发工程师 - 南宁](http://recruit.caih.com/positionDetail?id=901)
-
 # 服务器
 
 使用这里的链接注册，你和我都能拿到一些奖励哦 O(∩_∩)O 

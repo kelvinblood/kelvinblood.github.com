@@ -34,7 +34,7 @@ _config.yml
 Gemfile.lock
 
 local/
-docker-compose.yml
+_posts_win/
 
 *.jpg
 *.png
