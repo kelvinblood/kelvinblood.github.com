@@ -24,7 +24,7 @@ kubectl exec -it busybox-check-dns-bjp -n monitor -- nslookup kubernetes.default
 
 添加 time 命令，可以看到dns解析延迟为5s,10s,15s等规律的延迟。
 
-![1572926381234](assets/1572926381234.png)
+![1572926381234](https://cdn.kelu.org/blog/2019/11/1572926381234.jpg)
 
 运行的busybox为 `busybox:1.28.4`.
 
@@ -83,7 +83,7 @@ resolv.conf：
 
 关于五元组是什么，看到这里的朋友大概率是不知道这个概念的：
 
-![1572931550902](assets/1572931550902.png)
+![1572931550902](https://cdn.kelu.org/blog/2019/11/1572931550902.jpg)
 
 # 四、复盘解决过程
 
@@ -111,11 +111,11 @@ time nslookup kubernetes.default 10.190.0.10
 
 修改容器中 resolv.conf 的当然简单，使用 busybox:1.28.4 修改即可：
 
-![1572931831600](assets/1572931831600.png)
+![1572931831600](https://cdn.kelu.org/blog/2019/11/1572931831600.jpg)
 
 经过测试发现，虽然解析延迟的概率降低了，但仍然是有问题的。
 
-![1572931940527](assets/1572931940527.png)
+![1572931940527](https://cdn.kelu.org/blog/2019/11/1572931940527.jpg)
 
 同理，我们修改了所有主机的resolv.conf，以期解决问题。
 
@@ -133,7 +133,7 @@ options timeout:1 attempts:2 single-request-reopen
 
 经过群友的提醒，改用了该版本 busybox 后，结果达到了 100% 无延迟。
 
-![1572932362328](assets/1572932362328.png)
+![1572932362328](https://cdn.kelu.org/blog/2019/11/1572932362328.jpg)
 
 至此，问题得到解决。
 
