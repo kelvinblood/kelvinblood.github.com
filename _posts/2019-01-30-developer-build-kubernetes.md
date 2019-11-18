@@ -26,15 +26,11 @@ git checkout v1.10.11
 
 源码有100多万文件、将近700M，下载比较慢，需要一些耐心。
 
-![1571366044132](assets/1571366044132.png)
-
-
+![1571366044132](https://cdn.kelu.org/blog/2019/01/1571366044132.jpg)
 
 # 修改源码
 
 这一块就各显神通了。
-
-
 
 # 运行编译环境
 
@@ -44,8 +40,6 @@ git checkout v1.10.11
 docker run -it --rm -v $(pwd):/usr/lib/go/src/k8s.io/kubernetes kelvinblood/go-kube-build:v1.11 sh
 ```
 
-
-
 # 单模块编译
 
 以kubeadm为例，进入cmd文件夹进行编译即可。
@@ -54,8 +48,6 @@ docker run -it --rm -v $(pwd):/usr/lib/go/src/k8s.io/kubernetes kelvinblood/go-k
 cd /usr/lib/go/src/k8s.io/kubernetes/cmd/kubeadm
 go build 
 ```
-
-
 
 # 参考资料
 
