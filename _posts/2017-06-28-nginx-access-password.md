@@ -15,6 +15,13 @@ tags: nginx
     chmod 777 htpasswd.py
     ./htpasswd.py -c -b filename username password
 
+或安装htpasswd：
+
+```
+apt-get install apache2-utils
+htpasswd -c filename username
+```
+
 ### 2.修改nginx的conf
 
     server {
@@ -25,7 +32,7 @@ tags: nginx
         
         auth_basic "Password";
         auth_basic_user_file /var/local/nginx/conf/xxx;
-
+    
         *** 
         *** 
         }
